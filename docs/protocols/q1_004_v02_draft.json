@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "plan_id": "Q1-004",
+  "plan_revision": "0.2",
+  "status": "draft",
+  "locked": false,
+  "implementation_source_digest": null,
+  "baseline": {
+    "protocol": "studies/interaction/evosim_interaction/results_v01/protocol.json",
+    "source_root": "studies/interaction/evosim_interaction",
+    "source_digest": "71388826146cdbb7bae27124af657d4d2dff61d3d986e559182bd87a92c7974a"
+  },
+  "paths": {
+    "implementation": "studies/interaction/evosim_interaction_v02",
+    "results": "studies/interaction/results_v02"
+  },
+  "dataset": {
+    "seed": 71001,
+    "digest": "965983b00ce3e8465d70cd82e637773e6599065f68db8beec8b248cd328242f6",
+    "sizes": {"train": 756, "validation": 252, "test": 504},
+    "previously_observed_benchmark": true
+  },
+  "conditions": {
+    "A0": {"output_self_recurrence": true, "other_recurrence": true, "module_memory": true},
+    "A1": {"output_self_recurrence": false, "other_recurrence": true, "module_memory": true},
+    "A2": {"output_self_recurrence": false, "other_recurrence": false, "module_memory": false}
+  },
+  "operators": {
+    "kinds": ["weight", "add_module", "remove_module", "add_ff", "add_rec", "remove_edge"],
+    "proposal_weights": [0.42, 0.12, 0.06, 0.18, 0.22, 0.10],
+    "forbidden_proposal": "no_op_no_resampling",
+    "forbidden_module_mutation": "retain_current_op",
+    "forbidden_new_module_op": "replace_with_tanh",
+    "remove_edge_mapping": "retain_original_0.4_rec_draw",
+    "forbidden_add_rec_draws": "draw_target_source_and_if_absent_weight_then_reject"
+  },
+  "search": {
+    "methods": ["evolution", "random"],
+    "population": 20,
+    "training_batch": 24,
+    "training_repeats": 1,
+    "evaluation_repeats": 3,
+    "roles": ["best", "initial", "final"],
+    "selection": ["success_rate", "mean_reward"],
+    "ties": "first_generation_then_first_slot",
+    "validation_rounds": [0, 9, 19, 29, 39, 49, 59, 69, 79, 89, 99],
+    "rng_recipe": "v01_derive_seed_no_condition_name"
+  },
+  "phases": {
+    "pilot": {"seeds": [901, 902], "conditions": ["A0", "A1", "A2"], "rounds": 5, "validation": false, "test": false, "expected_train_validation": 28800},
+    "main": {"seeds": [201, 202, 203, 204, 205, 206, 207, 208, 209, 210], "conditions": ["A0", "A1", "A2"], "rounds": 100, "validation": true, "test": true, "expected_train_validation": 12859200},
+    "confirmation": {"seeds": [301, 302, 303, 304, 305, 306, 307, 308, 309, 310], "conditions": ["A0", "SELECTED"], "rounds": 100, "validation": true, "test": true, "expected_train_validation": 8572800}
+  },
+  "auxiliary": {
+    "blind_seed": 71002,
+    "blind_validation_repeats": 1,
+    "uniform_coordinate_test_seed": 71003,
+    "uniform_test_repeats": 20,
+    "probe_repeats": 3,
+    "diagnostic_roles": ["best"],
+    "confirmation_reuse_fixed_baselines": true,
+    "action_budget": 24
+  },
+  "analysis": {
+    "primary": ["A1_evolution_minus_A0_evolution", "A2_evolution_minus_A0_evolution"],
+    "unit": "search_seed",
+    "bootstrap_seed": 72004,
+    "bootstrap_samples": 10000,
+    "percentiles": [2.5, 97.5],
+    "zero_difference": "nonpositive",
+    "test": "one_sided_exact_binomial_sign",
+    "multiplicity": "Holm_two_primary_contrasts",
+    "alpha": 0.05,
+    "minimum_mean_difference": 0.1,
+    "minimum_positive_seeds": 8,
+    "confirmation_priority": ["A1", "A2"],
+    "probe_threshold": 0.8,
+    "minimum_probe_passing_seeds": 8,
+    "secondary_status": "exploratory_unadjusted"
+  },
+  "lock_requirements": [
+    "implementation_and_analysis_source_manifest",
+    "immutable_resolved_settings_per_condition",
+    "a0_equivalence_and_invariant_test_results",
+    "pilot_cost_and_resume_report",
+    "datasets_blind_patterns_and_probe_manifest",
+    "python_numpy_platform_and_exact_commands",
+    "protocol_digest_and_checkpoint_identity_schema"
+  ]
+}
