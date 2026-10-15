@@ -1,0 +1,43 @@
+{
+  "kind": "planning_tool_verification_not_experiment",
+  "checked_utc": "2026-10-15T16:16:21.611Z",
+  "experiments_executed": 0,
+  "plan_tool_tests": {
+    "command": "python -B -X utf8 -m unittest discover -s tools/tests -v",
+    "passed": true,
+    "tests": 12
+  },
+  "existing_tests": {
+    "checked_utc": "2026-10-15T16:15:14.821598+00:00",
+    "purpose": "relocation verification, no experiments rerun",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "passed": true,
+    "studies": [
+      {
+        "study": "working_memory",
+        "cwd": "studies/working_memory",
+        "returncode": 0,
+        "tests": 14,
+        "temporary_directory": "tools/.verification_tmp"
+      },
+      {
+        "study": "interaction",
+        "cwd": "studies/interaction",
+        "returncode": 0,
+        "tests": 21,
+        "temporary_directory": "tools/.verification_tmp"
+      }
+    ]
+  },
+  "layout": {
+    "checked_utc": "2026-10-15T16:15:56.274967+00:00",
+    "passed": true,
+    "active_markdown_files": 29,
+    "local_links": 144,
+    "official_reports": 8,
+    "locked_source_files": 30,
+    "external_data_links_deferred": [],
+    "errors": []
+  },
+  "independent_review": false
+}
