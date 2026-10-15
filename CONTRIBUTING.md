@@ -10,4 +10,6 @@
 
 기본 검증: `python -B -X utf8 tools/check_research_layout.py --tests`
 
+로컬 연결과 작업 시작·완료의 동기화 순서는 [GitHub·로컬 동기화 규칙](docs/rules/GitHub_로컬_동기화.md)을 따른다. PowerShell에서는 `tools/git_sync.ps1`로 상태 확인·fetch·fast-forward pull·작업 브랜치 push를 실행할 수 있다.
+
 원자료 재계산에는 Release 자료가 필요하다. 다운로드·복원은 [자료 안내](evidence/README.md)를 따른다. 압축 파일과 실행별 대형 로그는 Git에 추가하지 않는다. 비공개 저장소에 대한 다른 서비스·에이전트의 접근 권한은 소유자가 직접 부여한다.

@@ -1,9 +1,10 @@
 {
-  "checked_utc": "2026-10-15T13:57:46.209324+00:00",
+  "checked_utc": "2026-10-15T16:36:33.342979+00:00",
   "passed": true,
-  "active_markdown_files": 27,
-  "local_links": 125,
+  "active_markdown_files": 30,
+  "local_links": 146,
   "official_reports": 8,
   "locked_source_files": 30,
+  "external_data_links_deferred": [],
   "errors": []
 }
