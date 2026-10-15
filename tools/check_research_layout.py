@@ -79,7 +79,8 @@ def validate(require_data=False):
         protocol_path = ROOT / "studies" / project / relative
         protocol = json.loads(protocol_path.read_text(encoding="utf-8"))
         for name, digest in protocol[field].items():
-            path = source_root / name
+            # Historical Windows manifests use backslashes; retain their contents.
+            path = source_root / name.replace('\\', '/')
             actual = hashlib.sha256(path.read_bytes()).hexdigest() if path.exists() else None
             if actual != digest:
                 errors.append(f"Locked source mismatch: {project}/{name}")
