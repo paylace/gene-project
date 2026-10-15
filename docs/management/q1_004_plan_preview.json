@@ -1,10 +1,10 @@
 {
   "plan_id": "Q1-004",
-  "plan_revision": "0.2",
+  "plan_revision": "0.3",
   "kind": "planning_preview_not_execution_protocol",
   "locked": false,
   "experiments_executed": 0,
-  "plan_digest": "f493352f53f0a3f8c6c73fb72190f5083722cf556adec93bc6ad30b58e4146bf",
+  "plan_digest": "0f1737ae4cb13cb4cda1fd50dd06c910a80be23920e1706abe81f8d99c1d2f54",
   "baseline_source_files_verified": 15,
   "resolved_baseline_settings": {
     "allow_module_memory": true,

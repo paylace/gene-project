@@ -1,0 +1,38 @@
+{
+  "checked_utc": "2026-10-15T16:48:17.139611+00:00",
+  "purpose": "W1/W2 implementation verification, not performance experiment",
+  "passed": true,
+  "tests_run": 25,
+  "returncode": 0,
+  "elapsed_seconds": 1.7057844999944791,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "cwd": "studies/interaction",
+  "command": [
+    "python",
+    "-B",
+    "-X",
+    "utf8",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "evosim_interaction_v02/tests",
+    "-v"
+  ],
+  "implementation_sources": {
+    "studies/interaction/evosim_interaction_v02/__init__.py": "70f0fae52b28c3bb5d6dc9ab07a4e45c6bd42a9a70ef550d06889688fcf0e30b",
+    "studies/interaction/evosim_interaction_v02/genetics.py": "47a5b18479fb7519f310001e2899e3b6b76a8fca03a38c58255daa9741a6191f",
+    "studies/interaction/evosim_interaction_v02/network.py": "ce95b9f9b6748d72a643ecce4b314f2db58cba87638dafb18c493441bd9f94f6",
+    "studies/interaction/evosim_interaction_v02/policy.py": "12a39793ab05445ca0cbffafca8fd4a717687cec01db7bc620a67d0354dd0621",
+    "studies/interaction/evosim_interaction_v02/settings.py": "6951ef8f80cc3f17b06ba208b603a934a63f80a860ac753d3f70043f92e9b226",
+    "studies/interaction/evosim_interaction_v02/tests/test_core.py": "924da7997184093617c829458ea762a85f814605d4cd74de6c7ad6cd2d8c7e40",
+    "tools/check_q1_core.py": "ed478bf8e01f98bdc246df52fe660cff428a4104daf118cb054d09e7c357f301"
+  },
+  "frozen_reference_files": 15,
+  "frozen_reference_mismatches": [],
+  "source_unchanged_during_tests": true,
+  "new_pilot_searches": 0,
+  "new_main_searches": 0,
+  "evaluation_data_used": "finite unit fixtures and first 18 training episodes only; no benchmark test scores",
+  "independent_review": false
+}
