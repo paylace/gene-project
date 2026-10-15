@@ -1,0 +1,22 @@
+{
+  "checked_utc": "2026-10-15T13:55:25.337802+00:00",
+  "purpose": "relocation verification, no experiments rerun",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "passed": true,
+  "studies": [
+    {
+      "study": "working_memory",
+      "cwd": "studies/working_memory",
+      "returncode": 0,
+      "tests": 14,
+      "temporary_directory": "tools/.verification_tmp"
+    },
+    {
+      "study": "interaction",
+      "cwd": "studies/interaction",
+      "returncode": 0,
+      "tests": 21,
+      "temporary_directory": "tools/.verification_tmp"
+    }
+  ]
+}

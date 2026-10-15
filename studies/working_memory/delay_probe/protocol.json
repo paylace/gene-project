@@ -1,0 +1,38 @@
+{
+  "classification": "exploratory after primary study; no new candidate selection",
+  "conditions": [
+    "baseline",
+    "neither_learning_path",
+    "edges_only",
+    "modules_only",
+    "no_memory",
+    "edges_only_init_none"
+  ],
+  "delays": [
+    1,
+    3,
+    5,
+    8,
+    16,
+    32
+  ],
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "episodes": 120,
+  "environment_seed": 50001,
+  "action_seed": 50002,
+  "design": "Generate one 33-step trajectory per episode; all delays use its prefix, preserving the exact cue and earlier mask noise.",
+  "endpoint": "accuracy of the response at the last masked step, seed-level mean and sd",
+  "prior_protocol_sha256": "58f53a1cfc1c1a493c87a85c98141213ae54ef037023987999dd34d1b91f4638",
+  "source_sha256": "d8c1654ab6652edb94637b4810aaf01ccd8fae4e7bd070b0135ac8ba7c7380ed"
+}

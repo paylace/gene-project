@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1000" height="430" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 430" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="430"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-430)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="25" y="402" style="font-family: Malgun Gothic; font-size: 18px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,804) scale(1,-1)">Q1 첫 실험: 부분 수집은 나타났지만 과제 완수는 드묾</text>
+			<g transform="">
+				<g transform="">
+					<rect x="71.66666666666667" y="95.0" width="66.66666666666667" height="8.241758241758248" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,38%,92%); fill-rule: evenodd;"/>
+					<rect x="171.66666666666666" y="95.0" width="66.66666666666666" height="7.020757020757017" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,38%,92%); fill-rule: evenodd;"/>
+					<rect x="271.6666666666667" y="95.0" width="66.66666666666669" height="48.53479853479854" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,38%,92%); fill-rule: evenodd;"/>
+					<rect x="371.6666666666667" y="95.0" width="66.66666666666669" height="201.4652014652014" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,38%,92%); fill-rule: evenodd;"/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,105,110.241758)">
+							<text x="-13.53759765625" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">0.18%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,205,109.020757)">
+							<text x="-13.53759765625" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">0.15%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,305,150.534799)">
+							<text x="-13.53759765625" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">1.05%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,405,303.465201)">
+							<text x="-13.53759765625" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">4.37%</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 55,95 L 455,95 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 55,95 L 55,90 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 155,95 L 155,90 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 255,95 L 255,90 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 355,95 L 355,90 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 455,95 L 455,90 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,105,90)">
+							<text x="-10.0" y="-10.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">진화</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,205,90)">
+							<text x="-26.7578125" y="-10.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">무작위 개체</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,305,90)">
+							<text x="-26.7578125" y="-10.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">무작위 행동</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,405,90)">
+							<text x="-21.7578125" y="-10.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">고정 순서</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 55,95 L 55,335 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 55,95 L 50,95 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 55,141.153846 L 50,141.153846 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 55,187.307692 L 50,187.307692 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 55,233.461538 L 50,233.461538 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 55,279.615385 L 50,279.615385 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 55,325.769231 L 50,325.769231 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,50,95)">
+							<text x="-5.5078125" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,50,141.153846)">
+							<text x="-5.5078125" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">1</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,50,187.307692)">
+							<text x="-5.5078125" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">2</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,50,233.461538)">
+							<text x="-5.5078125" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">3</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,50,279.615385)">
+							<text x="-5.5078125" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">4</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,50,325.769231)">
+							<text x="-5.5078125" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">5</text>
+						</g>
+					</g>
+				</g>
+			</g>
+			<text x="55" y="355" style="font-family: Malgun Gothic; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,710) scale(1,-1)">세 목표 완료 성공률 (%)</text>
+			<g transform="">
+				<g transform="">
+					<rect x="571.6666666666666" y="95.0" width="66.66666666666663" height="141.42857142857142" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,38%,92%); fill-rule: evenodd;"/>
+					<rect x="671.6666666666666" y="95.0" width="66.66666666666663" height="185.578231292517" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,38%,92%); fill-rule: evenodd;"/>
+					<rect x="771.6666666666666" y="95.0" width="66.66666666666663" height="15.23809523809524" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,38%,92%); fill-rule: evenodd;"/>
+					<rect x="871.6666666666666" y="95.0" width="66.66666666666663" height="0.6122448979591866" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,38%,92%); fill-rule: evenodd;"/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,605,243.428571)">
+							<text x="-16.29150390625" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">41.25%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,705,287.578231)">
+							<text x="-16.29150390625" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">54.13%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,805,117.238095)">
+							<text x="-13.53759765625" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">4.44%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,905,102.612245)">
+							<text x="-13.53759765625" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">0.18%</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 555,95 L 955,95 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 555,95 L 555,90 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 655,95 L 655,90 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 755,95 L 755,90 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 855,95 L 855,90 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 955,95 L 955,90 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,605,90)">
+							<text x="-7.75390625" y="-10.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">0개</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,705,90)">
+							<text x="-7.75390625" y="-10.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">1개</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,805,90)">
+							<text x="-7.75390625" y="-10.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">2개</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,905,90)">
+							<text x="-7.75390625" y="-10.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">3개</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 555,95 L 555,335 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 555,95 L 550,95 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 555,129.285714 L 550,129.285714 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 555,163.571429 L 550,163.571429 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 555,197.857143 L 550,197.857143 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 555,232.142857 L 550,232.142857 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 555,266.428571 L 550,266.428571 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 555,300.714286 L 550,300.714286 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 555,335 L 550,335 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,550,95)">
+							<text x="-5.5078125" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,550,129.285714)">
+							<text x="-11.015625" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">10</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,550,163.571429)">
+							<text x="-11.015625" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">20</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,550,197.857143)">
+							<text x="-11.015625" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">30</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,550,232.142857)">
+							<text x="-11.015625" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">40</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,550,266.428571)">
+							<text x="-11.015625" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">50</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,550,300.714286)">
+							<text x="-11.015625" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">60</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,550,335)">
+							<text x="-11.015625" y="-4.0" style="font-family: Malgun Gothic; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">70</text>
+						</g>
+					</g>
+				</g>
+			</g>
+			<text x="555" y="355" style="font-family: Malgun Gothic; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,710) scale(1,-1)">진화 후보의 수집 개수별 에피소드 비율 (%)</text>
+			<text x="30" y="45" style="font-family: Malgun Gothic; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,90) scale(1,-1)">좌표 비교 규칙과 수작업 신경망은 100% 해결. 수작업 신경망은 진화로 발견한 개체가 아님.</text>
+			<text x="30" y="22" style="font-family: Malgun Gothic; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,44) scale(1,-1)">진화·무작위 탐색은 10개 시드 평균. 우측은 진화 후보의 504개 평가 × 3반복 × 10시드 기록.</text>
+		</g>
+	</g>
+</svg>

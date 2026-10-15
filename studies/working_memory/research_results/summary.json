@@ -1,0 +1,376 @@
+{
+  "conditions": {
+    "baseline": {
+      "memory_accuracy": {
+        "n": 10,
+        "mean": 0.8247222222222222,
+        "sd": 0.05380657452651203
+      },
+      "episode_full_memory_accuracy": {
+        "n": 10,
+        "mean": 0.7833333333333333,
+        "sd": 0.07807482956975108
+      },
+      "final_memory_accuracy": {
+        "n": 10,
+        "mean": 0.8086111111111111,
+        "sd": 0.08666636989502845
+      },
+      "secondary_memory_accuracy": {
+        "n": 10,
+        "mean": 0.8082222222222222,
+        "sd": 0.03349630940095081
+      },
+      "stage3_count": 10
+    },
+    "no_q_action": {
+      "memory_accuracy": {
+        "n": 10,
+        "mean": 0.8402777777777778,
+        "sd": 0.0452331636595342
+      },
+      "episode_full_memory_accuracy": {
+        "n": 10,
+        "mean": 0.805,
+        "sd": 0.0646930072355984
+      },
+      "final_memory_accuracy": {
+        "n": 10,
+        "mean": 0.8305555555555555,
+        "sd": 0.05692750425533111
+      },
+      "secondary_memory_accuracy": {
+        "n": 10,
+        "mean": 0.8135,
+        "sd": 0.03939359441847284
+      },
+      "stage3_count": 10
+    },
+    "no_plasticity": {
+      "memory_accuracy": {
+        "n": 10,
+        "mean": 0.8213888888888888,
+        "sd": 0.10461774760457516
+      },
+      "episode_full_memory_accuracy": {
+        "n": 10,
+        "mean": 0.7925,
+        "sd": 0.12591945789489095
+      },
+      "final_memory_accuracy": {
+        "n": 10,
+        "mean": 0.8197222222222222,
+        "sd": 0.09916013914955506
+      },
+      "secondary_memory_accuracy": {
+        "n": 10,
+        "mean": 0.7888888888888889,
+        "sd": 0.07283783216322876
+      },
+      "stage3_count": 9
+    },
+    "neither_learning_path": {
+      "memory_accuracy": {
+        "n": 10,
+        "mean": 0.8438888888888889,
+        "sd": 0.03441655581444697
+      },
+      "episode_full_memory_accuracy": {
+        "n": 10,
+        "mean": 0.8075,
+        "sd": 0.06066122279197217
+      },
+      "final_memory_accuracy": {
+        "n": 10,
+        "mean": 0.8394444444444444,
+        "sd": 0.052798891163482575
+      },
+      "secondary_memory_accuracy": {
+        "n": 10,
+        "mean": 0.8111111111111111,
+        "sd": 0.034572640768560516
+      },
+      "stage3_count": 10
+    },
+    "edges_only": {
+      "memory_accuracy": {
+        "n": 10,
+        "mean": 0.8155555555555556,
+        "sd": 0.0384721943664382
+      },
+      "episode_full_memory_accuracy": {
+        "n": 10,
+        "mean": 0.785,
+        "sd": 0.049033875919147187
+      },
+      "final_memory_accuracy": {
+        "n": 10,
+        "mean": 0.83,
+        "sd": 0.03899456541221152
+      },
+      "secondary_memory_accuracy": {
+        "n": 10,
+        "mean": 0.7981666666666667,
+        "sd": 0.03654492509321351
+      },
+      "stage3_count": 8
+    },
+    "modules_only": {
+      "memory_accuracy": {
+        "n": 10,
+        "mean": 0.7569444444444444,
+        "sd": 0.09875988603255494
+      },
+      "episode_full_memory_accuracy": {
+        "n": 10,
+        "mean": 0.6941666666666667,
+        "sd": 0.14207729160609536
+      },
+      "final_memory_accuracy": {
+        "n": 10,
+        "mean": 0.7422222222222222,
+        "sd": 0.11856046711336758
+      },
+      "secondary_memory_accuracy": {
+        "n": 10,
+        "mean": 0.7417222222222222,
+        "sd": 0.09397174735212453
+      },
+      "stage3_count": 7
+    },
+    "no_memory": {
+      "memory_accuracy": {
+        "n": 10,
+        "mean": 0.33444444444444443,
+        "sd": 0.02875443545436147
+      },
+      "episode_full_memory_accuracy": {
+        "n": 10,
+        "mean": 0.19916666666666666,
+        "sd": 0.1001118201972668
+      },
+      "final_memory_accuracy": {
+        "n": 10,
+        "mean": 0.3377777777777778,
+        "sd": 0.00964030747023731
+      },
+      "secondary_memory_accuracy": {
+        "n": 10,
+        "mean": 0.33355555555555555,
+        "sd": 0.007003820239154257
+      },
+      "stage3_count": 0
+    },
+    "init_zero_mean": {
+      "memory_accuracy": {
+        "n": 10,
+        "mean": 0.8219444444444444,
+        "sd": 0.05232014066630138
+      },
+      "episode_full_memory_accuracy": {
+        "n": 10,
+        "mean": 0.7883333333333333,
+        "sd": 0.05155004759849798
+      },
+      "final_memory_accuracy": {
+        "n": 10,
+        "mean": 0.8116666666666666,
+        "sd": 0.06325910746794175
+      },
+      "secondary_memory_accuracy": {
+        "n": 10,
+        "mean": 0.7936666666666666,
+        "sd": 0.03690736559437151
+      },
+      "stage3_count": 9
+    },
+    "init_no_edges": {
+      "memory_accuracy": {
+        "n": 10,
+        "mean": 0.7838888888888889,
+        "sd": 0.04543268585235275
+      },
+      "episode_full_memory_accuracy": {
+        "n": 10,
+        "mean": 0.7133333333333334,
+        "sd": 0.07127585084430943
+      },
+      "final_memory_accuracy": {
+        "n": 10,
+        "mean": 0.7941666666666667,
+        "sd": 0.06788306434774474
+      },
+      "secondary_memory_accuracy": {
+        "n": 10,
+        "mean": 0.7565555555555555,
+        "sd": 0.04101072160660066
+      },
+      "stage3_count": 10
+    },
+    "edges_only_init_none": {
+      "memory_accuracy": {
+        "n": 10,
+        "mean": 0.7713888888888889,
+        "sd": 0.07007797440402115
+      },
+      "episode_full_memory_accuracy": {
+        "n": 10,
+        "mean": 0.7033333333333334,
+        "sd": 0.07105900869030882
+      },
+      "final_memory_accuracy": {
+        "n": 10,
+        "mean": 0.7575,
+        "sd": 0.0955190319231388
+      },
+      "secondary_memory_accuracy": {
+        "n": 10,
+        "mean": 0.7560555555555556,
+        "sd": 0.06164105240473903
+      },
+      "stage3_count": 8
+    }
+  },
+  "contrasts": {
+    "no_q_action-baseline": {
+      "n": 10,
+      "mean": 0.015555555555555555,
+      "sd": 0.06489677357812544,
+      "paired_bootstrap_95": [
+        -0.0213888888888889,
+        0.05388888888888889
+      ]
+    },
+    "no_plasticity-baseline": {
+      "n": 10,
+      "mean": -0.003333333333333355,
+      "sd": 0.09796278792955025,
+      "paired_bootstrap_95": [
+        -0.06416666666666664,
+        0.05166666666666665
+      ]
+    },
+    "neither_learning_path-baseline": {
+      "n": 10,
+      "mean": 0.019166666666666665,
+      "sd": 0.07172729276048952,
+      "paired_bootstrap_95": [
+        -0.021944444444444433,
+        0.06222222222222222
+      ]
+    },
+    "edges_only-baseline": {
+      "n": 10,
+      "mean": -0.00916666666666669,
+      "sd": 0.05704860993703178,
+      "paired_bootstrap_95": [
+        -0.043055555555555604,
+        0.02305555555555555
+      ]
+    },
+    "modules_only-baseline": {
+      "n": 10,
+      "mean": -0.0677777777777778,
+      "sd": 0.11078037194976305,
+      "paired_bootstrap_95": [
+        -0.13694444444444445,
+        -0.007777777777777795
+      ]
+    },
+    "no_memory-baseline": {
+      "n": 10,
+      "mean": -0.4902777777777778,
+      "sd": 0.047398906934662796,
+      "paired_bootstrap_95": [
+        -0.5191666666666667,
+        -0.46305555555555555
+      ]
+    },
+    "init_zero_mean-baseline": {
+      "n": 10,
+      "mean": -0.002777777777777812,
+      "sd": 0.06366708680618922,
+      "paired_bootstrap_95": [
+        -0.039722222222222284,
+        0.03361111111111108
+      ]
+    },
+    "init_no_edges-baseline": {
+      "n": 10,
+      "mean": -0.04083333333333337,
+      "sd": 0.049691262173053787,
+      "paired_bootstrap_95": [
+        -0.07055555555555558,
+        -0.0127777777777778
+      ]
+    },
+    "edges_only_init_none-baseline": {
+      "n": 10,
+      "mean": -0.05333333333333336,
+      "sd": 0.10342057912503162,
+      "paired_bootstrap_95": [
+        -0.1141666666666667,
+        0.0069444444444444085
+      ]
+    },
+    "q_by_plasticity_interaction": {
+      "n": 10,
+      "mean": 0.006944444444444464,
+      "sd": 0.12066381609983597,
+      "paired_bootstrap_95": [
+        -0.060833333333333336,
+        0.08194444444444449
+      ]
+    }
+  },
+  "frozen_dependency_deltas": {
+    "q_off": {
+      "n": 10,
+      "mean": 0.0011111111111111183,
+      "sd": 0.0026835882863313885
+    },
+    "edges_off": {
+      "n": 10,
+      "mean": -0.4513888888888889,
+      "sd": 0.08529833467595416
+    },
+    "modules_off": {
+      "n": 10,
+      "mean": -0.06722222222222225,
+      "sd": 0.0670232234591356
+    },
+    "all_memory_off": {
+      "n": 10,
+      "mean": -0.4886111111111111,
+      "sd": 0.06351136446052674
+    },
+    "pre_lifetime": {
+      "n": 10,
+      "mean": -0.012777777777777777,
+      "sd": 0.03276783695250501
+    }
+  },
+  "paired_adaptation": {
+    "hebb=0.0,q=0.0": {
+      "n": 10,
+      "mean": 0.8113888888888889,
+      "sd": 0.0683487636899336
+    },
+    "hebb=0.0,q=0.3": {
+      "n": 10,
+      "mean": 0.8102777777777778,
+      "sd": 0.06937712786687152
+    },
+    "hebb=0.015,q=0.0": {
+      "n": 10,
+      "mean": 0.8066666666666666,
+      "sd": 0.06684903041137556
+    },
+    "hebb=0.015,q=0.3": {
+      "n": 10,
+      "mean": 0.8058333333333333,
+      "sd": 0.06705711281139998
+    }
+  },
+  "inference_note": "Descriptive seed-level paired bootstrap intervals; not multiplicity-adjusted or causal isolation of inherited learning."
+}

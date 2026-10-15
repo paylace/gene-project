@@ -1,0 +1,64 @@
+{
+  "classification": "exploratory follow-up chosen after primary results, fixed before new test",
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "discount": [
+    0.0,
+    0.9
+  ],
+  "hebbian_lr": [
+    0.0,
+    0.015
+  ],
+  "training_episodes": [
+    18,
+    180
+  ],
+  "adaptation_action_q_weight": 0.3,
+  "test_q_weights": [
+    0.0,
+    0.3
+  ],
+  "train_seed": 41001,
+  "adaptation_rng_seed": 41002,
+  "test_seed": 30009,
+  "test_episodes": 1200,
+  "primary_endpoint": "post-minus-pre frozen memory accuracy with Q-action OFF",
+  "selection": "baseline historical winner inherited pre-lifetime policy, no new candidate selection",
+  "training_prefix": "same prefix of a shuffled balanced 180-episode Stage 3 dataset",
+  "caveats": [
+    "candidate conditioned on original post-learning validation selection",
+    "no inherited-weight reset; this is incremental plasticity, not origin of all learning",
+    "Q-action ON during adaptation in all branches",
+    "18-prefix class counts need not be exactly balanced"
+  ],
+  "original_protocol_sha256": "58f53a1cfc1c1a493c87a85c98141213ae54ef037023987999dd34d1b91f4638",
+  "source_sha256": {
+    "evosim\\config.py": "7b8b5675c86ec631e278845a5170be89ec3c08f030853b1ff55e018f5ccbf9d5",
+    "evosim\\environment.py": "a5ffd651edd4f66cd3d48d3699582149934be7b165f8391f934a3ba1c3545e32",
+    "evosim\\experiment.py": "b8dea93a0fa5185e5db8667d77acd2edde8373223d5107e5b56aa7eb42043ac9",
+    "evosim\\innovation.py": "a0769c313069744315b16f1ad3e972507334105e12b7856e3e8043d66afae202",
+    "evosim\\logger.py": "0e7266eace5e7f960abe748a0fc2dc93e90f68a7b0fbfdb10dece6537231debf",
+    "evosim\\module.py": "77b7a0a40855f680edbf5471b21b9f0ba8007327ea45a3a1de6e4924160bedfb",
+    "evosim\\simulator.py": "696ef716d3ed12a284e2dc855d61f22c817c7c03a0d1255f297d8be4b1068414",
+    "evosim\\__init__.py": "1ba29d5338c8c677f65b62de0477a179a113e7153b45a91f1ffbd4e1f2e8a026",
+    "evosim\\__main__.py": "72d2786e7ee654786e411e06764cd191b3818ad18d53ddc0956096b1bbeed37e",
+    "evosim\\entity\\entity.py": "0e4d22efa00570743c6db072aafcb46de1445a7f5298acba2dd74859bd931822",
+    "evosim\\entity\\learning.py": "aecd9697db172d286c848835c7f0f2e35e8c0f84aa610df608328e39b4695527",
+    "evosim\\entity\\mutation.py": "072194d28dc0d350b2e0278051042671a0d46763864639fd6bcffc56f685a9b5",
+    "evosim\\entity\\network.py": "423821850e1980a2a1528b311da5458e3fa95cb25b66675985968746f17e6c65",
+    "evosim\\entity\\__init__.py": "4294ece802fed499ead82acb901af81566929580dfb35e08524d34d010254ee0",
+    "run_adaptation_followup.py": "b858058242771bccd7f6d89faff27cb9de14722dbef2d0d286c7ede9bccd3f7b",
+    "run_research.py": "da900fc044164c96d2f13c35f8a2f60895138ae679065248e2fc7ac9826e8c0a"
+  }
+}

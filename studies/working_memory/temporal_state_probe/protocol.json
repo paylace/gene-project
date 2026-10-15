@@ -1,0 +1,28 @@
+{
+  "classification": "exploratory diagnostic of a confounded memory switch",
+  "test_seed": 50003,
+  "test_episodes": 1200,
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "modes": [
+    "baseline",
+    "module_state_zero",
+    "legacy_module_off",
+    "edges_off",
+    "all_temporal_state_zero"
+  ],
+  "module_state_zero": "keep the original ema/latch equation and force its prev_self_state argument to zero",
+  "selection": "stored baseline historical candidates, no new selection",
+  "source_sha256": "9514555876fe35d37129ec5075ac28687cf186bd5e8ac07cc362a92ace2f0619",
+  "prior_protocol_sha256": "58f53a1cfc1c1a493c87a85c98141213ae54ef037023987999dd34d1b91f4638"
+}
