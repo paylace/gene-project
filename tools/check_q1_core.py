@@ -1,4 +1,4 @@
-"""Q1-004 W1/W2 검사와 코드 해시 기록. 예비·본 탐색은 실행하지 않는다."""
+"""Q1-004 구현 검사와 코드 해시 기록. 공식 예비·본 탐색은 실행하지 않는다."""
 
 import argparse
 from datetime import datetime, timezone
@@ -37,7 +37,7 @@ def check(output):
     count = re.search(r"Ran (\d+) tests?", console)
     result = {
         "checked_utc": datetime.now(timezone.utc).isoformat(),
-        "purpose": "W1/W2 implementation verification, not performance experiment",
+        "purpose": "Q1-004 implementation verification, not performance experiment",
         "passed": completed.returncode == 0 and count is not None and not mismatches
                   and before == after and baseline_before == baseline_after,
         "tests_run": int(count.group(1)) if count else 0,
@@ -50,7 +50,7 @@ def check(output):
         "frozen_reference_files": len(locked), "frozen_reference_mismatches": mismatches,
         "source_unchanged_during_tests": before == after and baseline_before == baseline_after,
         "new_pilot_searches": 0, "new_main_searches": 0,
-        "evaluation_data_used": "finite unit fixtures and first 18 training episodes only; no benchmark test scores",
+        "evaluation_data_used": "finite fixtures, train-only verification searches, coordinate-policy foundation; no evolved benchmark test scores",
         "independent_review": False,
     }
     output.parent.mkdir(parents=True, exist_ok=True)

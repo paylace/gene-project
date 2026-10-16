@@ -1,0 +1,33 @@
+{
+  "source_digest": "032467c82315c7e79f037de24b0636b0c65aa953d5bfbedeb954539fab04a984",
+  "extra_training_cost_probe_episode_calls": 2340,
+  "probes": [
+    {
+      "condition": "A0",
+      "train_kernel_seconds": 0.0035669999779202044,
+      "validation_shaped_train_kernel_seconds": 0.01765769999474287,
+      "training_episode_calls": 780
+    },
+    {
+      "condition": "A1",
+      "train_kernel_seconds": 0.002959800011012703,
+      "validation_shaped_train_kernel_seconds": 0.0204888999578543,
+      "training_episode_calls": 780
+    },
+    {
+      "condition": "A2",
+      "train_kernel_seconds": 0.005113799998071045,
+      "validation_shaped_train_kernel_seconds": 0.034276199992746115,
+      "training_episode_calls": 780
+    }
+  ],
+  "main_search_two_worker_kernel_seconds_estimate": 392.1421596198343,
+  "main_serial_observer_seconds_estimate": 1024.8475860699546,
+  "kernel_only_total_minutes_estimate": 23.61649576149648,
+  "planning_range_minutes_including_audit_io_and_growth": [
+    24,
+    71
+  ],
+  "main_observer_gzip_bytes_estimate": 189551880,
+  "limitations": "few pilot genomes; excludes baseline/audit and IO; module growth and machine load change throughput; not a performance estimate"
+}

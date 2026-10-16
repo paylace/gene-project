@@ -1,4 +1,17 @@
 __pycache__/
+# Q1-004 원자료는 로컬 보존. 프로토콜·집계·감사만 Git 추적 후보로 둔다.
+/studies/interaction/results_v02/**
+!/studies/interaction/results_v02/pilot/
+!/studies/interaction/results_v02/main/
+!/studies/interaction/results_v02/confirmation/
+!/studies/interaction/results_v02/*/protocol.json
+!/studies/interaction/results_v02/*/datasets.json
+!/studies/interaction/results_v02/*/candidate_lock.json
+!/studies/interaction/results_v02/*/cost_report.json
+!/studies/interaction/results_v02/*/summary.json
+!/studies/interaction/results_v02/*/search_audit.json
+!/studies/interaction/results_v02/*/test_audit.json
+!/studies/interaction/results_v02/*/baseline_results.json
 *.py[cod]
 .venv/
 dist/
