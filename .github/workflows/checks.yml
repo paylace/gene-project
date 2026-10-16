@@ -15,3 +15,4 @@ jobs:
       - run: python -B -X utf8 -m unittest discover -s tools/tests -v
       - run: python -B -X utf8 tools/q1_plan.py > q1_004_plan_preview.json
       - run: python -B -X utf8 tools/check_q1_core.py
+      - run: python -B -X utf8 tools/check_q1005_portable.py

@@ -1,0 +1,132 @@
+{
+  "checked_utc": "2026-10-16T03:45:43.960653+00:00",
+  "passed": true,
+  "full_gate": true,
+  "source_digest": "ccbf6e00f455aeabd76fb06e02574a45191a70c6e3637db34fd85463354a824c",
+  "sources": {
+    "dependency/__init__.py": "70f0fae52b28c3bb5d6dc9ab07a4e45c6bd42a9a70ef550d06889688fcf0e30b",
+    "dependency/analysis.py": "ba26a58c86500597f7841b945969e282553d231afa97abe2627d9ebe2791ccb5",
+    "dependency/audit.py": "197db15d38094e1d35e2a2cf940bc8370ac92059c0974cb222e9f4999d6d5513",
+    "dependency/datasets.py": "d909a591818623259a72225d995e5c52aaee24ae9ba2aa3467b26dd8c32db508",
+    "dependency/environment.py": "626cc76b11a4b9f4d8e4f42a2792e5c2e93d30c5271a36d5613869c50f583d64",
+    "dependency/evaluation.py": "2cad38c7fb9a46a5ca43a9d2b31cfc5bf2d6c426e5811fe1c5fcad0944302ef3",
+    "dependency/finalize.py": "321a16bc54ae3187eefe7f2b86ad03ea83b7531a609245203d2b6ace50b3b4a9",
+    "dependency/genetics.py": "47a5b18479fb7519f310001e2899e3b6b76a8fca03a38c58255daa9741a6191f",
+    "dependency/network.py": "ce95b9f9b6748d72a643ecce4b314f2db58cba87638dafb18c493441bd9f94f6",
+    "dependency/policies.py": "9008766d54d47e297ac02b74ab24977b2b65bdcfb6b191956a251dbdcba1d00f",
+    "dependency/policy.py": "12a39793ab05445ca0cbffafca8fd4a717687cec01db7bc620a67d0354dd0621",
+    "dependency/protocol.py": "4e1f763832d0be99e16cd672037c485eb2dc9b11fbf2b59200b96dae1d2e1534",
+    "dependency/rollout.py": "e4f2ae5bcfaac288351fad13632fa8f4a04c03fbd24521e5b65840f5a96bd7c6",
+    "dependency/run.py": "0a225c2fdf798d323ffde4c10a3fbc0655829fb40851f8131bcdbc24f15c8ac1",
+    "dependency/search.py": "0807faa20f9ad98d1f3a5a4e9bf6e09356942d9669a2ba007e391bff5b1f5cc5",
+    "dependency/settings.py": "6951ef8f80cc3f17b06ba208b603a934a63f80a860ac753d3f70043f92e9b226",
+    "dependency/storage.py": "6ff6b3782b3bb792add6b8e4a68b9e3f6aa4b66db545437d514daed9c10c618a",
+    "dependency/tests/test_analysis_audit.py": "010eb9fc6c805b3c430b5452046db691efea94726cf8725ddc26d5369eada4ac",
+    "dependency/tests/test_core.py": "924da7997184093617c829458ea762a85f814605d4cd74de6c7ad6cd2d8c7e40",
+    "dependency/tests/test_evaluation_search.py": "fdbe1befb1444decfa1c36aef6ff8ce1be99dbc573339b760fabc642d2b952ea",
+    "q1005/__init__.py": "7fb77a9b6576acbd240600e5ea89997811e124c3237ff328ec18b8286a666a74",
+    "q1005/analysis.py": "18343feecf43e8b70557d3b9263774f8e810894cbf061c3b378a3c032224d60b",
+    "q1005/audit.py": "d95191290104c5fab2b3d83dd8ac61564406bab8100a44dd1ff4ba9e0f6e42d2",
+    "q1005/evaluation.py": "3a73eb5358e52a7065393d87a6dfe914d572e6c498b5a6f2a7039a927c033e3d",
+    "q1005/finalize.py": "e940d8c92cf5d0866f725b9660d181c100947b8686f4c6a1829e1c697a6256a6",
+    "q1005/model.py": "0b00bbcde93590e1dc8d5b3a00cffecf931f79b4646dde129496d967720b057a",
+    "q1005/protocol.py": "7708f3ac6304fa5ea559e800cb6db203843244653b39cb91715230cda2cb6aeb",
+    "q1005/run.py": "4d5fc88bb25f0fa52d8fe659a6e574645b75131714fb548f92f0d97521edf6ed",
+    "q1005/search.py": "95fecf44aed98fd3c165d60ac130b6f9245c2983218d6ec61ed89a1eb650eb7f",
+    "q1005/source.py": "e27e347afdf2ea04df1a5378604f18b8b54ff5a0b9a0284a1b331137d8528355",
+    "q1005/tests/test_analysis.py": "f40f7d63b738f5f264069de3801c5d18280a427f92abafdb68f778f6064a7ec7",
+    "q1005/tests/test_core.py": "7228a9a90d1242765d2109064b90100d9d2a1ac1f149eba0fa8d81ad59158fcf",
+    "q1005/tests/test_finalization.py": "f14ccf392ca87c667cb3c1ff9077cbb9edc1fd8db333d952f59cac947d5f039a",
+    "q1005/tests/test_search.py": "2a403e4187841f548460925d6929264f194ed1c54b0f03cca5ec48ceb1f3affe"
+  },
+  "plan_digest": "d2dc5515d1fc9f9f76e831e525bb33d9118fc0b13eb1063630ca1080fbc9b2c2",
+  "dependency_source_digest": "032467c82315c7e79f037de24b0636b0c65aa953d5bfbedeb954539fab04a984",
+  "new_test_count": 48,
+  "previous_test_count": 99,
+  "commands": [
+    {
+      "cwd": "studies/interaction",
+      "command": [
+        "C:\\Users\\thoma\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "evosim_q1005_v01/tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 48,
+      "elapsed_seconds": 5.418267600005493
+    },
+    {
+      "cwd": ".",
+      "command": [
+        "C:\\Users\\thoma\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "tools/check_q1_core.py",
+        "--output",
+        "dist/q1005_gate/dependency.json"
+      ],
+      "returncode": 0,
+      "tests": null,
+      "elapsed_seconds": 6.461573100008536
+    },
+    {
+      "cwd": ".",
+      "command": [
+        "C:\\Users\\thoma\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "tools/check_research_layout.py",
+        "--tests"
+      ],
+      "returncode": 0,
+      "tests": null,
+      "elapsed_seconds": 7.833533799974248
+    },
+    {
+      "cwd": ".",
+      "command": [
+        "C:\\Users\\thoma\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools/tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 12,
+      "elapsed_seconds": 0.8178065000101924
+    }
+  ],
+  "required_test_names": [
+    "test_original_r0_kernel_exact_actions_and_metrics",
+    "test_progress_upper_bound_is_attainable",
+    "test_round_trip_does_not_repeat_progress",
+    "test_scalar_batch_progress_and_reference_actions_match",
+    "test_ordinal_s0_reproduction_matches_frozen_genotypes_rng_and_ancestry",
+    "test_pause_resume_all_four_conditions_and_both_methods",
+    "test_shared_random_genotypes_and_validation_winners_match_all_treatments",
+    "test_mocked_test_pipeline_caches_three_roles_and_resumes_without_new_policy_test",
+    "test_test_kernel_not_called_without_lock_or_for_another_genome_or_partial_test",
+    "test_blind_first_tie_and_changed_validation_artifact_rejected",
+    "test_unknown_interrupted_episode_work_keeps_upper_bound",
+    "test_probe_single_step_accounting_has_separate_unknown_bound",
+    "test_holm_three_contrasts_rejects_fifteen_positive_when_first_threshold_fails",
+    "test_main_and_confirmation_summaries_share_only_one_random_control"
+  ],
+  "gate_tool_sha256": "c2198bbce11ca54080354e8a542e1a15d6c227529b74b3363b68c55f0d2c1be6",
+  "scientific_result": null,
+  "independent_review": false
+}

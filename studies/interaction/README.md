@@ -4,6 +4,10 @@
 
 공식 보고서는 [Q1 보고서 목록](../../docs/reports/README.md), 연구 목적은 [목적 문서](../../docs/01_연구목적.md), 현재 상태는 [현황](../../docs/03_연구현황.md)에서 확인한다.
 
+## Q1-005 v0.1 — 보상·번식 비교 완료
+
+구현은 [evosim_q1005_v01](evosim_q1005_v01/README.md), 개별 설계는 [계획서](../../docs/protocols/Q1-005_보상과번식_실험계획.md), 실행 전147검사·예비와 CI 이식성 문제는 [준비 검증](../../docs/management/Q1-005_실행준비검증.md)에 있다. [공식 결과](../../docs/reports/Q1-005_보상과번식_분리비교.md)에 본100실행·세 대비 기준 미충족·확인 미실행을 기록했다. 출력은 `results_q1005_v01/`이며 기존 실행과 섞지 않는다. 원본 검사의 혼합-purpose fixture 문제를 기록한 별도 CI 검사는 루트의 `python -B -X utf8 tools/check_q1005_portable.py`로 실행한다. 동결 소스와 기존 게이트는 보존한다.
+
 ## Q1-004 v0.2 — 완료
 
 [공식 보고서](../../docs/reports/Q1-004_구조제약_재진화비교.md)에 본60·확인40실행, 확인 실패와 사후 기술 점검을 기록했다. [본 집계](results_v02/main/summary.json)와 [확인 집계](results_v02/confirmation/summary.json)는 구분해서 읽는다. 결과를 다시 읽기 위해 실험을 재실행할 필요는 없다.

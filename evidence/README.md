@@ -27,3 +27,14 @@ python -B -X utf8 tools/restore_q1_004.py 다운로드경로/q1_004_v02_raw_2026
 ```
 
 첫 명령은 SHA-256·구성 파일을 검증하고, 두 번째 명령은 없는 파일만 복원한다. 기존 파일 내용이 다르면 중단한다. 본 비교와 확인 집계는 Git에 함께 두어 큰 원자료 다운로드 없이도 [공식 보고서](../docs/reports/Q1-004_구조제약_재진화비교.md)를 읽을 수 있다. 자동 검증은 과학적 독립 검토와 구분한다.
+
+## Q1-005 v0.1 원자료
+
+[Q1-005 Release](https://github.com/paylace/gene-project/releases/tag/q1-005-v01-2026-10-16)에 `q1005_v01_raw_2026-10-16.zip` 약432MB·21,678파일을 보관한다. [보관 목록](q1_005_v01.json)에 ZIP·MANIFEST 해시가 있다. 공식 예비·본100실행 전체 기록, 동결 소스 ZIP, 비용 표본, 역할 캐시·실제 작업 원장·프로브·행동 진단·감사·집계와 CI 실패 발췌를 포함한다. 본 진행 기준 미충족이므로 확인 원자료는 존재하지 않는다. 기존 Release는 유지한다.
+
+```powershell
+python -B -X utf8 tools/restore_q1005.py 다운로드경로/q1005_v01_raw_2026-10-16.zip --verify-only
+python -B -X utf8 tools/restore_q1005.py 다운로드경로/q1005_v01_raw_2026-10-16.zip
+```
+
+검증 후 없는 파일만 복원하며 기존 내용이 다르면 중단한다. 큰 ZIP 없이도 [공식 보고서](../docs/reports/Q1-005_보상과번식_분리비교.md)와 Git의 본 요약을 읽을 수 있다. 실제 동결 런타임은 Python3.12.14·NumPy2.3.5·Windows다. Linux CI의 원본 혼합-purpose fixture 문제와 별도49검사는 보고서에 구분했다. 게시 후 대상 커밋·GitHub 자산 해시는 별도 게시 기록에 남긴다.

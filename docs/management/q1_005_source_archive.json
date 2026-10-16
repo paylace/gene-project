@@ -1,0 +1,11 @@
+{
+  "source_digest": "ccbf6e00f455aeabd76fb06e02574a45191a70c6e3637db34fd85463354a824c",
+  "source_files": 34,
+  "dependency_files": 20,
+  "new_package_files": 14,
+  "archive": "dist/q1005_source_ccbf6e00f455aeabd76fb06e02574a45191a70c6e3637db34fd85463354a824c.zip",
+  "archive_sha256": "95c98ccf70086aed55e48b8ec73751239ac088f3e613a5ee0483927b565411ab",
+  "new_tests": 48,
+  "previous_tests": 99,
+  "execution_gate": "docs/management/q1_005_execution_gate_final.json"
+}

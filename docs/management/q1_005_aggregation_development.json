@@ -1,0 +1,10 @@
+{
+  "scope": "post-completion report aggregation only",
+  "failed_command": "python tools/collect_q1005.py main --output docs/management/q1_005_main_completion.json",
+  "error": "TypeError: can't convert type 'NoneType' to numerator/denominator",
+  "cause": "some success-only metrics are undefined for zero-success seeds; collector attempted mean over None",
+  "handling": "preserved raw metrics; distributions now explicitly retain original None values and count observed/missing seeds; no replacement with zero",
+  "production_source_changed": false,
+  "policy_evaluations_added": 0,
+  "failed_output_created": false
+}
