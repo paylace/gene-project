@@ -16,8 +16,12 @@ from evosim_interaction_v02.storage import read_json, file_digest
 
 
 def distribution(values):
-    return {"mean": statistics.mean(values), "median": statistics.median(values),
-            "sd": statistics.stdev(values), "minimum": min(values), "maximum": max(values), "values": values}
+    observed = [v for v in values if v is not None]
+    return {"mean": statistics.mean(observed) if observed else None,
+            "median": statistics.median(observed) if observed else None,
+            "sd": statistics.stdev(observed) if len(observed) > 1 else None,
+            "minimum": min(observed) if observed else None, "maximum": max(observed) if observed else None,
+            "observed_seeds": len(observed), "missing_seeds": len(values) - len(observed), "values": values}
 
 
 def collect(phase):
@@ -29,7 +33,7 @@ def collect(phase):
             raise ValueError("All registered jobs must pass audits")
     if (root / "failures.json").exists():
         raise ValueError("Recorded failure needs separate review")
-    counts, groups, rankings, times, starts = Counter(), {}, {}, [], []
+    counts, groups, rankings, times, starts, histories = Counter(), {}, {}, [], [], {}
     for job in config["jobs"]:
         path = directory(root, **job)
         result, checkpoint, tested = (read_json(path / name) for name in ("result.json", "checkpoint.json", "test.json.gz"))
@@ -48,6 +52,7 @@ def collect(phase):
         group = groups.setdefault(job["condition"] + "/" + job["method"], [])
         group.append(next(row for row in summary["rows"] if all(row[k] == v for k, v in job.items())))
         rank = rankings.setdefault(job["condition"] + "/" + job["method"], Counter())
+        histories.setdefault(job["condition"] + "/" + job["method"], []).append(result["history"])
         for row in result["history"]:
             rank.update({key: int(value) for key, value in row.get("ranking", {}).items()})
         times.append(checkpoint["elapsed_seconds"])
@@ -67,8 +72,18 @@ def collect(phase):
             for metric in rows[0]["roles"][role]} for role in ("best", "initial", "final")}
         descriptions[group]["probe_rate"] = distribution([r["probe_rate"] for r in rows])
     last = datetime.fromtimestamp((root / "summary.json").stat().st_mtime, timezone.utc)
+    curves = {}
+    for group, runs in histories.items():
+        curves[group] = []
+        for generation in range(config["rounds"]):
+            rows = [run[generation] for run in runs]
+            curve = {"round": generation, "validation_performed": rows[0]["validation_performed"]}
+            for key in ("training_mean_reward", "training_mean_score", "training_mean_success", "mean_modules"):
+                curve[key] = distribution([row[key] for row in rows])
+            curve["best_validation_success"] = distribution([row["best_validation"]["success_rate"] for row in rows])
+            curves[group].append(curve)
     return {"phase": phase, "source_digest": config["source_digest"], "protocol_digest": config["protocol_digest"],
-            "jobs": len(config["jobs"]), "counts": dict(counts), "groups": descriptions,
+            "jobs": len(config["jobs"]), "counts": dict(counts), "groups": descriptions, "learning_curves": curves,
             "ranking_history_totals": {k: dict(v) for k, v in rankings.items()},
             "decision": summary["decision"], "first_search_attempt_utc": min(starts),
             "summary_written_utc": last.isoformat(), "first_attempt_to_summary_seconds": (last - datetime.fromisoformat(min(starts))).total_seconds(),

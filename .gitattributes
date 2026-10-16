@@ -1,2 +1,5 @@
 # 완료된 실험 소스의 SHA-256 보존: 체크아웃 시 개행 변환 금지
 * -text
+# 보고서에서 연결하는 기계 집계는 PR에서 기본 접어 표시한다.
+docs/management/q1_005_main_completion.json linguist-generated=true
+studies/interaction/results_q1005_v01/** linguist-generated=true

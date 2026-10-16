@@ -1,0 +1,2611 @@
+{
+  "phase": "main",
+  "passed": true,
+  "jobs": 100,
+  "roles": 300,
+  "source_digest": "ccbf6e00f455aeabd76fb06e02574a45191a70c6e3637db34fd85463354a824c",
+  "protocol_digest": "a3b26fda806ea1a204337781b370e0cf2cb5ce6d8b21c6214ff63cd13011f6e1",
+  "scope": "post-search technical check following mixed-purpose fixture CI failure; selection purpose and registered validation rounds only, no performance inference",
+  "rows": [
+    {
+      "condition": "R0S0",
+      "method": "evolution",
+      "seed": 401,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 7,
+          "digest": "d9ac06d3016ae9d40731e12d9a688a6834ed903903b16e2354cfe2a54353e19a"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 16,
+          "digest": "18733854040fed3f84444feac86b54f54b8ca45f073b69807e7f9ad14674486e"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 7,
+          "digest": "d9ac06d3016ae9d40731e12d9a688a6834ed903903b16e2354cfe2a54353e19a"
+        }
+      },
+      "result_sha256": "63eb3b03cb309a401b22832106831d296ae0e2904a18a062b0d65088ee2f3111"
+    },
+    {
+      "condition": "R0S0",
+      "method": "evolution",
+      "seed": 402,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 9,
+          "slot": 2,
+          "digest": "2e3ed148dcd45690460435c03f7436f69cde897a1bf6841253f3e4c980d49147"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 9,
+          "digest": "9913e0876f74771c0e7acd9e200283fe869c1c2c4a41892471a907bb4aa345c4"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "fe832f6b9ff0ebcf1e6826de48659d7fc117051eb564cd69032034cf8dfecf09"
+        }
+      },
+      "result_sha256": "6f06d5cafec59f59b36f4c974de2b2cbe1dcf6c57ce2b112945222517a6fca27"
+    },
+    {
+      "condition": "R0S0",
+      "method": "evolution",
+      "seed": 403,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 79,
+          "slot": 7,
+          "digest": "140fc23b86a54f3f630db09e230e60e92d0d5a203544d169330334b45dfe96c4"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 2,
+          "digest": "556870088e86183aa126ac5fef2c0fc3583b2f1dde67f6620d9e203b74c25f49"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "0cfcd42ca486196844fa913b7c3c8a48d90b02cc337bd3d368356acc1fd18456"
+        }
+      },
+      "result_sha256": "9bbf0139010e6c2d23b7bcd68ddfed417a2602eb1ec83bf61eb862cef90a5116"
+    },
+    {
+      "condition": "R0S0",
+      "method": "evolution",
+      "seed": 404,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 39,
+          "slot": 8,
+          "digest": "b9411af5e3cf1d23b55658fcebc5fa4f1f4b956d48460efb8b0cad9c6ce996c9"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 11,
+          "digest": "42e0309bef4b483a28e2b0248ea2767a9c39bcba813c1567e2dde070f3106b77"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 5,
+          "digest": "860cf6b7500256ae558ac7f210bde2030c1e797e11169403a957654cd40940f3"
+        }
+      },
+      "result_sha256": "a21f1eca9bb684742bc8b78bb193a661caa519f5f492c73676969bd0ab87b582"
+    },
+    {
+      "condition": "R0S0",
+      "method": "evolution",
+      "seed": 405,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 49,
+          "slot": 12,
+          "digest": "861627397f44fff66d3e9093eb52512c990cc71571fa96bd6ba45d250ed897a4"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 3,
+          "digest": "1bd9ea8e858808d7f0fe0d8fc5116c83b4f8ab8d0988352e25da5cf245664b83"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "905cde51893ad396d44e6341c5c378e18413fa752d8b58fbc55a57628ac7cdb2"
+        }
+      },
+      "result_sha256": "e040346e99b7186e829422252b294a36d24d641402084b7eff6ef4bbcbf58a4c"
+    },
+    {
+      "condition": "R0S0",
+      "method": "evolution",
+      "seed": 406,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 79,
+          "slot": 1,
+          "digest": "90138a77c804da7315d0fc369b725847003f19851afd09289bc965b258f4ac42"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 7,
+          "digest": "f99e861ae9455d8b74363cd508db85f587e95577404370ebd6bd075cdbfa2a57"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 15,
+          "digest": "c28f673ae25a18cf44a0ebd67363ddd2c55b8c1584b1de81317ee8c11a2097f8"
+        }
+      },
+      "result_sha256": "b2d656e7278ddd7550e0436e8ded2f4f7b135226b90b13697fc5eb14a567371f"
+    },
+    {
+      "condition": "R0S0",
+      "method": "evolution",
+      "seed": 407,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 69,
+          "slot": 7,
+          "digest": "5e3912c5e1f81a98f4b09838298f6b6029fbf9e7070cf987a1320b92bcd5d7f8"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 6,
+          "digest": "08b0f917e22c089110655dbdd0be8a82b668c825b85832fc7114927e6435bce7"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "0a285a357f205aba3547ff6b71b53d5571f4c62f6317c58d61482623dbc629b5"
+        }
+      },
+      "result_sha256": "36352b6be76874eb6e744ef4453280a5dce78cd548fb4b0f1d2e2411b28a2aba"
+    },
+    {
+      "condition": "R0S0",
+      "method": "evolution",
+      "seed": 408,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 89,
+          "slot": 1,
+          "digest": "2d06e63ee545e15fcb3f78958adc642bf072eec08892a8d9830e834cfd609339"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 17,
+          "digest": "4aba6fbfac855183146dfc5d716c4d2486c0d4c71d381052f150b134abc9865e"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "6b42b66f375d28b419b823e288b5c1a668b5d41fe1244722fbf5837cd356db29"
+        }
+      },
+      "result_sha256": "b9501d74bae693db36a2d568a0312a90efa80a1a1bd154409c76e14c7d862b45"
+    },
+    {
+      "condition": "R0S0",
+      "method": "evolution",
+      "seed": 409,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "9c5817f15db03720457432dee46f9b7c9d178785c97508b97add49c552bcb979"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 18,
+          "digest": "5fb372a263e38ad4fc06bbd48dc763d27f4dfa31e15683477b9171e000cf2281"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "9c5817f15db03720457432dee46f9b7c9d178785c97508b97add49c552bcb979"
+        }
+      },
+      "result_sha256": "7b6d4dde491095c84122c37813a9a501ea3804f8c086acc411e8eee13895d1b9"
+    },
+    {
+      "condition": "R0S0",
+      "method": "evolution",
+      "seed": 410,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 69,
+          "slot": 19,
+          "digest": "4ef56d0fd852a61e1d4fc18876fa1256aaad90c10a4a90837cef2e5e68ead2c3"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 12,
+          "digest": "98304a48e184d21b1e38afd72882fce263548a3961940ef220f5415d64b6239e"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 10,
+          "digest": "7657ac8ea403b6c2cd60c9df0ce2ccf15990b75159b373bde80679dfe040ed65"
+        }
+      },
+      "result_sha256": "b847c5523c0c991560a24cf442da94d4bbc254e6d0e8d54b93b918b13b531af4"
+    },
+    {
+      "condition": "R0S0",
+      "method": "evolution",
+      "seed": 411,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 79,
+          "slot": 0,
+          "digest": "b6e3d01ad16ecffab5daa6af95be16df0211f677fad1676ff88671e2f0714707"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 3,
+          "digest": "dfb8f2b3fe1f0238b192d338f9cab931cc1e80187eb9db01ce254c9ace15f316"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "b6e3d01ad16ecffab5daa6af95be16df0211f677fad1676ff88671e2f0714707"
+        }
+      },
+      "result_sha256": "24a93f5761120e5f3d3480df674fb6b2dd933f77fc8937fb21a20a47afa1d050"
+    },
+    {
+      "condition": "R0S0",
+      "method": "evolution",
+      "seed": 412,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 29,
+          "slot": 15,
+          "digest": "dbaac847d159d5b6271156c091be1db93efda1f0bddcfe920ad8defa9bad3a9e"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 16,
+          "digest": "dedede7666ffe61959e2f3f1af617115aa19c3c5527e33a98d41629e86dbc35e"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "e6fbf0b8e1fed428f1f223c2b2a362d04ce84285f21c9911d9d0362fcaca0851"
+        }
+      },
+      "result_sha256": "1ef99a1cea049d2e2d175882ad561629e8d94314b6c03626565accde8ead1432"
+    },
+    {
+      "condition": "R0S0",
+      "method": "evolution",
+      "seed": 413,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 11,
+          "digest": "da633f7eaa4a344710ab9340b545dffc313df69673ce5b5d6cddc9fb536300ad"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 14,
+          "digest": "4f0e9687dc98d6d86dc7ba35893ef632f43a46684db028ff86e19a70b3c5eeed"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 11,
+          "digest": "da633f7eaa4a344710ab9340b545dffc313df69673ce5b5d6cddc9fb536300ad"
+        }
+      },
+      "result_sha256": "3fc7d642749550911b9013f90d38bf1dfc46ea082a13df1ab37bccbb204167b6"
+    },
+    {
+      "condition": "R0S0",
+      "method": "evolution",
+      "seed": 414,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 89,
+          "slot": 18,
+          "digest": "0edd4b55687cdfb3c7478fa15a2fa8bf540755a7752f98b1e083600b9c58c038"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 7,
+          "digest": "9cc3f472ef04dd51b393be6b98d4eaaefb776c91121b03aec5504747a37bd7ea"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "0edd4b55687cdfb3c7478fa15a2fa8bf540755a7752f98b1e083600b9c58c038"
+        }
+      },
+      "result_sha256": "34fe08347407d39a68229795e26eb15132acf97e85f66a0b18cff7e4d1407b15"
+    },
+    {
+      "condition": "R0S0",
+      "method": "evolution",
+      "seed": 415,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 29,
+          "slot": 4,
+          "digest": "366e2653b0537f994ef25d3d927bd337c88ac7ee2826acfa1e07a5fc1274429c"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 0,
+          "digest": "6218369700fe934d467a8523317cc9d91b26c0b67c15b4e7f410d9d80be375e6"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "b68cf7d3ccf8e073b6eadefe4b4efd366abc3ee4102db79138eb7dbf2666f796"
+        }
+      },
+      "result_sha256": "0f42195224f1a1cc37e79ffa9556e19f65fe5ea8ae2c544dbb42cc7cb434124a"
+    },
+    {
+      "condition": "R0S0",
+      "method": "evolution",
+      "seed": 416,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 79,
+          "slot": 17,
+          "digest": "9fb7f772a44a8bc1314770260726f3ecbd25789f24c5813ddc5787938834a72d"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 3,
+          "digest": "b680f144b96ff57d7752ad573973528cbd3524a03ef4135369afdd87a3d21b3d"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "8a00c66e29e2418baafbbc07e4eb80cf313ff4c9e408f831e6e629248e9fe189"
+        }
+      },
+      "result_sha256": "b924aed1322f8ce1d29fe37b73719b1d158ad05e5bf7245e36da5260af1e3791"
+    },
+    {
+      "condition": "R0S0",
+      "method": "evolution",
+      "seed": 417,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 16,
+          "digest": "182b225920123c6efce034ae5e359e503c97bbcd06a4b0d5649208c24fc6d086"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 16,
+          "digest": "182b225920123c6efce034ae5e359e503c97bbcd06a4b0d5649208c24fc6d086"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "d9558d878282bc254eb6b9912003f561452ac53344a2b6fe09ae6503affaa65c"
+        }
+      },
+      "result_sha256": "fd9631e817859c2d92976404d1e96b22f07943a5e852fcd94a8f65f13ebd4688"
+    },
+    {
+      "condition": "R0S0",
+      "method": "evolution",
+      "seed": 418,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "503022940939a43b8917700351b20d9d60ab988f88cf2f7a058844b15134ad33"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 19,
+          "digest": "e143f4dbe6d77ded1398b0aa8836f17dc737038993202e3cd845687dfa11a686"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "503022940939a43b8917700351b20d9d60ab988f88cf2f7a058844b15134ad33"
+        }
+      },
+      "result_sha256": "c885125c6b13fdf21af1325e091865389cd5209a635369d7106ce5347b05045b"
+    },
+    {
+      "condition": "R0S0",
+      "method": "evolution",
+      "seed": 419,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 89,
+          "slot": 19,
+          "digest": "7088a921dbd53333472831f456ec9eb05fcc640e7e5404d02abba4d357d671ca"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 0,
+          "digest": "cbc11eb0c32cd94aced18970fb66e7ef836412efc6196b7b697dc6aa9a2068be"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 1,
+          "digest": "98bc4d6b52a7b611ae3cc24a9a93c470a452f59acc3b4949b5234b950e10efb9"
+        }
+      },
+      "result_sha256": "f083663f33a0e2bd81a58310e6c4cae05f4c77a4fd82dc3eaa1171b6d8144ed1"
+    },
+    {
+      "condition": "R0S0",
+      "method": "evolution",
+      "seed": 420,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 15,
+          "digest": "0579eb0e977c2712ef1b9cfee431d5c29cd211fe5abce95a199273cb7ce904bd"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 4,
+          "digest": "d2eba1059a16a4da6a89dd9b8be00a60318acd92f21b244c9a22c7132650dc63"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 15,
+          "digest": "0579eb0e977c2712ef1b9cfee431d5c29cd211fe5abce95a199273cb7ce904bd"
+        }
+      },
+      "result_sha256": "0e526c3baba9fd57f820a480e7327ab2f49c842995e64154552076cbcf8fcccb"
+    },
+    {
+      "condition": "R1S0",
+      "method": "evolution",
+      "seed": 401,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 89,
+          "slot": 0,
+          "digest": "67206ea671e1fa1c9a880e14dd33e0019b7cf46a90044f9de5af07b7e4ff0de8"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 16,
+          "digest": "18733854040fed3f84444feac86b54f54b8ca45f073b69807e7f9ad14674486e"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 13,
+          "digest": "51d68b0beb3c77619f7b40e03855be4e2fde4918e75cb7255f2351fdfcdda36a"
+        }
+      },
+      "result_sha256": "3137021e489b339a40456e899cd28da17d9e5f1865a2da97add2def2065acc6e"
+    },
+    {
+      "condition": "R1S0",
+      "method": "evolution",
+      "seed": 402,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 39,
+          "slot": 7,
+          "digest": "0e4a2a8831a5420f6af74434b7eeb2e559348858acb04bbb9d70f4b8198c94e6"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 9,
+          "digest": "9913e0876f74771c0e7acd9e200283fe869c1c2c4a41892471a907bb4aa345c4"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "1ee26fb807e9c81e7c910347871f525deaf0b70ba8bad01f1b2f37df7539718b"
+        }
+      },
+      "result_sha256": "2e1a4b93985f3a454444c07401b979b4a40243e39257c2ce13b883388b909f69"
+    },
+    {
+      "condition": "R1S0",
+      "method": "evolution",
+      "seed": 403,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 17,
+          "digest": "693a7905d151b7ca2f5e7451a249ad0d81c2eb0dd6858f5cd34f9b85be93bf97"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 2,
+          "digest": "556870088e86183aa126ac5fef2c0fc3583b2f1dde67f6620d9e203b74c25f49"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 17,
+          "digest": "693a7905d151b7ca2f5e7451a249ad0d81c2eb0dd6858f5cd34f9b85be93bf97"
+        }
+      },
+      "result_sha256": "bfdf067f81aa2d67e25d161a31a44195c4ef553a7f97f6d578915c7db223e569"
+    },
+    {
+      "condition": "R1S0",
+      "method": "evolution",
+      "seed": 404,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 89,
+          "slot": 0,
+          "digest": "16347562229c8aabf76136cfcdf2d5028cf91b9abccb6af93b43e14dfb32e529"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 11,
+          "digest": "42e0309bef4b483a28e2b0248ea2767a9c39bcba813c1567e2dde070f3106b77"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "04c8ecbd0a845b7bac80b9876a66d8053868e623fb121a4aad6700a28bca5066"
+        }
+      },
+      "result_sha256": "28dcc0ae6c0d2dcd2b6c657b9b2e3356bb9e76c747ebf3638e0f09a623afe44d"
+    },
+    {
+      "condition": "R1S0",
+      "method": "evolution",
+      "seed": 405,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 89,
+          "slot": 0,
+          "digest": "e92965a477018ba5116c8f1aa07b53a8fa66ff6897d955b0a7bd05fecc9ec31b"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 3,
+          "digest": "1bd9ea8e858808d7f0fe0d8fc5116c83b4f8ab8d0988352e25da5cf245664b83"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 14,
+          "digest": "03b602d149b6ad869043d1279d45f5fefe1a80f23d6d0175035f13ac9fc3ff6c"
+        }
+      },
+      "result_sha256": "88ecbe9864f1a727f314df669afa89b1610b61c5373d799b3cb5dd16525722da"
+    },
+    {
+      "condition": "R1S0",
+      "method": "evolution",
+      "seed": 406,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 29,
+          "slot": 0,
+          "digest": "2cfc3cb9d3b36015f0eeb8f87f30053ec6c1245e550f46696e8fa3dda524c51f"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 7,
+          "digest": "f99e861ae9455d8b74363cd508db85f587e95577404370ebd6bd075cdbfa2a57"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 15,
+          "digest": "5f886fd2d03cfecaa99c2b6e41bea01dae4217bf62db124a3834ccbe5a2fc29b"
+        }
+      },
+      "result_sha256": "f4e3b3d683a1bb5e73cd2a7a062f20eaf5831ce260bfe2ecd2c4024d7fbded17"
+    },
+    {
+      "condition": "R1S0",
+      "method": "evolution",
+      "seed": 407,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 69,
+          "slot": 0,
+          "digest": "5434f486a89d76be9f96d980de7885a00045ea61a7f8e541a7f34150039f4ada"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 6,
+          "digest": "08b0f917e22c089110655dbdd0be8a82b668c825b85832fc7114927e6435bce7"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "6ca4c317e9dbfdde2bd1a86a97d71b59a41c412763589830f3877920a81cceb9"
+        }
+      },
+      "result_sha256": "4f69c85491e17094417f3c2000e92833ef68351bd196582401d26d27417b348c"
+    },
+    {
+      "condition": "R1S0",
+      "method": "evolution",
+      "seed": 408,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 69,
+          "slot": 7,
+          "digest": "d70ad34bea77492234b0bd65031c04840281c822ce0498da2dd8eefd1768cc2e"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 17,
+          "digest": "4aba6fbfac855183146dfc5d716c4d2486c0d4c71d381052f150b134abc9865e"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "d1fd31a2c1842bff05d78a8c1cb8ed906844456c92cc72cb555d6975b0f34a0a"
+        }
+      },
+      "result_sha256": "c89499acbe3b95ad93dda379f31989ec6641b8fcd19252091cf6cc773eb079e9"
+    },
+    {
+      "condition": "R1S0",
+      "method": "evolution",
+      "seed": 409,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 59,
+          "slot": 0,
+          "digest": "7ff0ff56163700a8b3bdd2b2db6bdd78cdf6ab4391983289c4e0851e9efd30ea"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 18,
+          "digest": "5fb372a263e38ad4fc06bbd48dc763d27f4dfa31e15683477b9171e000cf2281"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "2656d91c56ef3a4b8f64d3f63e261812a61ceafcfd467b974235e74b5fbcfe32"
+        }
+      },
+      "result_sha256": "524427de7abe542c2f2102a1fb56f63eae7ac0fe291624a6586293918758695b"
+    },
+    {
+      "condition": "R1S0",
+      "method": "evolution",
+      "seed": 410,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 9,
+          "digest": "25e715ef78d1bbdf8eb44f85a04f10390e453cb742bbaaaaaf662850494229c1"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 12,
+          "digest": "98304a48e184d21b1e38afd72882fce263548a3961940ef220f5415d64b6239e"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 9,
+          "digest": "25e715ef78d1bbdf8eb44f85a04f10390e453cb742bbaaaaaf662850494229c1"
+        }
+      },
+      "result_sha256": "f05abcf2d8272bcc8653e27cd3b20c6ea4626f6a112e8361c60cf09d37c45b4f"
+    },
+    {
+      "condition": "R1S0",
+      "method": "evolution",
+      "seed": 411,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 59,
+          "slot": 11,
+          "digest": "a225428ef8ec685b4b88cc4313297bd4b0cdfec743de695be7434cf53e294b0a"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 3,
+          "digest": "dfb8f2b3fe1f0238b192d338f9cab931cc1e80187eb9db01ce254c9ace15f316"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "a225428ef8ec685b4b88cc4313297bd4b0cdfec743de695be7434cf53e294b0a"
+        }
+      },
+      "result_sha256": "462e9ae89de505282e8098b00a1335621fe233b68d82aa78714173faeb907ac3"
+    },
+    {
+      "condition": "R1S0",
+      "method": "evolution",
+      "seed": 412,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 59,
+          "slot": 17,
+          "digest": "b49549c1da2cceea96d51b9d2ee31ad113f461f8574fbb2c65bb51f99df5365c"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 16,
+          "digest": "dedede7666ffe61959e2f3f1af617115aa19c3c5527e33a98d41629e86dbc35e"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "cbc216ddd5107ea751c0819b556eae6b212a6611f6432d67d6bdcef3552969a4"
+        }
+      },
+      "result_sha256": "50c0fe69df36adc2da9fa41f98d55b33f4d19ba934a5e2f539ee884adef71084"
+    },
+    {
+      "condition": "R1S0",
+      "method": "evolution",
+      "seed": 413,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "5963a10a6397018fa077dce03a9b660ee9336765aba1bd0fc883517efe3bf733"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 14,
+          "digest": "4f0e9687dc98d6d86dc7ba35893ef632f43a46684db028ff86e19a70b3c5eeed"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "5963a10a6397018fa077dce03a9b660ee9336765aba1bd0fc883517efe3bf733"
+        }
+      },
+      "result_sha256": "46c8d9e4f13119f3d79d3cfd92be2ca80792765d9362a6bd05f6a94eb2f88de9"
+    },
+    {
+      "condition": "R1S0",
+      "method": "evolution",
+      "seed": 414,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 19,
+          "slot": 4,
+          "digest": "008c5e4fc788c68f4c69238f0d1945697092825ce4ddbfc189c9a6306e491109"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 7,
+          "digest": "9cc3f472ef04dd51b393be6b98d4eaaefb776c91121b03aec5504747a37bd7ea"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 9,
+          "digest": "5ef66a335e81f59c64cd4759b30058773291df47a1c5f358cc67d6b07eac2933"
+        }
+      },
+      "result_sha256": "fd02277911c9938608cc175b6bd58e9cff13f513a49d5fa90cb678bbd65ea52b"
+    },
+    {
+      "condition": "R1S0",
+      "method": "evolution",
+      "seed": 415,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 12,
+          "digest": "b197c463de1302738663f02ee2c4325b57a01fefc19d9bc4eba8c90caa62fa56"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 0,
+          "digest": "6218369700fe934d467a8523317cc9d91b26c0b67c15b4e7f410d9d80be375e6"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 12,
+          "digest": "b197c463de1302738663f02ee2c4325b57a01fefc19d9bc4eba8c90caa62fa56"
+        }
+      },
+      "result_sha256": "b778d97a2c8e32c986488af6eb338d952ca4862225c00a4999185786b73ffcbe"
+    },
+    {
+      "condition": "R1S0",
+      "method": "evolution",
+      "seed": 416,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 10,
+          "digest": "58bcd8a893555bf6a032f009bd1fe4c9dd41391c478f641fb62c4ada9fa04f4f"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 3,
+          "digest": "b680f144b96ff57d7752ad573973528cbd3524a03ef4135369afdd87a3d21b3d"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 10,
+          "digest": "58bcd8a893555bf6a032f009bd1fe4c9dd41391c478f641fb62c4ada9fa04f4f"
+        }
+      },
+      "result_sha256": "12cb62a908981c67b4a51e8bebeae1eb2200d08c326cb8ef0e2c696763ae5282"
+    },
+    {
+      "condition": "R1S0",
+      "method": "evolution",
+      "seed": 417,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 79,
+          "slot": 4,
+          "digest": "0f2a5f578393a13a132d414cedb324ae8cb3903084201ce361d5831835b43344"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 16,
+          "digest": "182b225920123c6efce034ae5e359e503c97bbcd06a4b0d5649208c24fc6d086"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "961d1fb844df10bb12c011b0b49eff4837a615cd7a2e8fcaa6c1dbd754022466"
+        }
+      },
+      "result_sha256": "d516b5f948169ad8109c86dbd0807359477991b9c0b257b7cd4d9fef4890a2e0"
+    },
+    {
+      "condition": "R1S0",
+      "method": "evolution",
+      "seed": 418,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 14,
+          "digest": "5765f9aae3abaca8d44c5e40a63da66de4b5d9e5f5c7baa8b0c92318bd0dedf1"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 19,
+          "digest": "e143f4dbe6d77ded1398b0aa8836f17dc737038993202e3cd845687dfa11a686"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 14,
+          "digest": "5765f9aae3abaca8d44c5e40a63da66de4b5d9e5f5c7baa8b0c92318bd0dedf1"
+        }
+      },
+      "result_sha256": "9dcd4147071ca6b2f0fee93f2fc5f8656f092c3d8713f1438ff61b97d48d5753"
+    },
+    {
+      "condition": "R1S0",
+      "method": "evolution",
+      "seed": 419,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "fc8498dc94e1b138590acab4a2c42dfa845a12392e7811fa42634e54e0f6aca2"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 0,
+          "digest": "cbc11eb0c32cd94aced18970fb66e7ef836412efc6196b7b697dc6aa9a2068be"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "fc8498dc94e1b138590acab4a2c42dfa845a12392e7811fa42634e54e0f6aca2"
+        }
+      },
+      "result_sha256": "a545e6b4a7939ef562f725c20f80549bbc3e4859b5e89621dc7e6b1ad28d9999"
+    },
+    {
+      "condition": "R1S0",
+      "method": "evolution",
+      "seed": 420,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 4,
+          "digest": "d2eba1059a16a4da6a89dd9b8be00a60318acd92f21b244c9a22c7132650dc63"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 4,
+          "digest": "d2eba1059a16a4da6a89dd9b8be00a60318acd92f21b244c9a22c7132650dc63"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "b86823a8e290c76558fb35b75abcdbe88d3e7fc271d8c01b2b4faca7e0611ec0"
+        }
+      },
+      "result_sha256": "0e99f91558bad46dc7fb952ad7387bcd078f0da5319284a18434972edc660c64"
+    },
+    {
+      "condition": "R0S1",
+      "method": "evolution",
+      "seed": 401,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 14,
+          "digest": "4b3d1c19fabd8794b9359f981d310e76feb249191ca5ec09165679c5d96e1fa9"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 16,
+          "digest": "18733854040fed3f84444feac86b54f54b8ca45f073b69807e7f9ad14674486e"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 14,
+          "digest": "4b3d1c19fabd8794b9359f981d310e76feb249191ca5ec09165679c5d96e1fa9"
+        }
+      },
+      "result_sha256": "832c243d5c90be7d23ee687208737813417504025c530d79a4e14c7da31f52d2"
+    },
+    {
+      "condition": "R0S1",
+      "method": "evolution",
+      "seed": 402,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 18,
+          "digest": "7db206ce7b6622d1191067e7b303cf9706ad8b823aa2e090fc60013a68cdbfcf"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 9,
+          "digest": "9913e0876f74771c0e7acd9e200283fe869c1c2c4a41892471a907bb4aa345c4"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 18,
+          "digest": "7db206ce7b6622d1191067e7b303cf9706ad8b823aa2e090fc60013a68cdbfcf"
+        }
+      },
+      "result_sha256": "1c63efc8363c7d79a2b7cbf961789accb575136f9ff0b58359e8fd9dce6d5fb2"
+    },
+    {
+      "condition": "R0S1",
+      "method": "evolution",
+      "seed": 403,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 79,
+          "slot": 17,
+          "digest": "fc7211681a8563554b3dd102c01eb3d2eab3ddf1278867f9170b8642673ac3ab"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 2,
+          "digest": "556870088e86183aa126ac5fef2c0fc3583b2f1dde67f6620d9e203b74c25f49"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 15,
+          "digest": "289adc80632c2b94915ba31a824d5eba4bd7a17e80d6ad08a411a0c7948b6d5b"
+        }
+      },
+      "result_sha256": "5e66ecd6c0cdd63b828a415303c15ca4f3ecf57c5d6787579808b58335f37569"
+    },
+    {
+      "condition": "R0S1",
+      "method": "evolution",
+      "seed": 404,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 39,
+          "slot": 8,
+          "digest": "b9411af5e3cf1d23b55658fcebc5fa4f1f4b956d48460efb8b0cad9c6ce996c9"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 11,
+          "digest": "42e0309bef4b483a28e2b0248ea2767a9c39bcba813c1567e2dde070f3106b77"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 5,
+          "digest": "860cf6b7500256ae558ac7f210bde2030c1e797e11169403a957654cd40940f3"
+        }
+      },
+      "result_sha256": "ca8da1355794d03974a6af12c6e2acfe3569dc13bd3a07de1ef709abab39a9c4"
+    },
+    {
+      "condition": "R0S1",
+      "method": "evolution",
+      "seed": 405,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 49,
+          "slot": 12,
+          "digest": "861627397f44fff66d3e9093eb52512c990cc71571fa96bd6ba45d250ed897a4"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 3,
+          "digest": "1bd9ea8e858808d7f0fe0d8fc5116c83b4f8ab8d0988352e25da5cf245664b83"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "905cde51893ad396d44e6341c5c378e18413fa752d8b58fbc55a57628ac7cdb2"
+        }
+      },
+      "result_sha256": "63328774499a2f3777ed10e0f65bb3f7f03ac25d7e3ccff4a80f0cac6e35a595"
+    },
+    {
+      "condition": "R0S1",
+      "method": "evolution",
+      "seed": 406,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "dc32f22601f4b429507130adbce4cada0a4848169a1d00a0093e212cad0eeff8"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 7,
+          "digest": "f99e861ae9455d8b74363cd508db85f587e95577404370ebd6bd075cdbfa2a57"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "dc32f22601f4b429507130adbce4cada0a4848169a1d00a0093e212cad0eeff8"
+        }
+      },
+      "result_sha256": "c1b2faca5de363ba68c3d9cd8a7d78d2c638cec555e7ffa05788ce5db6e68b05"
+    },
+    {
+      "condition": "R0S1",
+      "method": "evolution",
+      "seed": 407,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 69,
+          "slot": 7,
+          "digest": "5e3912c5e1f81a98f4b09838298f6b6029fbf9e7070cf987a1320b92bcd5d7f8"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 6,
+          "digest": "08b0f917e22c089110655dbdd0be8a82b668c825b85832fc7114927e6435bce7"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "0a285a357f205aba3547ff6b71b53d5571f4c62f6317c58d61482623dbc629b5"
+        }
+      },
+      "result_sha256": "ce8a6c9c003758e25dc17c9da76892d934993d3ea7f23973f0980e2392e40760"
+    },
+    {
+      "condition": "R0S1",
+      "method": "evolution",
+      "seed": 408,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 89,
+          "slot": 1,
+          "digest": "2d06e63ee545e15fcb3f78958adc642bf072eec08892a8d9830e834cfd609339"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 17,
+          "digest": "4aba6fbfac855183146dfc5d716c4d2486c0d4c71d381052f150b134abc9865e"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "6b42b66f375d28b419b823e288b5c1a668b5d41fe1244722fbf5837cd356db29"
+        }
+      },
+      "result_sha256": "5f62c88ec14e48bafd718a2af6eabac954c9f8927a626b103c966533073128e6"
+    },
+    {
+      "condition": "R0S1",
+      "method": "evolution",
+      "seed": 409,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 69,
+          "slot": 3,
+          "digest": "c17144a8f6c6bf76c85142bdae7b02e21694ff121c022d2e4deeeba08627b7e9"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 18,
+          "digest": "5fb372a263e38ad4fc06bbd48dc763d27f4dfa31e15683477b9171e000cf2281"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 12,
+          "digest": "5e1ff73d7a43fdf734b6ad3ca32f081f15ca26d3f7dc4a3f94eacd0aa49a6cbb"
+        }
+      },
+      "result_sha256": "0b1e8f26b9b601d8d5577946ba62613507d8af4809b92b9b60e5cfdb61399125"
+    },
+    {
+      "condition": "R0S1",
+      "method": "evolution",
+      "seed": 410,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 17,
+          "digest": "ab4c9aa582075aacf53ef9190986b4947732a1deb05a59c66d1a5cca4e132922"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 12,
+          "digest": "98304a48e184d21b1e38afd72882fce263548a3961940ef220f5415d64b6239e"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 17,
+          "digest": "ab4c9aa582075aacf53ef9190986b4947732a1deb05a59c66d1a5cca4e132922"
+        }
+      },
+      "result_sha256": "f6cf7cd52dfed141428cc377393545d33319913738e035c8f3579c0e47c152cb"
+    },
+    {
+      "condition": "R0S1",
+      "method": "evolution",
+      "seed": 411,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 79,
+          "slot": 0,
+          "digest": "b6e3d01ad16ecffab5daa6af95be16df0211f677fad1676ff88671e2f0714707"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 3,
+          "digest": "dfb8f2b3fe1f0238b192d338f9cab931cc1e80187eb9db01ce254c9ace15f316"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "b6e3d01ad16ecffab5daa6af95be16df0211f677fad1676ff88671e2f0714707"
+        }
+      },
+      "result_sha256": "7a701167c797589c5b688f0db47ca25ff079439a78158fb15bc1cdb1cd403f24"
+    },
+    {
+      "condition": "R0S1",
+      "method": "evolution",
+      "seed": 412,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 29,
+          "slot": 15,
+          "digest": "dbaac847d159d5b6271156c091be1db93efda1f0bddcfe920ad8defa9bad3a9e"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 16,
+          "digest": "dedede7666ffe61959e2f3f1af617115aa19c3c5527e33a98d41629e86dbc35e"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "e6fbf0b8e1fed428f1f223c2b2a362d04ce84285f21c9911d9d0362fcaca0851"
+        }
+      },
+      "result_sha256": "6592819502d9c1ee84d3510be0d638350f1a3137b9c4f3036fe2e830b1f588a1"
+    },
+    {
+      "condition": "R0S1",
+      "method": "evolution",
+      "seed": 413,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 11,
+          "digest": "da633f7eaa4a344710ab9340b545dffc313df69673ce5b5d6cddc9fb536300ad"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 14,
+          "digest": "4f0e9687dc98d6d86dc7ba35893ef632f43a46684db028ff86e19a70b3c5eeed"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 11,
+          "digest": "da633f7eaa4a344710ab9340b545dffc313df69673ce5b5d6cddc9fb536300ad"
+        }
+      },
+      "result_sha256": "3748755ecd7dbcb6fb98a8684ba802ca9fd5ee52fa8d5641505a3aad72c5aa8f"
+    },
+    {
+      "condition": "R0S1",
+      "method": "evolution",
+      "seed": 414,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 5,
+          "digest": "de1fe975de501dd3f604c5152d04b5be294891cf7a6c189f9587d521147213e6"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 7,
+          "digest": "9cc3f472ef04dd51b393be6b98d4eaaefb776c91121b03aec5504747a37bd7ea"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 5,
+          "digest": "de1fe975de501dd3f604c5152d04b5be294891cf7a6c189f9587d521147213e6"
+        }
+      },
+      "result_sha256": "fce4245e6596fade8677bcf1a55844a57e8a9af3d9ff813589db8b99df14bc89"
+    },
+    {
+      "condition": "R0S1",
+      "method": "evolution",
+      "seed": 415,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 29,
+          "slot": 4,
+          "digest": "366e2653b0537f994ef25d3d927bd337c88ac7ee2826acfa1e07a5fc1274429c"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 0,
+          "digest": "6218369700fe934d467a8523317cc9d91b26c0b67c15b4e7f410d9d80be375e6"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "b68cf7d3ccf8e073b6eadefe4b4efd366abc3ee4102db79138eb7dbf2666f796"
+        }
+      },
+      "result_sha256": "c16369902cf2bbe902a8beae17ce4db777b67944674019adb3a2704073b8d724"
+    },
+    {
+      "condition": "R0S1",
+      "method": "evolution",
+      "seed": 416,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 9,
+          "digest": "abcf8ad0c8cdafde1d85aa7ebf62fd2d8a1d0e59d86d764b2d4c09381d655a07"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 3,
+          "digest": "b680f144b96ff57d7752ad573973528cbd3524a03ef4135369afdd87a3d21b3d"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 9,
+          "digest": "abcf8ad0c8cdafde1d85aa7ebf62fd2d8a1d0e59d86d764b2d4c09381d655a07"
+        }
+      },
+      "result_sha256": "334c67eba83377c425e367a34e3dd55e9f0b18a5fe5f9368d3c1abadb4c9c0c8"
+    },
+    {
+      "condition": "R0S1",
+      "method": "evolution",
+      "seed": 417,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 16,
+          "digest": "182b225920123c6efce034ae5e359e503c97bbcd06a4b0d5649208c24fc6d086"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 16,
+          "digest": "182b225920123c6efce034ae5e359e503c97bbcd06a4b0d5649208c24fc6d086"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "d9558d878282bc254eb6b9912003f561452ac53344a2b6fe09ae6503affaa65c"
+        }
+      },
+      "result_sha256": "ca12b7343f9b567accaecd8b706c7a9a81ccb9320d9b4492de5c0e9a87865ac0"
+    },
+    {
+      "condition": "R0S1",
+      "method": "evolution",
+      "seed": 418,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "503022940939a43b8917700351b20d9d60ab988f88cf2f7a058844b15134ad33"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 19,
+          "digest": "e143f4dbe6d77ded1398b0aa8836f17dc737038993202e3cd845687dfa11a686"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "503022940939a43b8917700351b20d9d60ab988f88cf2f7a058844b15134ad33"
+        }
+      },
+      "result_sha256": "21d27f6fa61ecbe4c6d4420ca6dd777e07963aa3fec911d41da92033cf7a5fcf"
+    },
+    {
+      "condition": "R0S1",
+      "method": "evolution",
+      "seed": 419,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 39,
+          "slot": 10,
+          "digest": "cfd7b09f7e63f8fb887289c8f9e9dd64dbe59e727d6a9a4c16344a6d0f6eaf52"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 0,
+          "digest": "cbc11eb0c32cd94aced18970fb66e7ef836412efc6196b7b697dc6aa9a2068be"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 4,
+          "digest": "e80c783e899cde7c78e5189aaf96371816e22345061d201e9247ac3eba296541"
+        }
+      },
+      "result_sha256": "1fd36218e8eb742ba6d7685f1fa6ccc27ff6605530c282cf08e19d64fa5a3bea"
+    },
+    {
+      "condition": "R0S1",
+      "method": "evolution",
+      "seed": 420,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 79,
+          "slot": 12,
+          "digest": "6c93f3ed541ed298539354c3709161dc86815128fcd5550a3051a11a0c99d1c1"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 4,
+          "digest": "d2eba1059a16a4da6a89dd9b8be00a60318acd92f21b244c9a22c7132650dc63"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "6a0c776997359eaf4514341733c10dccb8ee02738739db415607083210b28ccb"
+        }
+      },
+      "result_sha256": "d558ddd12c229de2234d1e7f9ad2ca8e08dacccbe0e0597080d94749857c8af6"
+    },
+    {
+      "condition": "R1S1",
+      "method": "evolution",
+      "seed": 401,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 89,
+          "slot": 0,
+          "digest": "67206ea671e1fa1c9a880e14dd33e0019b7cf46a90044f9de5af07b7e4ff0de8"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 16,
+          "digest": "18733854040fed3f84444feac86b54f54b8ca45f073b69807e7f9ad14674486e"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 13,
+          "digest": "51d68b0beb3c77619f7b40e03855be4e2fde4918e75cb7255f2351fdfcdda36a"
+        }
+      },
+      "result_sha256": "d21d9216b2044be5401ba217c00f66be831dfc98022211de151b53ae7d8552b1"
+    },
+    {
+      "condition": "R1S1",
+      "method": "evolution",
+      "seed": 402,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "1b764a96d7f6e25057d09e426d34758686fcd6945bcf69cb9efbeb7a0f97494e"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 9,
+          "digest": "9913e0876f74771c0e7acd9e200283fe869c1c2c4a41892471a907bb4aa345c4"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "1b764a96d7f6e25057d09e426d34758686fcd6945bcf69cb9efbeb7a0f97494e"
+        }
+      },
+      "result_sha256": "a9ebc9b972f32036890ce41f01e1eebd4c55f9e7db56845610f7c73ffd521809"
+    },
+    {
+      "condition": "R1S1",
+      "method": "evolution",
+      "seed": 403,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 89,
+          "slot": 1,
+          "digest": "3f823e5b21d5c598a967438e2d6462329db271eb427aeebc911bd379db08316c"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 2,
+          "digest": "556870088e86183aa126ac5fef2c0fc3583b2f1dde67f6620d9e203b74c25f49"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 11,
+          "digest": "d8c04d186b5be930ade2f0f6217bab369dc1a11db4bb5b386849523562c06c3d"
+        }
+      },
+      "result_sha256": "88fd3ec94d924481c741d77c08599650071039c979ef8c45fa9e2c70fee8d937"
+    },
+    {
+      "condition": "R1S1",
+      "method": "evolution",
+      "seed": 404,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 1,
+          "digest": "32decba3192805f94080a6ed7f85f69cb1dcef1e29530908df546f06234410b6"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 11,
+          "digest": "42e0309bef4b483a28e2b0248ea2767a9c39bcba813c1567e2dde070f3106b77"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 1,
+          "digest": "32decba3192805f94080a6ed7f85f69cb1dcef1e29530908df546f06234410b6"
+        }
+      },
+      "result_sha256": "4df1922ca52afe2b580e386511ca2d929253cad1a380a8af8f5a848369500803"
+    },
+    {
+      "condition": "R1S1",
+      "method": "evolution",
+      "seed": 405,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 89,
+          "slot": 13,
+          "digest": "bcd28cdd628f223464e1d783083729ee577bd564d2c2053acac4bdceca1317b8"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 3,
+          "digest": "1bd9ea8e858808d7f0fe0d8fc5116c83b4f8ab8d0988352e25da5cf245664b83"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 13,
+          "digest": "5ec7d884c115ee875779a9668295d162c316ac3baf81ca318691335b3ee208a0"
+        }
+      },
+      "result_sha256": "4d77a5cf27da0b5e1453b97affc5d7006a755f78c4ee5ec033eb344801fff961"
+    },
+    {
+      "condition": "R1S1",
+      "method": "evolution",
+      "seed": 406,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 11,
+          "digest": "59839b99c0b0d1b36257df6f977130efe9711501499ae2528f6833184147cb3a"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 7,
+          "digest": "f99e861ae9455d8b74363cd508db85f587e95577404370ebd6bd075cdbfa2a57"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 11,
+          "digest": "59839b99c0b0d1b36257df6f977130efe9711501499ae2528f6833184147cb3a"
+        }
+      },
+      "result_sha256": "db88bbbe14b4b13170e0463021fb0a9be583bc1239e4bebad49de9367fce6165"
+    },
+    {
+      "condition": "R1S1",
+      "method": "evolution",
+      "seed": 407,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 19,
+          "slot": 4,
+          "digest": "f1427f642f1503f9385c523f94471568da308b2af1e3a4b350de203ef4acc5e4"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 6,
+          "digest": "08b0f917e22c089110655dbdd0be8a82b668c825b85832fc7114927e6435bce7"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "34fc6633654337f6c79fcbdbae39117d6062785aa04bf31552f8a5c99d9377cc"
+        }
+      },
+      "result_sha256": "c26e32922f1ed643a5a616e33c95a818367026209ecd33e8f5ec2b265160a80b"
+    },
+    {
+      "condition": "R1S1",
+      "method": "evolution",
+      "seed": 408,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 69,
+          "slot": 7,
+          "digest": "d70ad34bea77492234b0bd65031c04840281c822ce0498da2dd8eefd1768cc2e"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 17,
+          "digest": "4aba6fbfac855183146dfc5d716c4d2486c0d4c71d381052f150b134abc9865e"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "d1fd31a2c1842bff05d78a8c1cb8ed906844456c92cc72cb555d6975b0f34a0a"
+        }
+      },
+      "result_sha256": "635bb66ecf617e16fe7f88dc49396e573f3576850490175d4d969ea0f6139505"
+    },
+    {
+      "condition": "R1S1",
+      "method": "evolution",
+      "seed": 409,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 59,
+          "slot": 0,
+          "digest": "7ff0ff56163700a8b3bdd2b2db6bdd78cdf6ab4391983289c4e0851e9efd30ea"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 18,
+          "digest": "5fb372a263e38ad4fc06bbd48dc763d27f4dfa31e15683477b9171e000cf2281"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "2656d91c56ef3a4b8f64d3f63e261812a61ceafcfd467b974235e74b5fbcfe32"
+        }
+      },
+      "result_sha256": "bc26b93f50053a51f74d3eeb43ad48e923bfd4ca6cdbd6314ae31e078a68484a"
+    },
+    {
+      "condition": "R1S1",
+      "method": "evolution",
+      "seed": 410,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 79,
+          "slot": 19,
+          "digest": "1be02a678ef5416f6149535a8b74e39025d6f5dcfc166f207b5bdf1ef4f5c402"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 12,
+          "digest": "98304a48e184d21b1e38afd72882fce263548a3961940ef220f5415d64b6239e"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 16,
+          "digest": "ac0eab13baa7954233ea44fe342bc87a4a167a7c8701fff7435f886c237f4dc0"
+        }
+      },
+      "result_sha256": "540803d525eb8c533d5b397556e25b96971c30e0cae70a811e601d7a3c6c1e28"
+    },
+    {
+      "condition": "R1S1",
+      "method": "evolution",
+      "seed": 411,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 59,
+          "slot": 11,
+          "digest": "a225428ef8ec685b4b88cc4313297bd4b0cdfec743de695be7434cf53e294b0a"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 3,
+          "digest": "dfb8f2b3fe1f0238b192d338f9cab931cc1e80187eb9db01ce254c9ace15f316"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "a225428ef8ec685b4b88cc4313297bd4b0cdfec743de695be7434cf53e294b0a"
+        }
+      },
+      "result_sha256": "a0e0f40c9a101067f88ca7371cdd4a9c4466792e6a49b0b6833a324a336502d6"
+    },
+    {
+      "condition": "R1S1",
+      "method": "evolution",
+      "seed": 412,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 59,
+          "slot": 17,
+          "digest": "b49549c1da2cceea96d51b9d2ee31ad113f461f8574fbb2c65bb51f99df5365c"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 16,
+          "digest": "dedede7666ffe61959e2f3f1af617115aa19c3c5527e33a98d41629e86dbc35e"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "cbc216ddd5107ea751c0819b556eae6b212a6611f6432d67d6bdcef3552969a4"
+        }
+      },
+      "result_sha256": "4c58fd028c3bd0ae70c8c517adbd33e0e7048619729851e9d3a7b2a54d673d35"
+    },
+    {
+      "condition": "R1S1",
+      "method": "evolution",
+      "seed": 413,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 59,
+          "slot": 17,
+          "digest": "6fc8677ebc56feb1eed59f0c3cda6eff5234e4d7ee50e2ec3d47cd396c567da5"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 14,
+          "digest": "4f0e9687dc98d6d86dc7ba35893ef632f43a46684db028ff86e19a70b3c5eeed"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 2,
+          "digest": "39ddfe98e658d7f5565b17e718d4f84a57580561938f23b72757cd9ab009ce7f"
+        }
+      },
+      "result_sha256": "1e83efa002cc7a62704332bc76663f2a418bac57d1ff0b81afc2f284aee92488"
+    },
+    {
+      "condition": "R1S1",
+      "method": "evolution",
+      "seed": 414,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 1,
+          "digest": "a27b15e997ace2b38658613fe112148be01116c0d5b0ec9590d96800c8d4cc89"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 7,
+          "digest": "9cc3f472ef04dd51b393be6b98d4eaaefb776c91121b03aec5504747a37bd7ea"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 1,
+          "digest": "a27b15e997ace2b38658613fe112148be01116c0d5b0ec9590d96800c8d4cc89"
+        }
+      },
+      "result_sha256": "7391fd42fca0e5cf64f410e7065926e92cfa31cb51646694fc7612c7f0fd9cc0"
+    },
+    {
+      "condition": "R1S1",
+      "method": "evolution",
+      "seed": 415,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 12,
+          "digest": "b197c463de1302738663f02ee2c4325b57a01fefc19d9bc4eba8c90caa62fa56"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 0,
+          "digest": "6218369700fe934d467a8523317cc9d91b26c0b67c15b4e7f410d9d80be375e6"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 12,
+          "digest": "b197c463de1302738663f02ee2c4325b57a01fefc19d9bc4eba8c90caa62fa56"
+        }
+      },
+      "result_sha256": "3a56af1872aae795e887181f65564b6da4c024cf1daa7ccdac1e5803502ea640"
+    },
+    {
+      "condition": "R1S1",
+      "method": "evolution",
+      "seed": 416,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 10,
+          "digest": "58bcd8a893555bf6a032f009bd1fe4c9dd41391c478f641fb62c4ada9fa04f4f"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 3,
+          "digest": "b680f144b96ff57d7752ad573973528cbd3524a03ef4135369afdd87a3d21b3d"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 10,
+          "digest": "58bcd8a893555bf6a032f009bd1fe4c9dd41391c478f641fb62c4ada9fa04f4f"
+        }
+      },
+      "result_sha256": "cd4a91ec42a78b605ba7a42657fb98cafea5cd5104ae3a6ceb995615bedb1407"
+    },
+    {
+      "condition": "R1S1",
+      "method": "evolution",
+      "seed": 417,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 89,
+          "slot": 0,
+          "digest": "2bf8183868a5fd6866b5a00eff31c4091d8e16fe695ab774b19af82ba2fbd418"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 16,
+          "digest": "182b225920123c6efce034ae5e359e503c97bbcd06a4b0d5649208c24fc6d086"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "3d6918059714c76c199eb06e955c9ee76dd2465b8d40ef55e86cb0b99dc6f9c2"
+        }
+      },
+      "result_sha256": "cc0c55cf79e26889ea7c667656bbf10073c48268b5893a5bc3113d687b0079ab"
+    },
+    {
+      "condition": "R1S1",
+      "method": "evolution",
+      "seed": 418,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 14,
+          "digest": "5765f9aae3abaca8d44c5e40a63da66de4b5d9e5f5c7baa8b0c92318bd0dedf1"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 19,
+          "digest": "e143f4dbe6d77ded1398b0aa8836f17dc737038993202e3cd845687dfa11a686"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 14,
+          "digest": "5765f9aae3abaca8d44c5e40a63da66de4b5d9e5f5c7baa8b0c92318bd0dedf1"
+        }
+      },
+      "result_sha256": "2d96ac281505a58da527d80962116075773163b301b5916d63c37dc44d2b2bd2"
+    },
+    {
+      "condition": "R1S1",
+      "method": "evolution",
+      "seed": 419,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "fc8498dc94e1b138590acab4a2c42dfa845a12392e7811fa42634e54e0f6aca2"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 0,
+          "digest": "cbc11eb0c32cd94aced18970fb66e7ef836412efc6196b7b697dc6aa9a2068be"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "fc8498dc94e1b138590acab4a2c42dfa845a12392e7811fa42634e54e0f6aca2"
+        }
+      },
+      "result_sha256": "d05cc5272155c155acca30bdb672667d68657f575f6a3d4cf5ecf31702953b1d"
+    },
+    {
+      "condition": "R1S1",
+      "method": "evolution",
+      "seed": 420,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 4,
+          "digest": "d2eba1059a16a4da6a89dd9b8be00a60318acd92f21b244c9a22c7132650dc63"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 4,
+          "digest": "d2eba1059a16a4da6a89dd9b8be00a60318acd92f21b244c9a22c7132650dc63"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "b86823a8e290c76558fb35b75abcdbe88d3e7fc271d8c01b2b4faca7e0611ec0"
+        }
+      },
+      "result_sha256": "ca515c6167f2c5d44daa5406c001fd016aadead6e4386958f7eab5b5c3313a8a"
+    },
+    {
+      "condition": "R0S0",
+      "method": "random",
+      "seed": 401,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 39,
+          "slot": 11,
+          "digest": "583a66f8c517299a790df9dc3aa9da029642f49bdb8457fc50c7f0b9fcb1a0da"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 16,
+          "digest": "18733854040fed3f84444feac86b54f54b8ca45f073b69807e7f9ad14674486e"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 6,
+          "digest": "b2537f4eb7e48df839777b125217e953c7c7cf31e6f13f01aec0261c0b5d0570"
+        }
+      },
+      "result_sha256": "9642127508577d067a77e6f51188d73388e729e1e3d3a167c65ec3299b281cb8"
+    },
+    {
+      "condition": "R0S0",
+      "method": "random",
+      "seed": 402,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 1,
+          "digest": "76becdaf2ffd5c494912f33cda8546c3a63489b30c374177e18e575a3b4a9697"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 9,
+          "digest": "9913e0876f74771c0e7acd9e200283fe869c1c2c4a41892471a907bb4aa345c4"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 1,
+          "digest": "76becdaf2ffd5c494912f33cda8546c3a63489b30c374177e18e575a3b4a9697"
+        }
+      },
+      "result_sha256": "2a41cd3889bedc3d9cfd79fb79b1fe06d945e90f7e79d4347e01ef89f0fb99d0"
+    },
+    {
+      "condition": "R0S0",
+      "method": "random",
+      "seed": 403,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 59,
+          "slot": 17,
+          "digest": "2e84c411bb8e05e849e3bc19c398893b91ef34db5151406a2ceda73efdb8ee5a"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 2,
+          "digest": "556870088e86183aa126ac5fef2c0fc3583b2f1dde67f6620d9e203b74c25f49"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "15def1b348349177050c7d7381fe98584e35fce74db6def806112d5a512f4db8"
+        }
+      },
+      "result_sha256": "3d31a08e4fe67af89167c7816ef2d8d253bfd31ff9d17bc7386752c019a6ca23"
+    },
+    {
+      "condition": "R0S0",
+      "method": "random",
+      "seed": 404,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 2,
+          "digest": "dd082c07c5a60a681c7d261e0dcab2cce3ce535f340e53716b02645653a29276"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 11,
+          "digest": "42e0309bef4b483a28e2b0248ea2767a9c39bcba813c1567e2dde070f3106b77"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 2,
+          "digest": "dd082c07c5a60a681c7d261e0dcab2cce3ce535f340e53716b02645653a29276"
+        }
+      },
+      "result_sha256": "d1333c4ac85340a7d26d4b71fd2cc3c8c9d38d7f2989cce1ba554dce70568873"
+    },
+    {
+      "condition": "R0S0",
+      "method": "random",
+      "seed": 405,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 79,
+          "slot": 15,
+          "digest": "1e988e9e513cded370629e4f06fa7d163f28f96e33fc7d517196e2c81ffb0c38"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 3,
+          "digest": "1bd9ea8e858808d7f0fe0d8fc5116c83b4f8ab8d0988352e25da5cf245664b83"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 13,
+          "digest": "73843848f835106cbf0a758f06ac650cfcba50f4a3cfe5d9155361e19096f44a"
+        }
+      },
+      "result_sha256": "81b7b3ba179d6bd2c4cf27c496f8565225ba8701f8c517d3223799814e3bee90"
+    },
+    {
+      "condition": "R0S0",
+      "method": "random",
+      "seed": 406,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 19,
+          "slot": 3,
+          "digest": "a50c832fbb048b7976068766b05928330803c592fb61a621b4c21235d812a738"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 7,
+          "digest": "f99e861ae9455d8b74363cd508db85f587e95577404370ebd6bd075cdbfa2a57"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 9,
+          "digest": "29bf6daf5087eed6a138708d16ddcb99c23accaefc80cf93679ab0333510da04"
+        }
+      },
+      "result_sha256": "746007af012d95ef9bfb9614e574d6e9aa681915bf51bb0d3ace86be89f3e65b"
+    },
+    {
+      "condition": "R0S0",
+      "method": "random",
+      "seed": 407,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 29,
+          "slot": 2,
+          "digest": "94f014e2b773e7c04a4be4a5c1f360e71bb23e785ae0728b27e44f0716faecaf"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 6,
+          "digest": "08b0f917e22c089110655dbdd0be8a82b668c825b85832fc7114927e6435bce7"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 6,
+          "digest": "0097e2696f2f5ee775ba1d5454a948b1134b841b8891c300c7597e8e13e1dafa"
+        }
+      },
+      "result_sha256": "bb7fbd22b4cd735246b5eb90e6d8fef4d176abfc676dbc54514b6fc9a29bf19b"
+    },
+    {
+      "condition": "R0S0",
+      "method": "random",
+      "seed": 408,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 49,
+          "slot": 9,
+          "digest": "49c8797dd9d4282bf73d21a069655e366486b5924ec38cb190fe95d9f7f98c69"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 17,
+          "digest": "4aba6fbfac855183146dfc5d716c4d2486c0d4c71d381052f150b134abc9865e"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 1,
+          "digest": "5e5357f8167eb999477c9dcbae4e654779a75ab56d0b8b773927d0fcbf4e2f08"
+        }
+      },
+      "result_sha256": "4e6a8919d38dd327f045c7b5b56361123207b597f935393d5df6c6c2a209c8f1"
+    },
+    {
+      "condition": "R0S0",
+      "method": "random",
+      "seed": 409,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 69,
+          "slot": 2,
+          "digest": "5573f53f05d7e6843bf29889035a679978f3e4acc8d1d2eeec923778ec2401a2"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 18,
+          "digest": "5fb372a263e38ad4fc06bbd48dc763d27f4dfa31e15683477b9171e000cf2281"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 16,
+          "digest": "7b2cc4cbceb276ef03ec828ac352245ee02743e0bf0336f81a7826cf9e26698a"
+        }
+      },
+      "result_sha256": "79c252c135ffcfea2336dcef8c12e4578fa1cb5d504ea44467ac41195a2e7c8c"
+    },
+    {
+      "condition": "R0S0",
+      "method": "random",
+      "seed": 410,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 79,
+          "slot": 17,
+          "digest": "9728fe05759ef070ad886ba59e7ea3083f933a39aadfd13cdb60136912acb01a"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 12,
+          "digest": "98304a48e184d21b1e38afd72882fce263548a3961940ef220f5415d64b6239e"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 18,
+          "digest": "97f75d28b31d098a815e0252ef5945e80cc0a21b6bcd6e0c0f7aa963115756d0"
+        }
+      },
+      "result_sha256": "fcedfb16887da6175427667561eeb379a1e3cd7ceb93c87a09de3b113060c72d"
+    },
+    {
+      "condition": "R0S0",
+      "method": "random",
+      "seed": 411,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 9,
+          "slot": 8,
+          "digest": "fd7a2adaf31521b4ca2077cc0e162446994e8dafd80e77aebda021b12844eaa7"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 3,
+          "digest": "dfb8f2b3fe1f0238b192d338f9cab931cc1e80187eb9db01ce254c9ace15f316"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 13,
+          "digest": "d486adefdfc452d829e3b083735a68866f522670e3c03fd7da7cff0715e26fa1"
+        }
+      },
+      "result_sha256": "c381051706a0310e0628b7b88627388979576a73abdb58a616a245eedd31cdd7"
+    },
+    {
+      "condition": "R0S0",
+      "method": "random",
+      "seed": 412,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 39,
+          "slot": 11,
+          "digest": "da46ef77970a8bb1ccf5435a17698d921a5c52525a0dab59eef9da3bcf8eae8a"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 16,
+          "digest": "dedede7666ffe61959e2f3f1af617115aa19c3c5527e33a98d41629e86dbc35e"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 6,
+          "digest": "53355008c39c4950270e01b21f93b5c63305fcda8d58c333178ef8b199fb4e60"
+        }
+      },
+      "result_sha256": "9c9f148182a3a3ee97be28231db02e8e06ebb6c0270de238892f3ffaef3cf538"
+    },
+    {
+      "condition": "R0S0",
+      "method": "random",
+      "seed": 413,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 59,
+          "slot": 2,
+          "digest": "35aee02679033b54ca4b3b608b9b9f2c9791ba776baa11c605a9f01b5fea8f54"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 14,
+          "digest": "4f0e9687dc98d6d86dc7ba35893ef632f43a46684db028ff86e19a70b3c5eeed"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 8,
+          "digest": "e98994e119d5cf86ebac9dd6bb49b9d52fc55156883aa2d5fe754022ac7a8df9"
+        }
+      },
+      "result_sha256": "7d98edab73ed5668a1f680e0eda33d9e5625c9f5a4e24c56b13d253dd2fb5a42"
+    },
+    {
+      "condition": "R0S0",
+      "method": "random",
+      "seed": 414,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 19,
+          "slot": 8,
+          "digest": "160d31571e58ab5194a6bc5e4813d4d285ec3ac0828feccd2df847b96eea0e44"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 7,
+          "digest": "9cc3f472ef04dd51b393be6b98d4eaaefb776c91121b03aec5504747a37bd7ea"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "16884161d60f2b170fda474b9947802a60b65f389807a4cee12647630cabd95d"
+        }
+      },
+      "result_sha256": "13e226ead669cc9674d4ec65c8641524d6087a7eb1e1bf92ab090615548e12fe"
+    },
+    {
+      "condition": "R0S0",
+      "method": "random",
+      "seed": 415,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 89,
+          "slot": 9,
+          "digest": "8e96530f7a7727557657da9ee64007911d8fc802d1734c21ddea61c80fd989a0"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 0,
+          "digest": "6218369700fe934d467a8523317cc9d91b26c0b67c15b4e7f410d9d80be375e6"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 0,
+          "digest": "ed3e7ec4f965e86b1a0af416a344a5caaeed48cec25534a844fadfd12c30d6aa"
+        }
+      },
+      "result_sha256": "4ccd175d16c05a0537eb5ff907ba362d17a5ab66f33efed5bdc4cd8a0a3e0665"
+    },
+    {
+      "condition": "R0S0",
+      "method": "random",
+      "seed": 416,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 49,
+          "slot": 5,
+          "digest": "eb164a96f10dfd67bc85f822199edd767e97d84d248064cd16682905ca4ec1ed"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 3,
+          "digest": "b680f144b96ff57d7752ad573973528cbd3524a03ef4135369afdd87a3d21b3d"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 15,
+          "digest": "37c8e83fa1899fb2d3333e5aa420a0ffd3c618e8db190ab764a6e61770896701"
+        }
+      },
+      "result_sha256": "8e6d223d2c901ce1e0cc2769fea38a9d678ac589a8797f0a4bb66b6183d9af69"
+    },
+    {
+      "condition": "R0S0",
+      "method": "random",
+      "seed": 417,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 16,
+          "digest": "182b225920123c6efce034ae5e359e503c97bbcd06a4b0d5649208c24fc6d086"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 16,
+          "digest": "182b225920123c6efce034ae5e359e503c97bbcd06a4b0d5649208c24fc6d086"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 18,
+          "digest": "5c1862b0d90a8db843b31ca5e5d436affa903928251097766e51957f74191c27"
+        }
+      },
+      "result_sha256": "78045489e785f94571ce0d9e148a244e9fedcf66da6e89de14714da658f82d66"
+    },
+    {
+      "condition": "R0S0",
+      "method": "random",
+      "seed": 418,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 9,
+          "digest": "5c456beac57f6c074052d8d5b38b8b9c412f2c7bf342ae7b1d93654c1687d068"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 19,
+          "digest": "e143f4dbe6d77ded1398b0aa8836f17dc737038993202e3cd845687dfa11a686"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 9,
+          "digest": "5c456beac57f6c074052d8d5b38b8b9c412f2c7bf342ae7b1d93654c1687d068"
+        }
+      },
+      "result_sha256": "2c8b3b11f9c02f89c1db513c9a4a398b3e11c0e58c3b4f0035edcff311e2f768"
+    },
+    {
+      "condition": "R0S0",
+      "method": "random",
+      "seed": 419,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 59,
+          "slot": 1,
+          "digest": "46ef670d1cfbd7ffc7fb5a35ec9550212d6633fd13cf872ef20e125741444e4e"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 0,
+          "digest": "cbc11eb0c32cd94aced18970fb66e7ef836412efc6196b7b697dc6aa9a2068be"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 17,
+          "digest": "44375dec7705814b8a2632cb1a58dbd283bd290acf9d1a4bedeb4a81e095e1f6"
+        }
+      },
+      "result_sha256": "ce25e72c22ff59cae06bf7d880656f02c7da866adab8848a4a2b115039ad3d69"
+    },
+    {
+      "condition": "R0S0",
+      "method": "random",
+      "seed": 420,
+      "roles": {
+        "best": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 4,
+          "digest": "d2eba1059a16a4da6a89dd9b8be00a60318acd92f21b244c9a22c7132650dc63"
+        },
+        "initial": {
+          "selection_source": "validation",
+          "round": 0,
+          "slot": 4,
+          "digest": "d2eba1059a16a4da6a89dd9b8be00a60318acd92f21b244c9a22c7132650dc63"
+        },
+        "final": {
+          "selection_source": "validation",
+          "round": 99,
+          "slot": 7,
+          "digest": "7e3e841bc9bd118809ff06096aa92f8e0bb8cf170604392593a2e5e451bd94bb"
+        }
+      },
+      "result_sha256": "f6b0a483157f12ffaf0a7bca3fda0313e5efb89e58482c2af252a66ebb64acc8"
+    }
+  ]
+}

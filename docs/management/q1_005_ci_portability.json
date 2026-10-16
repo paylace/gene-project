@@ -10,5 +10,11 @@
   "local_result": "passed",
   "local_log": "dist/q1005_portable_check.log",
   "production_scope": "no benchmark test performance inspected for this change; no search/reward/selection settings changed",
-  "independent_review": false
+  "independent_review": false,
+  "failure_log_excerpt": "dist/q1005_github_ci_failure_tail.log",
+  "portable_github_run": "https://github.com/paylace/gene-project/actions/runs/38848339921",
+  "portable_github_result": "success",
+  "portable_github_commit": "8100f629c9b06ba73fdb4e5a7331cb66367ea7d2",
+  "production_candidate_source_check": "docs/management/q1_005_candidate_sources.json",
+  "production_candidate_sources_passed": true
 }
