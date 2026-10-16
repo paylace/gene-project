@@ -1,0 +1,8 @@
+{
+  "stage": "before official pilot and main",
+  "initial_gate": "docs/management/q1_009_execution_gate.json",
+  "issue": "all commands passed, but regex count missed52+35 tests whose wrapper prints JSON; reported86 instead of173",
+  "handling": "preserved initial gate; corrected gate driver to read structured counts; rerun to separate final gate",
+  "scientific_source_changed": false,
+  "pilot_or_main_runs_before_correction": 0
+}

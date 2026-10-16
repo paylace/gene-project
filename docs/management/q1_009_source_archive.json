@@ -1,0 +1,9 @@
+{
+  "archive": "dist/q1009_source_754e63145e9b4712d64cee0c2f5831905bc416e4a4069ce30e7db34852faff49.zip",
+  "archive_sha256": "2b56a5bdc0836bd4b8146e49e14f7b93877be9145037a096587d2f9c42824bf7",
+  "source_digest": "754e63145e9b4712d64cee0c2f5831905bc416e4a4069ce30e7db34852faff49",
+  "source_files": 45,
+  "new_files": 11,
+  "frozen_dependency_files": 34,
+  "gate": "docs/management/q1_009_execution_gate_final.json"
+}
