@@ -1,0 +1,14 @@
+{
+  "pre_pilot_checks": [
+    {
+      "gate": "docs/management/q1_005_execution_gate.json",
+      "passed": true,
+      "new_tests": 46,
+      "previous_tests": 99,
+      "source_digest": "c4676f1f1fb2f8045bdb0468558c4db37c04a45156e5d44f87f04a286a851772"
+    }
+  ],
+  "reason_for_final_gate_revision": "before any pilot: exact 1/300 R1 totals and 1e-12 threshold boundary; added two numeric regression cases",
+  "scientific_conditions_unchanged": true,
+  "production_evaluations_before_final_gate": 0
+}
