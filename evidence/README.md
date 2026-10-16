@@ -17,7 +17,7 @@ python -B -X utf8 tools/check_research_layout.py --tests --require-data
 
 ## Q1-004 v0.2 원자료
 
-새 보관본은 `q1_004_v02_raw_2026-10-16.zip`이며 약580MB·20,685파일이다. [별도 목록](q1_004_v02.json)에 ZIP·내부 MANIFEST의 SHA-256을 기록했다. 기존 세 ZIP과 목록은 유지한다. 새 ZIP에는 동결 소스 보관본, 예비·본·확인 전체 회차·attempt·체크포인트·후보·시험·관찰·프로브·감사와 기술 재검사 기록이 들어 있다. Release 게시 상태는 별도 배포 기록에서 확인한다.
+새 보관본은 [Q1-004 Release](https://github.com/paylace/gene-project/releases/tag/q1-004-v02-2026-10-16)의 `q1_004_v02_raw_2026-10-16.zip`이며 약580MB·20,685파일이다. [직접 다운로드](https://github.com/paylace/gene-project/releases/download/q1-004-v02-2026-10-16/q1_004_v02_raw_2026-10-16.zip)와 [별도 목록](q1_004_v02.json)을 제공한다. ZIP·내부 MANIFEST의 SHA-256을 기록했고 GitHub의 첨부 파일 해시도 로컬과 일치했다. 기존 세 ZIP과 목록은 유지한다. 새 ZIP에는 동결 소스 보관본, 예비·본·확인 전체 회차·attempt·체크포인트·후보·시험·관찰·프로브·감사와 기술 재검사 기록이 들어 있다. [게시 기록](../docs/management/q1_004_release.json)에서 대상 커밋과 첨부 파일 식별자를 확인한다.
 
 다운로드 후 저장소 루트에서 실행한다.
 
