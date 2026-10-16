@@ -1,0 +1,210 @@
+{
+  "diagnostic": "Q1-008 initial genome reactivity (post-hoc, exploratory)",
+  "created_utc": "2026-10-16T04:57:04.561221+00:00",
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "frozen_source_sha256": {
+    "environment.py": "626cc76b11a4b9f4d8e4f42a2792e5c2e93d30c5271a36d5613869c50f583d64",
+    "network.py": "ce95b9f9b6748d72a643ecce4b314f2db58cba87638dafb18c493441bd9f94f6",
+    "policy.py": "12a39793ab05445ca0cbffafca8fd4a717687cec01db7bc620a67d0354dd0621",
+    "settings.py": "6951ef8f80cc3f17b06ba208b603a934a63f80a860ac753d3f70043f92e9b226"
+  },
+  "script_sha256": "5529fdc0edca52e5ffe159178b860a16961327f81fc4f7a88ad103658e7be9e0",
+  "parameters": {
+    "genome_seeds": [
+      1000,
+      1299
+    ],
+    "episode_sample_seed": 0,
+    "episodes_per_genome": 40,
+    "episode_ids": [
+      "3:4,6,2",
+      "3:6,5,3",
+      "0:3,1,5",
+      "2:3,5,2",
+      "4:6,0,4",
+      "4:3,4,6",
+      "3:6,0,2",
+      "2:6,1,4",
+      "4:3,0,5",
+      "3:2,3,1",
+      "5:3,1,0",
+      "2:0,3,4",
+      "4:5,4,1",
+      "1:2,6,3",
+      "2:5,0,2",
+      "1:2,6,4",
+      "0:6,2,3",
+      "5:6,1,0",
+      "2:3,1,4",
+      "5:0,2,5",
+      "6:4,0,5",
+      "5:4,1,3",
+      "1:3,2,0",
+      "2:6,3,6",
+      "0:6,3,5",
+      "6:5,3,0",
+      "0:5,1,2",
+      "6:2,6,2",
+      "3:0,5,4",
+      "4:2,6,0",
+      "5:1,6,0",
+      "0:6,4,2",
+      "3:2,0,5",
+      "4:0,5,1",
+      "2:6,5,6",
+      "5:4,5,3",
+      "6:0,3,4",
+      "1:6,3,5",
+      "5:1,3,4",
+      "4:1,2,0"
+    ],
+    "decision": "argmax of logits, ties by Random(0) as in NetworkPolicy.act",
+    "total_episode_space": 1512
+  },
+  "conditions": [
+    {
+      "condition": "A0",
+      "genomes": 300,
+      "counts": {
+        "first_correct": 4140,
+        "first_total": 12600,
+        "responsive": 157,
+        "flips": 1034,
+        "adjacent": 18000,
+        "step_correct": 18340,
+        "steps": 288000,
+        "episodes": 12000,
+        "completed": 0,
+        "stuck": 11260,
+        "stuck_failed_collect": 3793,
+        "stuck_wall": 7008,
+        "stuck_other": 459,
+        "output_self_rec_over_1": 234,
+        "outputs": 900
+      },
+      "first_action_correct_rate": 0.32857142857142857,
+      "goal_responsive_genome_rate": 0.5233333333333333,
+      "adjacent_goal_change_flip_rate": 0.057444444444444444,
+      "all_step_correct_rate": 0.06368055555555556,
+      "completion_rate": 0.0,
+      "last6_identical_rate": 0.9383333333333334,
+      "stuck_breakdown_share": {
+        "failed_collect": 0.33685612788632324,
+        "wall_collision": 0.6223801065719361,
+        "other_moving": 0.040763765541740674
+      },
+      "output_self_rec_weight_over_1_share": 0.26,
+      "episode_peak_abs_logit": {
+        "median": 32.14360520926171,
+        "p90": 294.38019095532513,
+        "max": 951.9782961029557
+      }
+    },
+    {
+      "condition": "A1",
+      "genomes": 300,
+      "counts": {
+        "first_correct": 4140,
+        "first_total": 12600,
+        "responsive": 157,
+        "flips": 1034,
+        "adjacent": 18000,
+        "step_correct": 19779,
+        "steps": 287989,
+        "episodes": 12000,
+        "completed": 3,
+        "stuck": 10471,
+        "stuck_failed_collect": 3647,
+        "stuck_wall": 6521,
+        "stuck_other": 303,
+        "output_self_rec_over_1": 0,
+        "outputs": 900
+      },
+      "first_action_correct_rate": 0.32857142857142857,
+      "goal_responsive_genome_rate": 0.5233333333333333,
+      "adjacent_goal_change_flip_rate": 0.057444444444444444,
+      "all_step_correct_rate": 0.06867970651656834,
+      "completion_rate": 0.00025,
+      "last6_identical_rate": 0.8725833333333334,
+      "stuck_breakdown_share": {
+        "failed_collect": 0.3482952917581893,
+        "wall_collision": 0.6227676439690574,
+        "other_moving": 0.02893706427275332
+      },
+      "output_self_rec_weight_over_1_share": 0.0,
+      "episode_peak_abs_logit": {
+        "median": 2.0921750186373442,
+        "p90": 3.430062768884171,
+        "max": 5.8124300543999325
+      }
+    },
+    {
+      "condition": "A2",
+      "genomes": 300,
+      "counts": {
+        "first_correct": 4139,
+        "first_total": 12600,
+        "responsive": 157,
+        "flips": 990,
+        "adjacent": 18000,
+        "step_correct": 20976,
+        "steps": 287963,
+        "episodes": 12000,
+        "completed": 8,
+        "stuck": 10176,
+        "stuck_failed_collect": 3727,
+        "stuck_wall": 6168,
+        "stuck_other": 281,
+        "output_self_rec_over_1": 0,
+        "outputs": 900
+      },
+      "first_action_correct_rate": 0.3284920634920635,
+      "goal_responsive_genome_rate": 0.5233333333333333,
+      "adjacent_goal_change_flip_rate": 0.055,
+      "all_step_correct_rate": 0.07284269159579529,
+      "completion_rate": 0.0006666666666666666,
+      "last6_identical_rate": 0.848,
+      "stuck_breakdown_share": {
+        "failed_collect": 0.36625393081761004,
+        "wall_collision": 0.6061320754716981,
+        "other_moving": 0.027613993710691825
+      },
+      "output_self_rec_weight_over_1_share": 0.0,
+      "episode_peak_abs_logit": {
+        "median": 1.2192604058324024,
+        "p90": 1.9260092323301772,
+        "max": 3.5124421025199175
+      }
+    }
+  ],
+  "linear_solution": {
+    "genome": {
+      "modules": {
+        "m0": {
+          "op": "linear",
+          "bias": 0.0,
+          "memory_decay": 0.5
+        }
+      },
+      "ff": {
+        "out_0": {
+          "in_0": 6.0,
+          "in_1": -6.0
+        },
+        "out_1": {
+          "in_0": -6.0,
+          "in_1": 6.0
+        },
+        "out_2": {
+          "m0": 1.0
+        }
+      },
+      "rec": {}
+    },
+    "episodes": 1512,
+    "completed": 1512,
+    "completed_in_optimal_steps": 1512,
+    "note": "수작업 구성. 진화로 발견한 성적이 아님"
+  }
+}
