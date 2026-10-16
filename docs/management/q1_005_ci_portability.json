@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-16",
+  "failing_run": "https://github.com/paylace/gene-project/actions/runs/38847965400",
+  "frozen_suite": "48 passed on original Windows runtime; 47 passed and 1 failed on Linux Python 3.11.17",
+  "failed_test": "test_search.SearchTests.test_shared_random_genotypes_and_validation_winners_match_all_treatments",
+  "cause": "verification fixture with 3 rounds evaluates validation only at rounds 0 and 2 but verification-only fallback may select training metrics at round 1; R1 training-score metadata differs. Full candidate dictionary equality over this mixed-purpose fixture is too strong. Production main/confirmation never use the fallback.",
+  "preservation": "frozen 34 Python files, original 48 tests, original execution gate and all production data unchanged",
+  "replacement": "tools/check_q1005_portable.py runs original 47 tests plus 2 explicitly identified tests: 2-round all-validation equality of every candidate/action and 3-round production-branch validation-only selection",
+  "portable_tests": 49,
+  "local_result": "passed",
+  "local_log": "dist/q1005_portable_check.log",
+  "production_scope": "no benchmark test performance inspected for this change; no search/reward/selection settings changed",
+  "independent_review": false
+}
