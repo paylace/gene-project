@@ -1,0 +1,711 @@
+{
+  "scope": "post hoc technical replication after confirmation reversal",
+  "planned_episode_calls": 75600,
+  "actual_episode_calls_separate": 75600,
+  "jobs": 50,
+  "all_match": true,
+  "rows": [
+    {
+      "phase": "main",
+      "condition": "A0",
+      "seed": 201,
+      "digest": "659a3a5d41fdb17ffdad9582a4fa021e24da6058c431aef755400fa6bbf93773",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": 0.5710200821221791,
+        "out_1": 0.5893578869027872,
+        "out_2": 0.5084183226270328
+      },
+      "modules": 4
+    },
+    {
+      "phase": "main",
+      "condition": "A0",
+      "seed": 202,
+      "digest": "29842c9988b652820a279fe63a97bab47aaad2b4f8071b1050496b7d68c711d6",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": 0.6526096717333778,
+        "out_2": 1.1398033669726793
+      },
+      "modules": 5
+    },
+    {
+      "phase": "main",
+      "condition": "A0",
+      "seed": 203,
+      "digest": "da5eda701284723712db2ca02be9add17945d2f80227b34423c63d59ca993c4b",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": 0.7517760914222416,
+        "out_1": 0.9483733692732207,
+        "out_2": 0.8814427328606782
+      },
+      "modules": 4
+    },
+    {
+      "phase": "main",
+      "condition": "A0",
+      "seed": 204,
+      "digest": "75c645e8e844a857ac3b3dc87dcbe1fe9a09b2304d35a22f05589e11a12eb864",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": 0.7766793136999746,
+        "out_1": 0.6500674109097008,
+        "out_2": 0.7082244685860326
+      },
+      "modules": 5
+    },
+    {
+      "phase": "main",
+      "condition": "A0",
+      "seed": 205,
+      "digest": "e4865ea9c17e96a35890f29ebc61adf77467139b4775e30e23df1f2170c3d600",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": 1.1410086953427379,
+        "out_1": 1.3015414144926725,
+        "out_2": 1.0184607032246864
+      },
+      "modules": 5
+    },
+    {
+      "phase": "main",
+      "condition": "A0",
+      "seed": 206,
+      "digest": "b01a2e4fcec0720b70e5fd13593c0f6bb144544fd4067679c228d320f36a8116",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": 0.6843942657443053,
+        "out_1": 0.27128540109882254,
+        "out_2": 0.5218264334975844
+      },
+      "modules": 8
+    },
+    {
+      "phase": "main",
+      "condition": "A0",
+      "seed": 207,
+      "digest": "7b4c50c551ab3cd4dd54d38ef91d18f0255767bed5b785c8bf97dc16bb2e4107",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": 1.0272833929898806,
+        "out_1": 0.5318920399688764,
+        "out_2": 1.1374175104051427
+      },
+      "modules": 5
+    },
+    {
+      "phase": "main",
+      "condition": "A0",
+      "seed": 208,
+      "digest": "eb57451b296281eea7a8f2a61e314eb2b3d7e503dca719dafdcb9a53dfade3b3",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": 1.0986467211907267,
+        "out_1": 0.6297811210464376,
+        "out_2": 1.0163297032804142
+      },
+      "modules": 5
+    },
+    {
+      "phase": "main",
+      "condition": "A0",
+      "seed": 209,
+      "digest": "edc84872b7df8f75b9986bd91762d66f258c7b63f7fa6b0625619e8a0b165413",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": 0.10240406335406987,
+        "out_1": 0.670274732488474,
+        "out_2": 0.6468913573941165
+      },
+      "modules": 5
+    },
+    {
+      "phase": "main",
+      "condition": "A0",
+      "seed": 210,
+      "digest": "69e966aa413decf70a5d0884e66a6580477df5704994ca953ea771db14c9bcb7",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": 0.6967159484487008,
+        "out_1": 1.0897989187380692,
+        "out_2": 1.375686964161549
+      },
+      "modules": 5
+    },
+    {
+      "phase": "main",
+      "condition": "A1",
+      "seed": 201,
+      "digest": "1d6930aa42fe3ad21c2301e65ee3e622976a4f4330105f461fb9094ff4712045",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 4
+    },
+    {
+      "phase": "main",
+      "condition": "A1",
+      "seed": 202,
+      "digest": "8135e3ab56fbd960e5ea00b292474dee66f9b45cf3adb176c389f9fdc490ce7c",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 4
+    },
+    {
+      "phase": "main",
+      "condition": "A1",
+      "seed": 203,
+      "digest": "81947a1b609aecd06b3f1ba3524dbd0ef4a16ecd18937579bc6efa059e3854ce",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 6
+    },
+    {
+      "phase": "main",
+      "condition": "A1",
+      "seed": 204,
+      "digest": "4b3ab0d29a1058aa5552d53f66cb0cd6c381d669ce66b195d0537abb528e57f3",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 6
+    },
+    {
+      "phase": "main",
+      "condition": "A1",
+      "seed": 205,
+      "digest": "8cc18dddf0ddeff2a9a5a1b6c9180fd088645466d3e9761b951666bb1b1489da",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 8
+    },
+    {
+      "phase": "main",
+      "condition": "A1",
+      "seed": 206,
+      "digest": "1aa08902534e7d7475a34af034beaf4331d003f951fcf0882b4ab13d528efe44",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 6
+    },
+    {
+      "phase": "main",
+      "condition": "A1",
+      "seed": 207,
+      "digest": "395e12de30bc2a41d8554659f73914f3f3cebeee509571c4d5dbc860d7166809",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 5
+    },
+    {
+      "phase": "main",
+      "condition": "A1",
+      "seed": 208,
+      "digest": "6a74ee408231fe0ef641394c1d6a798736b3f780248e778e52209bb25f41eaad",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 5
+    },
+    {
+      "phase": "main",
+      "condition": "A1",
+      "seed": 209,
+      "digest": "35f4bb0ef81f50e81978943055413f01d91aab18eeaa457436252b6e2f181689",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 5
+    },
+    {
+      "phase": "main",
+      "condition": "A1",
+      "seed": 210,
+      "digest": "0f5ba93c4cd6d51d940c8a0e8657c9e785e5ec44f31015e2625c3c75868c72ce",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 4
+    },
+    {
+      "phase": "main",
+      "condition": "A2",
+      "seed": 201,
+      "digest": "f5ea2619aa7d862e231a0643ff9d4b71b61dd6adcc318af580f74cfda1e3ab55",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 4
+    },
+    {
+      "phase": "main",
+      "condition": "A2",
+      "seed": 202,
+      "digest": "5241670f961fff5a6441f54c0dd450bb6b6cfb4aad6b438df43ef5f46f457291",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 4
+    },
+    {
+      "phase": "main",
+      "condition": "A2",
+      "seed": 203,
+      "digest": "1532a8cd93fde1e0424586b1d99c079204ca1301e11505c658d22c2353e281ca",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 6
+    },
+    {
+      "phase": "main",
+      "condition": "A2",
+      "seed": 204,
+      "digest": "969485e737516280679facb6449fd74921e0f8b6366f2f70e089eb9174447fb5",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 5
+    },
+    {
+      "phase": "main",
+      "condition": "A2",
+      "seed": 205,
+      "digest": "51b15de5e19a2d1d33c6da8c08692fbb740bca053a320adac90623009158017c",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 9
+    },
+    {
+      "phase": "main",
+      "condition": "A2",
+      "seed": 206,
+      "digest": "0c94fae4c47cb9098d2745fd41b36108e5259ee60e0365b393d4bade537f736d",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 4
+    },
+    {
+      "phase": "main",
+      "condition": "A2",
+      "seed": 207,
+      "digest": "ae8036162ba59c2a80232161f2532b510e6c8c723a449011cf17af9b4aab38de",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 4
+    },
+    {
+      "phase": "main",
+      "condition": "A2",
+      "seed": 208,
+      "digest": "f1351c50f4865939468229f9a4b28575a7eaeacc422923b13981230d934bd2ff",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 5
+    },
+    {
+      "phase": "main",
+      "condition": "A2",
+      "seed": 209,
+      "digest": "056358f3ec0beab8c67b015a7b6e08f26f00dfbed482cafce36ab5de059dd3b8",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 5
+    },
+    {
+      "phase": "main",
+      "condition": "A2",
+      "seed": 210,
+      "digest": "16f1ec60f45be6c2b86d26bf2ed139fe95aea0e57b3b667a77bc20703d306631",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 5
+    },
+    {
+      "phase": "confirmation",
+      "condition": "A0",
+      "seed": 301,
+      "digest": "ff4067d02832ce3e75de81866fcffe7e6f8c264be0680a77d95ecb158ac7bba6",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": 0.9566251380447633,
+        "out_1": 1.1500159238914145,
+        "out_2": 0.2823490568861662
+      },
+      "modules": 6
+    },
+    {
+      "phase": "confirmation",
+      "condition": "A0",
+      "seed": 302,
+      "digest": "02065dbc36de61ae553d10d783f5fc7d2cf82b6b7dc0e4638cd0e73b4287767b",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": 0.7992992793807955,
+        "out_1": 0.7129438839790907,
+        "out_2": 0.8431784641392779
+      },
+      "modules": 4
+    },
+    {
+      "phase": "confirmation",
+      "condition": "A0",
+      "seed": 303,
+      "digest": "02974f1c92ca669d02c28f7ebe0b0ea1333065a04f0706fb3026eb5c9caeb3f5",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": 0.8117327485891699,
+        "out_1": 0.3119304145868396,
+        "out_2": 0.6002240927712328
+      },
+      "modules": 9
+    },
+    {
+      "phase": "confirmation",
+      "condition": "A0",
+      "seed": 304,
+      "digest": "2776138a37934cbb19c8b8793dc1c24c2a60de33ec7ff50b93892898d462a35a",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": 0.9224912865483561,
+        "out_1": 0.6312061618395168,
+        "out_2": 0.37069118911925886
+      },
+      "modules": 4
+    },
+    {
+      "phase": "confirmation",
+      "condition": "A0",
+      "seed": 305,
+      "digest": "21515a4053a35eb0a3db52b5efc01f59898550ae06c1647716ca8161d88ba9e6",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": 0.6952686329954777,
+        "out_1": 0.7501204969093,
+        "out_2": 1.0572167278935887
+      },
+      "modules": 6
+    },
+    {
+      "phase": "confirmation",
+      "condition": "A0",
+      "seed": 306,
+      "digest": "e1306ea6a9b352ab3bfb1e197c7320d81e80bf3795611f5f46b80c40881e83b7",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": 0.6309041770310806,
+        "out_1": 0.9691929700273959,
+        "out_2": 0.7004678070373944
+      },
+      "modules": 5
+    },
+    {
+      "phase": "confirmation",
+      "condition": "A0",
+      "seed": 307,
+      "digest": "bc9b2246d8599b3a7399c8ac39004b9e16f61ba30c3bb89f76fb7c0d1db4d597",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": 0.39371751586698267,
+        "out_1": 0.5784136096248025,
+        "out_2": 0.5125486508093402
+      },
+      "modules": 7
+    },
+    {
+      "phase": "confirmation",
+      "condition": "A0",
+      "seed": 308,
+      "digest": "9ac3efd00c86492095e06e732f360d2d0c217f1bb1d18064c47b5440f495ca3d",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": 0.9846381330861207,
+        "out_1": 0.2160934945856523,
+        "out_2": 1.1949290733375382
+      },
+      "modules": 4
+    },
+    {
+      "phase": "confirmation",
+      "condition": "A0",
+      "seed": 309,
+      "digest": "de68095e5d4a2154b81bb94255e252069ca431ffaa866d51f1279e17f331c4fa",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": 0.6714526615302364,
+        "out_1": 0.35933466688037297,
+        "out_2": 1.067592258796732
+      },
+      "modules": 5
+    },
+    {
+      "phase": "confirmation",
+      "condition": "A0",
+      "seed": 310,
+      "digest": "9beef2a7966933de21dbdda8c5b5b1e5b9fc3535dbfdde889ef16dbca3275790",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": 1.0935676055840495,
+        "out_1": 0.17869459064229887,
+        "out_2": 1.4541825838579907
+      },
+      "modules": 8
+    },
+    {
+      "phase": "confirmation",
+      "condition": "A1",
+      "seed": 301,
+      "digest": "6fc9fcbc85058de3e10417a65709b0b4668dd4fe6730f51624cec1c335aa101c",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 4
+    },
+    {
+      "phase": "confirmation",
+      "condition": "A1",
+      "seed": 302,
+      "digest": "2b6f1f187af205e1b76c9c0c5c1dfd342a2caacbdc71dc3f18cb5b6bfc442f71",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 7
+    },
+    {
+      "phase": "confirmation",
+      "condition": "A1",
+      "seed": 303,
+      "digest": "f15dc1961a510dd140fa1f94bffd6ca127279712e9b9ca7fcd18e347f3a9e891",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 6
+    },
+    {
+      "phase": "confirmation",
+      "condition": "A1",
+      "seed": 304,
+      "digest": "6b5a7be3cdf7cbc4c1bb4222c85e33b51749b0e8b7da69dabc8178fdab514a91",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 4
+    },
+    {
+      "phase": "confirmation",
+      "condition": "A1",
+      "seed": 305,
+      "digest": "f7b7908496ff68b4e28c86fee503ae631028b18a831c975834c8f123510c6ced",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 4
+    },
+    {
+      "phase": "confirmation",
+      "condition": "A1",
+      "seed": 306,
+      "digest": "3d212206d0a92da07603dc4750225d4647dd1c21c78898ee20ae6dbd9f8a73c6",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 5
+    },
+    {
+      "phase": "confirmation",
+      "condition": "A1",
+      "seed": 307,
+      "digest": "60b9466e5405f8df84a7f65639981cdcbbaac72ec4bcb5763fc9bc660ee211c7",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 9
+    },
+    {
+      "phase": "confirmation",
+      "condition": "A1",
+      "seed": 308,
+      "digest": "4471a21ff8fd29c0899187f1885ac47411b181aa8d0616b6fb0147d097fbc292",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 5
+    },
+    {
+      "phase": "confirmation",
+      "condition": "A1",
+      "seed": 309,
+      "digest": "52c0238a7bded8d0cd5c4f68cfad50a4cb4b7b4319621b878f1c5e05fd17d2cd",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 5
+    },
+    {
+      "phase": "confirmation",
+      "condition": "A1",
+      "seed": 310,
+      "digest": "4274e376c1654f1c865d058d642d5546cdc02c1e9db8505c58a9cdcaf75fd704",
+      "records_match": true,
+      "episode_calls": 1512,
+      "output_self_weights": {
+        "out_0": null,
+        "out_1": null,
+        "out_2": null
+      },
+      "modules": 5
+    }
+  ],
+  "no_search_or_reselection": true,
+  "no_changes_to_decision_gates": true
+}

@@ -1,0 +1,31 @@
+{
+  "A0_completed_jobs_checked": [
+    "evolution_201",
+    "evolution_202",
+    "evolution_203",
+    "evolution_204",
+    "evolution_205",
+    "evolution_206",
+    "evolution_207",
+    "evolution_208",
+    "evolution_209",
+    "evolution_210",
+    "random_201",
+    "random_202",
+    "random_203",
+    "random_204",
+    "random_205",
+    "random_206",
+    "random_207",
+    "random_208",
+    "random_209",
+    "random_210"
+  ],
+  "compared_fields": [
+    "genome",
+    "metrics",
+    "round",
+    "slot"
+  ],
+  "candidate_or_validation_mismatches": []
+}

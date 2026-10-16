@@ -1,0 +1,8 @@
+{
+  "stage": "post-experiment packaging",
+  "error": "relative output path passed to relative_to absolute workspace after ZIP CRC validation",
+  "original_archive_retained": true,
+  "action": "normalize paths and derive catalog from preserved ZIP; no experiment rerun",
+  "archive_sha256": "548345fa4182446100d64e67fb3ce6e87df2c911bd26636bebf65d0a95ee8580",
+  "scientific_results_changed": false
+}

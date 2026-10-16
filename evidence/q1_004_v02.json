@@ -1,0 +1,18 @@
+{
+  "experiment_id": "Q1-004",
+  "archive": "dist/q1_004_v02_raw_2026-10-16.zip",
+  "bytes": 579767229,
+  "sha256": "548345fa4182446100d64e67fb3ce6e87df2c911bd26636bebf65d0a95ee8580",
+  "files": 20685,
+  "uncompressed_bytes": 594739137,
+  "manifest_sha256": "6e1584fee752b15574f3899a38a0c945ebbc4a977058f7e13c1bc18003ea4c97",
+  "source_digest": "032467c82315c7e79f037de24b0636b0c65aa953d5bfbedeb954539fab04a984",
+  "protocol_digest": "ce2b6f304913bcb33ddada12efa6d0a5820a859a6ee55e476334692757518965",
+  "confirmation_condition": "A1",
+  "publication": "published; GitHub asset SHA-256 equals local archive",
+  "release_url": "https://github.com/paylace/gene-project/releases/tag/q1-004-v02-2026-10-16",
+  "download_url": "https://github.com/paylace/gene-project/releases/download/q1-004-v02-2026-10-16/q1_004_v02_raw_2026-10-16.zip",
+  "published_at": "2026-10-16T03:11:09Z",
+  "catalog_recovered_from_existing_archive": true,
+  "integrity_check": "input SHA-256 manifest and all ZIP CRC passed"
+}
