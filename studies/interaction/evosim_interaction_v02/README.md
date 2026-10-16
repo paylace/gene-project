@@ -15,3 +15,5 @@ python -B -X utf8 tools/check_q1_core.py
 검사 JSON/로그는 기본적으로 업로드 제외된 `dist/q1_core_verification/`에 생긴다. W1/W2 당시 기록은 루트 `docs/management/q1_004_core_checks.json`, 현재52개 패키지 검사+기존47개 게이트는 `docs/management/q1_004_execution_gate.json`이다. 실행 준비·예비·비용·명령은 `docs/management/Q1-004_실행준비검증.md`에 기록한다. 검사와 실제 성능 결과를 구분한다.
 
 본 패키지는 연구 디렉터리에서 `python -m evosim_interaction_v02.run pilot/main/confirmation`으로 실행한다. `--gate`가 필요하며 main은 matching-source 예비 비용 기록도 요구한다. confirmation은 본 비교의 사전 진행 기준이 통과한 조건만 허용한다. 예비에는 validation/test 평가가 없다. 본 테스트는 전 실행·blind 후보 잠금 뒤에만 열며 재평가 캐시는 같은 조건·시드·고정 프로토콜 내부에서만 사용한다.
+
+2026-10-16 본60·확인40실행을 완료했다. 본 비교의 A1 개선은 새 시드 확인에서 재현되지 않았다. 결과·범위·수행 기록은 저장소의 `docs/reports/Q1-004_구조제약_재진화비교.md`에 있다. 실행 소스20개는 당시 해시로 동결하며 결과에 맞춰 소급 변경하지 않는다.

@@ -1,0 +1,9 @@
+{
+  "archive": "dist/q1_004_v02_raw_2026-10-16.zip",
+  "files_checked": 20685,
+  "archive_and_member_sha256_passed": true,
+  "existing_local_files_all_match": true,
+  "restored_files": 0,
+  "verification_command": "python -B -X utf8 tools/restore_q1_004.py dist/q1_004_v02_raw_2026-10-16.zip --verify-only",
+  "console": "dist/q1_004_archive_verify_console.log"
+}

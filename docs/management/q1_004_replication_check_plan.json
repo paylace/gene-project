@@ -1,0 +1,23 @@
+{
+  "scope": "post hoc technical replication after confirmation reversal",
+  "phases": {
+    "main": [
+      "A0",
+      "A1",
+      "A2"
+    ],
+    "confirmation": [
+      "A0",
+      "A1"
+    ]
+  },
+  "methods": [
+    "evolution"
+  ],
+  "candidate_role": "best",
+  "repeats": 3,
+  "test_episodes": 504,
+  "planned_episode_calls": 75600,
+  "observe": false,
+  "comparison": "stored metrics and full plain records; no reselection or search; frozen kernels unchanged"
+}

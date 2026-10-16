@@ -17,7 +17,15 @@
     "random_205",
     "random_206",
     "random_207",
-    "random_208"
+    "random_208",
+    "random_209",
+    "random_210"
+  ],
+  "compared_fields": [
+    "genome",
+    "metrics",
+    "round",
+    "slot"
   ],
   "candidate_or_validation_mismatches": []
 }
