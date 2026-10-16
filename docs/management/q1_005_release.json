@@ -1,0 +1,11 @@
+{
+  "release_url": "https://github.com/paylace/gene-project/releases/tag/q1-005-v01-2026-10-16",
+  "release_id": 414535891,
+  "tag": "q1-005-v01-2026-10-16",
+  "target_commit": "865eb831546bca559b2dd53ef266ffd456d372cb",
+  "asset_url": "https://github.com/paylace/gene-project/releases/download/q1-005-v01-2026-10-16/q1005_v01_raw_2026-10-16.zip",
+  "asset_id": 646119548,
+  "bytes": 431845512,
+  "github_digest": "sha256:aecab20e2bd870a77722b67ecc49dfea79db487906fe401650c8a025de75d7f0",
+  "local_sha256": "aecab20e2bd870a77722b67ecc49dfea79db487906fe401650c8a025de75d7f0"
+}

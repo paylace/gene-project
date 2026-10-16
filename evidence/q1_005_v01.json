@@ -9,7 +9,15 @@
   "source_digest": "ccbf6e00f455aeabd76fb06e02574a45191a70c6e3637db34fd85463354a824c",
   "protocol_digest": "a3b26fda806ea1a204337781b370e0cf2cb5ce6d8b21c6214ff63cd13011f6e1",
   "confirmation_condition": null,
-  "publication": "local archive; release URL pending",
+  "publication": "published GitHub Release; remote size and SHA-256 matched",
   "catalog_recovered_from_existing_archive": false,
-  "integrity_check": "input SHA-256 manifest and all ZIP CRC passed"
+  "integrity_check": "input SHA-256 manifest and all ZIP CRC passed",
+  "release_url": "https://github.com/paylace/gene-project/releases/tag/q1-005-v01-2026-10-16",
+  "asset_url": "https://github.com/paylace/gene-project/releases/download/q1-005-v01-2026-10-16/q1005_v01_raw_2026-10-16.zip",
+  "publication_record": "docs/management/q1_005_release.json",
+  "local_archive_verification": {
+    "files_verified": 21678,
+    "missing_files": 0,
+    "restored_files": 0
+  }
 }
