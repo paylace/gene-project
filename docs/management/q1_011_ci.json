@@ -1,0 +1,12 @@
+{
+  "repository": "paylace/gene-project",
+  "commit": "ebc3dc18b98cb99ee4f47875e955ee6605b65c1c",
+  "workflow_run_id": 39028723508,
+  "workflow_run_number": 59,
+  "status": "completed",
+  "conclusion": "success",
+  "url": "https://github.com/paylace/gene-project/actions/runs/39028723508",
+  "scope": "최적화 구현 커밋의 Linux 워크플로. 신규17+6검사와 기존 회귀 검사 포함.",
+  "local_benchmark_episode_calls_exclude_ci": true,
+  "independent_review": false
+}

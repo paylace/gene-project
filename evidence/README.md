@@ -6,6 +6,8 @@
 
 [보관 목록](q1_011_v01.json)에 코드·입력·개발 실패 소스 스냅샷·전체 비교 사본2,367파일의37,852,665바이트 ZIP과 SHA-256을 기록했다. 측정용 여러 사본의 보관 크기이며 한 실험의 최소 로그 크기가 아니다. Git에는 실행 계획·개별 측정 메타데이터·요약·코드·보고서를 두고 실제 사본은 별도 보관본으로 배포한다.
 
+[Q1-011 Release](https://github.com/paylace/gene-project/releases/tag/q1-011-optimization-2026-10-17)에 게시했고 GitHub 첨부 해시가 로컬과 일치했다. [게시 기록](../docs/management/q1_011_release.json)을 확인한다.
+
 저장소 루트에서 범용 도구로 검사한다. `verify`는 읽기만 수행한다. `restore-missing`은 모든 내용과 기존 경로를 먼저 검사하고 없는 파일만 복원하며, 다른 기존 파일을 덮어쓰지 않는다.
 
 ```powershell
