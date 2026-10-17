@@ -1,3 +1,9 @@
+/studies/interaction/results_q1009_v01/**
+!/studies/interaction/results_q1009_v01/pilot/
+!/studies/interaction/results_q1009_v01/main/
+!/studies/interaction/results_q1009_v01/*/protocol.json
+!/studies/interaction/results_q1009_v01/*/cost_report.json
+!/studies/interaction/results_q1009_v01/*/summary.json
 __pycache__/
 # Q1-005 원자료도 보존·배포를 분리한다.
 /studies/interaction/results_q1005_v01/**

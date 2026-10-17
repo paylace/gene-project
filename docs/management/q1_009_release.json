@@ -1,0 +1,14 @@
+{
+  "release_url": "https://github.com/paylace/gene-project/releases/tag/q1-009-v01-2026-10-16",
+  "release_id": 415594021,
+  "tag": "q1-009-v01-2026-10-16",
+  "target_commit": "2248cd134008e138232030b3a695bf047a37706b",
+  "asset_url": "https://github.com/paylace/gene-project/releases/download/q1-009-v01-2026-10-16/q1009_v01_raw_2026-10-16.zip",
+  "asset_id": 649599878,
+  "bytes": 72003906,
+  "github_digest": "sha256:7884c09caa267bb2f0938d60448aac9edacb180fa19bafc9e9906024cc92ca36",
+  "local_sha256": "7884c09caa267bb2f0938d60448aac9edacb180fa19bafc9e9906024cc92ca36",
+  "publication_record_date_kst": "2026-10-17",
+  "experiment_date_kst": "2026-10-16",
+  "archive_identity_verified": true
+}
