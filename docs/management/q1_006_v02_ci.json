@@ -1,0 +1,10 @@
+{
+  "commit": "ec7998344cf034dc7552ae5481b1cf84108ac6a4",
+  "github_run_id": 39005909560,
+  "github_run_url": "https://github.com/paylace/gene-project/actions/runs/39005909560",
+  "status": "completed",
+  "conclusion": "success",
+  "local_full_gate_tests": 193,
+  "independent_review": false,
+  "scope": "Linux CI including Q1-006 v0.2 tests; scientific reproducibility not implied"
+}

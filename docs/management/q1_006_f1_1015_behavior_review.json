@@ -1,0 +1,437 @@
+{
+  "scope": "posthoc interpretation of existing selected candidate; no independent confirmation",
+  "seed": 1015,
+  "genome_digest": "cb924deb14ea58bd0092dfe7e81b6047ccf2cfecf20530220b14396635373028",
+  "modules": 8,
+  "test_metrics": {
+    "episodes": 1512,
+    "mean_collected": 3.0,
+    "mean_failed_collect": 1.2916666666666667,
+    "mean_reward": 2.781329365079365,
+    "mean_steps": 21.86706349206349,
+    "mean_walls": 2.8214285714285716,
+    "success_extra_steps": 10.101190476190476,
+    "success_rate": 1.0,
+    "ties": 0
+  },
+  "distinct_test_episodes": 504,
+  "repeats": 3,
+  "ties": 0,
+  "first_noncoordinate_action_distinct_episodes": 187,
+  "unique_visited_states": 510,
+  "goal_action_varying_groups": 79,
+  "time_action_varying_groups": 56,
+  "goal_examples": [
+    {
+      "position_remaining_goals_budget": [
+        1,
+        3,
+        24
+      ],
+      "actions_by_goal": {
+        "0": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 1
+      }
+    },
+    {
+      "position_remaining_goals_budget": [
+        0,
+        3,
+        23
+      ],
+      "actions_by_goal": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1
+      }
+    },
+    {
+      "position_remaining_goals_budget": [
+        0,
+        3,
+        22
+      ],
+      "actions_by_goal": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1
+      }
+    }
+  ],
+  "time_examples": [
+    {
+      "position_goal_remaining_goals": [
+        0,
+        0,
+        3
+      ],
+      "actions_by_remaining_budget": {
+        "23": 0,
+        "22": 0,
+        "21": 0,
+        "20": 0,
+        "19": 0,
+        "18": 0,
+        "17": 2
+      }
+    },
+    {
+      "position_goal_remaining_goals": [
+        0,
+        1,
+        2
+      ],
+      "actions_by_remaining_budget": {
+        "16": 0,
+        "15": 0,
+        "14": 0,
+        "13": 0,
+        "12": 0,
+        "11": 0,
+        "10": 1
+      }
+    },
+    {
+      "position_goal_remaining_goals": [
+        1,
+        1,
+        2
+      ],
+      "actions_by_remaining_budget": {
+        "9": 2,
+        "14": 0,
+        "15": 0,
+        "13": 0,
+        "12": 0,
+        "11": 0
+      }
+    }
+  ],
+  "example_episode_id": "0:2,6,4",
+  "example_trace": [
+    {
+      "step": 1,
+      "before_position": 0,
+      "goal": 2,
+      "action": 0,
+      "after_position": 0,
+      "collected": false,
+      "wall": true,
+      "failed_collect": false
+    },
+    {
+      "step": 2,
+      "before_position": 0,
+      "goal": 2,
+      "action": 0,
+      "after_position": 0,
+      "collected": false,
+      "wall": true,
+      "failed_collect": false
+    },
+    {
+      "step": 3,
+      "before_position": 0,
+      "goal": 2,
+      "action": 0,
+      "after_position": 0,
+      "collected": false,
+      "wall": true,
+      "failed_collect": false
+    },
+    {
+      "step": 4,
+      "before_position": 0,
+      "goal": 2,
+      "action": 0,
+      "after_position": 0,
+      "collected": false,
+      "wall": true,
+      "failed_collect": false
+    },
+    {
+      "step": 5,
+      "before_position": 0,
+      "goal": 2,
+      "action": 1,
+      "after_position": 1,
+      "collected": false,
+      "wall": false,
+      "failed_collect": false
+    },
+    {
+      "step": 6,
+      "before_position": 1,
+      "goal": 2,
+      "action": 0,
+      "after_position": 0,
+      "collected": false,
+      "wall": false,
+      "failed_collect": false
+    },
+    {
+      "step": 7,
+      "before_position": 0,
+      "goal": 2,
+      "action": 1,
+      "after_position": 1,
+      "collected": false,
+      "wall": false,
+      "failed_collect": false
+    },
+    {
+      "step": 8,
+      "before_position": 1,
+      "goal": 2,
+      "action": 1,
+      "after_position": 2,
+      "collected": false,
+      "wall": false,
+      "failed_collect": false
+    },
+    {
+      "step": 9,
+      "before_position": 2,
+      "goal": 2,
+      "action": 2,
+      "after_position": 2,
+      "collected": true,
+      "wall": false,
+      "failed_collect": false
+    },
+    {
+      "step": 10,
+      "before_position": 2,
+      "goal": 6,
+      "action": 1,
+      "after_position": 3,
+      "collected": false,
+      "wall": false,
+      "failed_collect": false
+    },
+    {
+      "step": 11,
+      "before_position": 3,
+      "goal": 6,
+      "action": 1,
+      "after_position": 4,
+      "collected": false,
+      "wall": false,
+      "failed_collect": false
+    },
+    {
+      "step": 12,
+      "before_position": 4,
+      "goal": 6,
+      "action": 1,
+      "after_position": 5,
+      "collected": false,
+      "wall": false,
+      "failed_collect": false
+    },
+    {
+      "step": 13,
+      "before_position": 5,
+      "goal": 6,
+      "action": 2,
+      "after_position": 5,
+      "collected": false,
+      "wall": false,
+      "failed_collect": true
+    },
+    {
+      "step": 14,
+      "before_position": 5,
+      "goal": 6,
+      "action": 1,
+      "after_position": 6,
+      "collected": false,
+      "wall": false,
+      "failed_collect": false
+    },
+    {
+      "step": 15,
+      "before_position": 6,
+      "goal": 6,
+      "action": 2,
+      "after_position": 6,
+      "collected": true,
+      "wall": false,
+      "failed_collect": false
+    },
+    {
+      "step": 16,
+      "before_position": 6,
+      "goal": 4,
+      "action": 0,
+      "after_position": 5,
+      "collected": false,
+      "wall": false,
+      "failed_collect": false
+    },
+    {
+      "step": 17,
+      "before_position": 5,
+      "goal": 4,
+      "action": 0,
+      "after_position": 4,
+      "collected": false,
+      "wall": false,
+      "failed_collect": false
+    },
+    {
+      "step": 18,
+      "before_position": 4,
+      "goal": 4,
+      "action": 2,
+      "after_position": 4,
+      "collected": true,
+      "wall": false,
+      "failed_collect": false
+    }
+  ],
+  "first_action_table": [
+    {
+      "position": 0,
+      "actions_by_goal": [
+        null,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 1,
+      "actions_by_goal": [
+        0,
+        null,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 2,
+      "actions_by_goal": [
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 3,
+      "actions_by_goal": [
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 4,
+      "actions_by_goal": [
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 5,
+      "actions_by_goal": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0
+      ]
+    },
+    {
+      "position": 6,
+      "actions_by_goal": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ]
+    }
+  ],
+  "best_validation_history": [
+    {
+      "round_zero_based": 0,
+      "success_rate": 0.0
+    },
+    {
+      "round_zero_based": 9,
+      "success_rate": 0.40476190476190477
+    },
+    {
+      "round_zero_based": 19,
+      "success_rate": 0.7380952380952381
+    },
+    {
+      "round_zero_based": 29,
+      "success_rate": 0.7380952380952381
+    },
+    {
+      "round_zero_based": 39,
+      "success_rate": 0.9285714285714286
+    },
+    {
+      "round_zero_based": 49,
+      "success_rate": 0.9285714285714286
+    },
+    {
+      "round_zero_based": 59,
+      "success_rate": 1.0
+    },
+    {
+      "round_zero_based": 69,
+      "success_rate": 1.0
+    },
+    {
+      "round_zero_based": 79,
+      "success_rate": 1.0
+    },
+    {
+      "round_zero_based": 89,
+      "success_rate": 1.0
+    },
+    {
+      "round_zero_based": 99,
+      "success_rate": 1.0
+    }
+  ],
+  "episode_logs_replayed_without_policy": 504,
+  "new_policy_episode_calls": 0,
+  "new_policy_forward_calls": 0,
+  "independent_review": false
+}

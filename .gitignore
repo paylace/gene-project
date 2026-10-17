@@ -2825,3 +2825,26 @@ dist/
 /studies/working_memory/temporal_state_probe/109.json
 /studies/working_memory/temporal_state_probe/110.json
 /studies/working_memory/temporal_state_run.log
+
+# Q1-006 원자료는 Release로 보관
+studies/interaction/results_q1006_v01/**
+!studies/interaction/results_q1006_v01/pilot/
+!studies/interaction/results_q1006_v01/pilot/protocol.json
+!studies/interaction/results_q1006_v01/pilot/cost_report.json
+!studies/interaction/results_q1006_v01/main/
+!studies/interaction/results_q1006_v01/main/protocol.json
+!studies/interaction/results_q1006_v01/main/summary.json
+!studies/interaction/results_q1006_v01/confirmation/
+!studies/interaction/results_q1006_v01/confirmation/protocol.json
+!studies/interaction/results_q1006_v01/confirmation/summary.json
+
+studies/interaction/results_q1006_v02/**
+!studies/interaction/results_q1006_v02/pilot/
+!studies/interaction/results_q1006_v02/pilot/protocol.json
+!studies/interaction/results_q1006_v02/pilot/cost_report.json
+!studies/interaction/results_q1006_v02/main/
+!studies/interaction/results_q1006_v02/main/protocol.json
+!studies/interaction/results_q1006_v02/main/summary.json
+!studies/interaction/results_q1006_v02/confirmation/
+!studies/interaction/results_q1006_v02/confirmation/protocol.json
+!studies/interaction/results_q1006_v02/confirmation/summary.json

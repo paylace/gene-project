@@ -1,0 +1,18 @@
+{
+  "date_kst": "2026-10-17",
+  "issue": "pilot generated six rather than eight jobs; all_jobs_complete false blocked eligibility for main; CLI returned zero incorrectly",
+  "original_source_digest": "34988dbfc3db583d7ba6fa273675bd2aa0e19e0e5f30851e84879d5919de136f",
+  "completed_pilot_episode_calls": 14400,
+  "additional_cost_training_calls": 3120,
+  "main_started": false,
+  "excluded_performance_seeds": [],
+  "original_version_preserved": "evosim_q1006_v01 + results_q1006_v01",
+  "new_version": "evosim_q1006_v02 + results_q1006_v02",
+  "scientific_design_changed": false,
+  "new_test": "official pilot composition has eight jobs and 19200 slots",
+  "fixes": [
+    "all_random only for pilot",
+    "incomplete pilot raises after saving report"
+  ],
+  "independent_review": false
+}

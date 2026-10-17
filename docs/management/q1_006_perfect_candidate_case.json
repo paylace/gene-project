@@ -1,0 +1,37 @@
+{
+  "selection": "posthoc singleton with 100% held-test completion among F1 candidates; not independent confirmation",
+  "seed": 1015,
+  "best_round_zero_based": 99,
+  "modules": 8,
+  "genome_digest": "cb924deb14ea58bd0092dfe7e81b6047ccf2cfecf20530220b14396635373028",
+  "validation_success_rate": 1.0,
+  "test_success_rate": 1.0,
+  "trajectory": {
+    "episodes": 1512,
+    "failures": 0,
+    "first_correct": 951,
+    "first_correct_rate": 0.628968253968254,
+    "first_wrong": 561,
+    "goal_change_correct": 2412,
+    "goal_change_correct_rate": 0.7976190476190477,
+    "goal_changes": 3024,
+    "recovered_after_first_wrong": 561,
+    "recovery_rate": 1.0,
+    "repeated_failure_rate": null,
+    "repeated_last_six_failures": 0
+  },
+  "cold_probe": {
+    "collection_correct_tie_probability": 0.15873015873015872,
+    "collection_states": 63,
+    "direction_pairs": 315,
+    "mean_correct_tie_probability": 0.4852607709750567,
+    "states": 441,
+    "strict_collection_correct": 10,
+    "strict_collection_rate": 0.15873015873015872,
+    "strict_direction_pair_rate": 0.08253968253968254,
+    "strict_direction_pairs_correct": 26
+  },
+  "new_policy_calls": 0,
+  "limitations": "cold uniform hypothetical states differ from rollout visitation; coordinate action matching is not universal reward optimality; recovery is not lifetime learning or memory proof",
+  "independent_review": false
+}
