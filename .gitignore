@@ -2864,3 +2864,21 @@ studies/interaction/results_q1007_v01/**
 
 # Q1-010 변환 사본은 로컬 보존. 루트의 계획·파일별 측정·요약 JSON만 추적.
 /studies/interaction/storage_q1007_v01/*/
+
+# Q1-011 사본·실패 소스 스냅샷은 로컬/보관본, 계획·측정 메타데이터는 Git.
+/studies/interaction/optimization_q1011_v01/**
+!/studies/interaction/optimization_q1011_v01/development_01/
+!/studies/interaction/optimization_q1011_v01/development_02/
+!/studies/interaction/optimization_q1011_v01/development_03/
+!/studies/interaction/optimization_q1011_v01/development_*/summary.json
+!/studies/interaction/optimization_q1011_v01/development_*/sources.json
+!/studies/interaction/optimization_q1011_v01/benchmark_01/
+!/studies/interaction/optimization_q1011_v01/benchmark_01/plan.json
+!/studies/interaction/optimization_q1011_v01/benchmark_01/summary.json
+!/studies/interaction/optimization_q1011_v01/benchmark_01/measurements/
+!/studies/interaction/optimization_q1011_v01/benchmark_01/measurements/*.json
+!/studies/interaction/optimization_q1011_v01/benchmark_01/attempts/
+!/studies/interaction/optimization_q1011_v01/benchmark_01/attempts/*.json
+/studies/interaction/optimization_q1011_v02/records/
+/studies/interaction/optimization_q1011_pipeline_v01/records/
+/studies/interaction/optimization_ci_v01/

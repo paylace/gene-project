@@ -23,3 +23,6 @@ jobs:
       - run: python -B -X utf8 -m unittest discover -s evosim_q1007_v01/tests -v
         working-directory: studies/interaction
       - run: python -B -X utf8 tools/measure_q1007_storage.py --selftest
+      - run: python -B -X utf8 tools/check_q1011.py --output studies/interaction/optimization_ci_v01
+      - run: python -B -X utf8 -m unittest discover -s evosim_runtime_v02/tests -v
+        working-directory: studies/interaction

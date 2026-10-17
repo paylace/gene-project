@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "original_files_checked": 272,
+  "saved_artifacts_checked": 1870,
+  "independent_review": false,
+  "rng_counter_scope": "새 지연 난수 경로만 계측. 기준 경로의0은 실제 생성0을 뜻하지 않음.",
+  "policy_episode_calls": 357498,
+  "main_or_heldout_partition_calls": 0
+}

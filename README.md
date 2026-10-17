@@ -2,6 +2,8 @@
 
 공동 수정은 [참여 규칙](CONTRIBUTING.md)에 따라 Issue와 PR로 진행한다. 설치: `python -m pip install -r requirements.txt`. 검사: `python -B -X utf8 tools/check_research_layout.py --tests`. 실행별 원자료는 [Release 다운로드·복원 안내](evidence/README.md)를 따른다.
 
+[Q1-011 실험 기반 최적화](docs/reports/Q1-011_실험기반_최적화검증.md)를 완료했다. 공통 평가·기록 저장·실험 어댑터와 단일 프로필 API를 추가했고, 측정한 통합 경로1.22~2.51배·기록55.73% 축소를 확인했다. 본 실행기와 전체 비용 게이트 통합은 다음 단계다.
+
 처음 읽는 사람은 아래 순서로 보면 된다. 연구 내용은 한국어 문서로, 실행 코드와 원자료는 연구별 작업 폴더로 관리한다.
 
 1. [연구 목적](docs/01_연구목적.md): 무엇을 알아보려는 연구인가?

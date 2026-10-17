@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "tests": 15,
+  "sources_stable": true,
+  "policy_accounting": {
+    "reference_episodes": 198,
+    "optimized_episodes": 240,
+    "completed_step_actions": 10454,
+    "rng_objects_created": 66,
+    "unknown_failed_episodes_upper": 0
+  },
+  "independent_review": false
+}

@@ -2,6 +2,17 @@
 
 코드·문서·프로토콜·집계 요약은 Git에 포함한다. 실행별 기록·체크포인트·과거 검토본은 같은 저장소의 [기존 Release](https://github.com/paylace/gene-project/releases/tag/evidence-2026-10-15) 첨부 파일로 분리한다. 기존 원본 경로와 SHA-256은 catalog.json에 기록한다.
 
+## Q1-011 최적화 자료
+
+[보관 목록](q1_011_v01.json)에 코드·입력·개발 실패 소스 스냅샷·전체 비교 사본2,367파일의37,852,665바이트 ZIP과 SHA-256을 기록했다. 측정용 여러 사본의 보관 크기이며 한 실험의 최소 로그 크기가 아니다. Git에는 실행 계획·개별 측정 메타데이터·요약·코드·보고서를 두고 실제 사본은 별도 보관본으로 배포한다.
+
+저장소 루트에서 범용 도구로 검사한다. `verify`는 읽기만 수행한다. `restore-missing`은 모든 내용과 기존 경로를 먼저 검사하고 없는 파일만 복원하며, 다른 기존 파일을 덮어쓰지 않는다.
+
+```powershell
+python tools/evidence_bundle.py verify --archive 다운로드경로/q1011_optimization_2026-10-17.zip --catalog evidence/q1_011_v01.json
+python tools/evidence_bundle.py restore-missing --archive 다운로드경로/q1011_optimization_2026-10-17.zip --catalog evidence/q1_011_v01.json
+```
+
 저장소 접근 권한이 있는 계정으로 Release에서 ZIP을 내려받은 뒤 저장소 루트에서 실행한다.
 
 ```powershell

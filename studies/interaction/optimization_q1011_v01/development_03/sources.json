@@ -1,0 +1,12 @@
+{
+  "studies/interaction/evosim_runtime_v01/accounting.py": "28a37cc2da8625c8b437e7de041c99be25a0487594a80c2884567c46f67ff5ef",
+  "studies/interaction/evosim_runtime_v01/linecollect.py": "ba5b6f66df3dd51b54eb4d58691d690457ab4fb4f4d74c5cf071068228ec1201",
+  "studies/interaction/evosim_runtime_v01/records.py": "c0ac44513ffaf5435d647f9c346c08609cfc46882fa6b31d92fa4636b6e1b054",
+  "studies/interaction/evosim_runtime_v01/storage.py": "4aa934c449e0f6a34ec6dc2c196fad9e4dde7bb5a7b3b0272661878eeeadec1a",
+  "studies/interaction/evosim_runtime_v01/__init__.py": "acd2a4a774ee632d53ec75ead0f03caaa0f260e41235228243bdc91c4f16f1ee",
+  "studies/interaction/evosim_runtime_v01/tests/test_runtime.py": "06f512d7fb92b8b02749e09aa4897be9915c121730d893115b3b9f0e4bb4c532",
+  "studies/interaction/evosim_q1007_v02/evaluation.py": "cbf4db95d7d01237710c9d79f82efbb205bda15dccd4269570abd1c681fbc3e5",
+  "studies/interaction/evosim_q1007_v02/fixture.py": "ecf41ae880a1a56ae482a556dd5e3bf240a7c182c6593e4052711eed0ea226f2",
+  "studies/interaction/evosim_q1007_v02/provenance.py": "c1959cfba06dc40f16e36159ceb13e68549b3bbd3246b8b2e363dae751e83206",
+  "studies/interaction/evosim_q1007_v02/__init__.py": "4fccf73ec581c67415b50b7de34e9193189121cca8629f622d105c7ab1efdd32"
+}
