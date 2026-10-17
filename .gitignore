@@ -2861,3 +2861,6 @@ studies/interaction/results_q1007_v01/**
 !studies/interaction/results_q1007_v01/confirmation/
 !studies/interaction/results_q1007_v01/confirmation/protocol.json
 !studies/interaction/results_q1007_v01/confirmation/summary.json
+
+# Q1-010 변환 사본은 로컬 보존. 루트의 계획·파일별 측정·요약 JSON만 추적.
+/studies/interaction/storage_q1007_v01/*/

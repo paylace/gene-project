@@ -22,3 +22,4 @@ jobs:
         working-directory: studies/interaction
       - run: python -B -X utf8 -m unittest discover -s evosim_q1007_v01/tests -v
         working-directory: studies/interaction
+      - run: python -B -X utf8 tools/measure_q1007_storage.py --selftest
