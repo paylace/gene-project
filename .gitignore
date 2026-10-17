@@ -2848,3 +2848,16 @@ studies/interaction/results_q1006_v02/**
 !studies/interaction/results_q1006_v02/confirmation/
 !studies/interaction/results_q1006_v02/confirmation/protocol.json
 !studies/interaction/results_q1006_v02/confirmation/summary.json
+
+# Q1-007 상세 원자료는 소스·요약과 분리해 보존
+studies/interaction/results_q1007_v01/**
+!studies/interaction/results_q1007_v01/pilot/
+!studies/interaction/results_q1007_v01/pilot/protocol.json
+!studies/interaction/results_q1007_v01/pilot/cost_report.json
+!studies/interaction/results_q1007_v01/pilot/cost_gate.json
+!studies/interaction/results_q1007_v01/main/
+!studies/interaction/results_q1007_v01/main/protocol.json
+!studies/interaction/results_q1007_v01/main/summary.json
+!studies/interaction/results_q1007_v01/confirmation/
+!studies/interaction/results_q1007_v01/confirmation/protocol.json
+!studies/interaction/results_q1007_v01/confirmation/summary.json

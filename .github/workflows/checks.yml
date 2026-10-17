@@ -20,3 +20,5 @@ jobs:
         working-directory: studies/interaction
       - run: python -B -X utf8 -m unittest discover -s evosim_q1006_v02/tests -v
         working-directory: studies/interaction
+      - run: python -B -X utf8 -m unittest discover -s evosim_q1007_v01/tests -v
+        working-directory: studies/interaction

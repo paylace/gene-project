@@ -1,0 +1,121 @@
+test_batch_scalar_and_freeze (test_experiment.DesignTests.test_batch_scalar_and_freeze) ... ok
+test_binary_not_score_sign (test_experiment.DesignTests.test_binary_not_score_sign) ... ok
+test_cost_boundaries (test_experiment.DesignTests.test_cost_boundaries) ... ok
+test_exact_p_and_holm (test_experiment.DesignTests.test_exact_p_and_holm) ... ok
+test_malformed_sample_rejected (test_experiment.DesignTests.test_malformed_sample_rejected) ... ok
+test_mutation_preserves_previous_rng (test_experiment.DesignTests.test_mutation_preserves_previous_rng) ... ok
+test_parameter_count_and_initial_equivalence (test_experiment.DesignTests.test_parameter_count_and_initial_equivalence) ... ok
+test_population_prefix (test_experiment.DesignTests.test_population_prefix) ... ok
+test_success_gate_and_threshold (test_experiment.DesignTests.test_success_gate_and_threshold) ... ok
+test_two_sided_direction_and_inactive_family (test_experiment.DesignTests.test_two_sided_direction_and_inactive_family) ... ok
+test_validation_schedule_and_endpoint_shapes (test_experiment.DesignTests.test_validation_schedule_and_endpoint_shapes) ... ok
+test_audit_and_accounting (test_experiment.ExecutionTests.test_audit_and_accounting) ... ok
+test_no_initial_validation (test_experiment.ExecutionTests.test_no_initial_validation) ... ok
+test_only_validation_candidates (test_experiment.ExecutionTests.test_only_validation_candidates) ... ok
+test_prefix_endpoint_and_population (test_experiment.ExecutionTests.test_prefix_endpoint_and_population) ... ok
+test_resume_identical (test_experiment.ExecutionTests.test_resume_identical) ... ok
+test_round_tamper_audit_rejected (test_experiment.ExecutionTests.test_round_tamper_audit_rejected) ... ok
+test_tamper_checkpoint_rejected (test_experiment.ExecutionTests.test_tamper_checkpoint_rejected) ... ok
+test_test_cache_freeze_and_wrong_key (test_experiment.ExecutionTests.test_test_cache_freeze_and_wrong_key) ... ok
+test_test_partition_access_and_lock_rejected (test_experiment.ExecutionTests.test_test_partition_access_and_lock_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 2.490s
+
+OK
+
+TEST F0/evolution/41 done
+test_changed_completed_round_rejected_on_resume (test_experiment.ExperimentTests.test_changed_completed_round_rejected_on_resume) ... ok
+test_crossover_keeps_dominant_module_set_and_f0_topology (test_experiment.ExperimentTests.test_crossover_keeps_dominant_module_set_and_f0_topology) ... ok
+test_discovery_threshold_secondary_and_cohort_size_strict (test_experiment.ExperimentTests.test_discovery_threshold_secondary_and_cohort_size_strict) ... ok
+test_f0_structural_proposals_are_counted_noops (test_experiment.ExperimentTests.test_f0_structural_proposals_are_counted_noops) ... ok
+test_f1_mutations_keep_tanh_dag_bounds_and_monotone_ids (test_experiment.ExperimentTests.test_f1_mutations_keep_tanh_dag_bounds_and_monotone_ids) ... ok
+test_genome_rejects_other_ops_rec_edges_and_out_of_range (test_experiment.ExperimentTests.test_genome_rejects_other_ops_rec_edges_and_out_of_range) ... ok
+test_initialization_identical_across_conditions_and_snapshot_lossless (test_experiment.ExperimentTests.test_initialization_identical_across_conditions_and_snapshot_lossless) ... ok
+test_main_and_confirmation_aggregation_from_saved_fixture_only (test_experiment.ExperimentTests.test_main_and_confirmation_aggregation_from_saved_fixture_only) ... ok
+test_manual_solution_is_representable_and_solves_all_known_combinations (test_experiment.ExperimentTests.test_manual_solution_is_representable_and_solves_all_known_combinations) ... ok
+test_official_pilot_has_eight_jobs_and_main_has_shared_random_only (test_experiment.ExperimentTests.test_official_pilot_has_eight_jobs_and_main_has_shared_random_only) ... ok
+test_probe_zero_policy_cannot_pass_unique_direction_or_collection (test_experiment.ExperimentTests.test_probe_zero_policy_cannot_pass_unique_direction_or_collection) ... ok
+test_registered_budget_and_no_test_access_in_pilot (test_experiment.ExperimentTests.test_registered_budget_and_no_test_access_in_pilot) ... ok
+test_reproduction_preserves_f0_fixed_topology_and_records_real_changes (test_experiment.ExperimentTests.test_reproduction_preserves_f0_fixed_topology_and_records_real_changes) ... ok
+test_resume_and_audit_both_conditions_both_methods (test_experiment.ExperimentTests.test_resume_and_audit_both_conditions_both_methods) ... ok
+test_scalar_batch_outputs_and_full_environment_records_agree (test_experiment.ExperimentTests.test_scalar_batch_outputs_and_full_environment_records_agree) ... ok
+test_sign_ties_excluded_and_mean_cannot_replace_direction (test_experiment.ExperimentTests.test_sign_ties_excluded_and_mean_cannot_replace_direction) ... ok
+test_unknown_interrupted_calls_keep_upper_bound (test_experiment.ExperimentTests.test_unknown_interrupted_calls_keep_upper_bound) ... ok
+test_blind_first_tie_and_changed_validation_artifact_rejected (test_finalization.FinalizationTests.test_blind_first_tie_and_changed_validation_artifact_rejected) ... ok
+test_mocked_test_pipeline_caches_three_roles_and_resumes_without_new_policy_test (test_finalization.FinalizationTests.test_mocked_test_pipeline_caches_three_roles_and_resumes_without_new_policy_test) ... ok
+test_test_kernel_not_called_without_lock_or_for_another_genome_or_partial_test (test_finalization.FinalizationTests.test_test_kernel_not_called_without_lock_or_for_another_genome_or_partial_test) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 6.993s
+
+OK
+
+원본 혼합-purpose 동일성 검사1개는 보존. 검증 전용·본 분기 검사2개로 명시적 교체.
+TEST R0S0/evolution/41 done
+R0S0/random/41 round=1/3
+R0S0/random/41 round=3/3
+R1S0/random/41 round=1/3
+R1S0/random/41 round=3/3
+R0S1/random/41 round=1/3
+R0S1/random/41 round=3/3
+R1S1/random/41 round=1/3
+R1S1/random/41 round=3/3
+test_all_positive_treatments_use_registered_priority_not_largest_mean (test_analysis.AnalysisTests.test_all_positive_treatments_use_registered_priority_not_largest_mean) ... ok
+test_combination_can_be_confirmed_only_when_registered_single_factors_fail (test_analysis.AnalysisTests.test_combination_can_be_confirmed_only_when_registered_single_factors_fail) ... ok
+test_exact_ten_percentage_point_boundary_is_not_lost_to_float_subtraction (test_analysis.AnalysisTests.test_exact_ten_percentage_point_boundary_is_not_lost_to_float_subtraction) ... ok
+test_exact_twenty_seed_sign_probabilities (test_analysis.AnalysisTests.test_exact_twenty_seed_sign_probabilities) ... ok
+test_holm_three_contrasts_rejects_fifteen_positive_when_first_threshold_fails (test_analysis.AnalysisTests.test_holm_three_contrasts_rejects_fifteen_positive_when_first_threshold_fails) ... ok
+test_invalid_missing_and_nonfinite_cohorts_are_rejected (test_analysis.AnalysisTests.test_invalid_missing_and_nonfinite_cohorts_are_rejected) ... ok
+test_main_and_confirmation_summaries_share_only_one_random_control (test_analysis.AnalysisTests.test_main_and_confirmation_summaries_share_only_one_random_control) ... ok
+test_pair_summary_median_and_intervals_use_seed_unit (test_analysis.AnalysisTests.test_pair_summary_median_and_intervals_use_seed_unit) ... ok
+test_small_mean_and_zero_ties_fail_progress (test_analysis.AnalysisTests.test_small_mean_and_zero_ties_fail_progress) ... ok
+test_frozen_dependency_manifest_is_part_of_source_guard (test_core.FitnessTests.test_frozen_dependency_manifest_is_part_of_source_guard) ... ok
+test_ordinal_s0_reproduction_matches_frozen_genotypes_rng_and_ancestry (test_core.FitnessTests.test_ordinal_s0_reproduction_matches_frozen_genotypes_rng_and_ancestry) ... ok
+test_rank_diagnostics_observe_actual_conflict (test_core.FitnessTests.test_rank_diagnostics_observe_actual_conflict) ... ok
+test_s1_completion_precedes_reward_without_weighted_sum (test_core.FitnessTests.test_s1_completion_precedes_reward_without_weighted_sum) ... ok
+test_s1_equals_s0_when_all_completions_zero (test_core.FitnessTests.test_s1_equals_s0_when_all_completions_zero) ... ok
+test_ties_and_nonfinite_keys (test_core.FitnessTests.test_ties_and_nonfinite_keys) ... ok
+test_treatment_serialization_is_strict_and_immutable (test_core.FitnessTests.test_treatment_serialization_is_strict_and_immutable) ... ok
+test_all_coordinate_episodes_scalar_and_batch_replay (test_core.ProgressAndKernelTests.test_all_coordinate_episodes_scalar_and_batch_replay) ... ok
+test_data_access_guards_pilot_and_wrong_split (test_core.ProgressAndKernelTests.test_data_access_guards_pilot_and_wrong_split) ... ok
+test_episode_order_and_batch_columns_are_independent (test_core.ProgressAndKernelTests.test_episode_order_and_batch_columns_are_independent) ... ok
+test_first_error_recovery_is_separate_from_immediate_accuracy (test_core.ProgressAndKernelTests.test_first_error_recovery_is_separate_from_immediate_accuracy) ... ok
+test_goal_reset_collection_and_failed_collection_pay_no_bonus (test_core.ProgressAndKernelTests.test_goal_reset_collection_and_failed_collection_pay_no_bonus) ... ok
+test_original_r0_kernel_exact_actions_and_metrics (test_core.ProgressAndKernelTests.test_original_r0_kernel_exact_actions_and_metrics) ... ok
+test_progress_changes_tied_base_episode_scores (test_core.ProgressAndKernelTests.test_progress_changes_tied_base_episode_scores) ... ok
+test_progress_upper_bound_is_attainable (test_core.ProgressAndKernelTests.test_progress_upper_bound_is_attainable) ... ok
+test_r0_and_r1_actions_rewards_rng_and_genome_unchanged (test_core.ProgressAndKernelTests.test_r0_and_r1_actions_rewards_rng_and_genome_unchanged) ... ok
+test_r1_total_score_uses_exact_integer_reward_units (test_core.ProgressAndKernelTests.test_r1_total_score_uses_exact_integer_reward_units) ... ok
+test_round_trip_does_not_repeat_progress (test_core.ProgressAndKernelTests.test_round_trip_does_not_repeat_progress) ... ok
+test_scalar_batch_progress_and_reference_actions_match (test_core.ProgressAndKernelTests.test_scalar_batch_progress_and_reference_actions_match) ... ok
+test_training_purpose_is_explicit (test_core.ProgressAndKernelTests.test_training_purpose_is_explicit) ... ok
+test_trajectory_corruption_and_progress_corruption_rejected (test_core.ProgressAndKernelTests.test_trajectory_corruption_and_progress_corruption_rejected) ... ok
+test_validation_is_common_and_has_no_training_score (test_core.ProgressAndKernelTests.test_validation_is_common_and_has_no_training_score) ... ok
+test_wall_and_failed_collect_zero_bonus (test_core.ProgressAndKernelTests.test_wall_and_failed_collect_zero_bonus) ... ok
+test_blind_first_tie_and_changed_validation_artifact_rejected (test_finalization.FinalizationTests.test_blind_first_tie_and_changed_validation_artifact_rejected) ... ok
+test_mocked_test_pipeline_caches_three_roles_and_resumes_without_new_policy_test (test_finalization.FinalizationTests.test_mocked_test_pipeline_caches_three_roles_and_resumes_without_new_policy_test) ... ok
+test_test_kernel_not_called_without_lock_or_for_another_genome_or_partial_test (test_finalization.FinalizationTests.test_test_kernel_not_called_without_lock_or_for_another_genome_or_partial_test) ... ok
+test_checkpoint_round_result_and_cross_condition_tampering_rejected (test_search.SearchTests.test_checkpoint_round_result_and_cross_condition_tampering_rejected) ... ok
+test_complete_genetic_score_and_trajectory_audit_rejects_corruption (test_search.SearchTests.test_complete_genetic_score_and_trajectory_audit_rejects_corruption) ... ok
+test_every_job_must_finish_and_pilot_cannot_lock (test_search.SearchTests.test_every_job_must_finish_and_pilot_cannot_lock) ... ok
+test_orphan_round_is_preserved_and_recalculation_counted (test_search.SearchTests.test_orphan_round_is_preserved_and_recalculation_counted) ... ok
+test_pause_resume_all_four_conditions_and_both_methods (test_search.SearchTests.test_pause_resume_all_four_conditions_and_both_methods) ... ok
+test_production_prepare_requires_matching_gate_pilot_and_canonical_path (test_search.SearchTests.test_production_prepare_requires_matching_gate_pilot_and_canonical_path) ... ok
+test_protocol_source_dataset_and_design_changes_rejected (test_search.SearchTests.test_protocol_source_dataset_and_design_changes_rejected) ... ok
+test_r0s0_search_genomes_rng_and_winners_match_old_a0 (test_search.SearchTests.test_r0s0_search_genomes_rng_and_winners_match_old_a0) ... ok
+test_cache_reuses_work_and_rejects_changed_identity_payload (test_search.WorkLedgerTests.test_cache_reuses_work_and_rejects_changed_identity_payload) ... ok
+test_completed_orphan_work_is_counted_before_cache_write (test_search.WorkLedgerTests.test_completed_orphan_work_is_counted_before_cache_write) ... ok
+test_probe_single_step_accounting_has_separate_unknown_bound (test_search.WorkLedgerTests.test_probe_single_step_accounting_has_separate_unknown_bound) ... ok
+test_unknown_interrupted_episode_work_keeps_upper_bound (test_search.WorkLedgerTests.test_unknown_interrupted_episode_work_keeps_upper_bound) ... ok
+test_all_validation_only_candidates_and_genotypes_match (__main__.SharedRandomValidationTests.test_all_validation_only_candidates_and_genotypes_match) ... ok
+test_production_branch_never_selects_training_fallback (__main__.SharedRandomValidationTests.test_production_branch_never_selects_training_fallback) ... ok
+
+----------------------------------------------------------------------
+Ran 49 tests in 8.768s
+
+OK
+
+{"checked_utc": "2026-10-17T06:26:06.437453+00:00", "passed": true, "active_markdown_files": 48, "local_links": 355, "official_reports": 13, "locked_source_files": 30, "external_data_links_deferred": [], "errors": []}
+{"study": "working_memory", "cwd": "studies/working_memory", "returncode": 0, "tests": 14, "temporary_directory": "tools/.verification_tmp"}
+{"study": "interaction", "cwd": "studies/interaction", "returncode": 0, "tests": 21, "temporary_directory": "tools/.verification_tmp"}

@@ -1,0 +1,132 @@
+{
+  "checked_utc": "2026-10-17T06:26:16.137506+00:00",
+  "passed": true,
+  "full_gate": true,
+  "sources": {
+    "inherited/dependency/__init__.py": "70f0fae52b28c3bb5d6dc9ab07a4e45c6bd42a9a70ef550d06889688fcf0e30b",
+    "inherited/dependency/analysis.py": "ba26a58c86500597f7841b945969e282553d231afa97abe2627d9ebe2791ccb5",
+    "inherited/dependency/audit.py": "197db15d38094e1d35e2a2cf940bc8370ac92059c0974cb222e9f4999d6d5513",
+    "inherited/dependency/datasets.py": "d909a591818623259a72225d995e5c52aaee24ae9ba2aa3467b26dd8c32db508",
+    "inherited/dependency/environment.py": "626cc76b11a4b9f4d8e4f42a2792e5c2e93d30c5271a36d5613869c50f583d64",
+    "inherited/dependency/evaluation.py": "2cad38c7fb9a46a5ca43a9d2b31cfc5bf2d6c426e5811fe1c5fcad0944302ef3",
+    "inherited/dependency/finalize.py": "321a16bc54ae3187eefe7f2b86ad03ea83b7531a609245203d2b6ace50b3b4a9",
+    "inherited/dependency/genetics.py": "47a5b18479fb7519f310001e2899e3b6b76a8fca03a38c58255daa9741a6191f",
+    "inherited/dependency/network.py": "ce95b9f9b6748d72a643ecce4b314f2db58cba87638dafb18c493441bd9f94f6",
+    "inherited/dependency/policies.py": "9008766d54d47e297ac02b74ab24977b2b65bdcfb6b191956a251dbdcba1d00f",
+    "inherited/dependency/policy.py": "12a39793ab05445ca0cbffafca8fd4a717687cec01db7bc620a67d0354dd0621",
+    "inherited/dependency/protocol.py": "4e1f763832d0be99e16cd672037c485eb2dc9b11fbf2b59200b96dae1d2e1534",
+    "inherited/dependency/rollout.py": "e4f2ae5bcfaac288351fad13632fa8f4a04c03fbd24521e5b65840f5a96bd7c6",
+    "inherited/dependency/run.py": "0a225c2fdf798d323ffde4c10a3fbc0655829fb40851f8131bcdbc24f15c8ac1",
+    "inherited/dependency/search.py": "0807faa20f9ad98d1f3a5a4e9bf6e09356942d9669a2ba007e391bff5b1f5cc5",
+    "inherited/dependency/settings.py": "6951ef8f80cc3f17b06ba208b603a934a63f80a860ac753d3f70043f92e9b226",
+    "inherited/dependency/storage.py": "6ff6b3782b3bb792add6b8e4a68b9e3f6aa4b66db545437d514daed9c10c618a",
+    "inherited/dependency/tests/test_analysis_audit.py": "010eb9fc6c805b3c430b5452046db691efea94726cf8725ddc26d5369eada4ac",
+    "inherited/dependency/tests/test_core.py": "924da7997184093617c829458ea762a85f814605d4cd74de6c7ad6cd2d8c7e40",
+    "inherited/dependency/tests/test_evaluation_search.py": "fdbe1befb1444decfa1c36aef6ff8ce1be99dbc573339b760fabc642d2b952ea",
+    "inherited/q1006/__init__.py": "2ab6a77c0f1d155c11dbf666dd294ad894c86e7c19b010bbdb49ac6d11ec2856",
+    "inherited/q1006/analysis.py": "328a4b0f620d10e3f3cc256429e07bbdcea496e4af590c9b11a5c11f4cd185da",
+    "inherited/q1006/audit.py": "cea0c0989c2c512af23c7a16cfa40227ad29cfb6aeecf65e3ba111cdc2e6fca2",
+    "inherited/q1006/evaluation.py": "3a73eb5358e52a7065393d87a6dfe914d572e6c498b5a6f2a7039a927c033e3d",
+    "inherited/q1006/finalize.py": "09a5b275ffa8c211a32fc7c414f1360dadcaac9e98a327e79ef1862ac65d458b",
+    "inherited/q1006/model.py": "0c7ca5080f3da83c8315e3a855a6e12c1167b7f0dd15c44a8471035a2ac1a2b6",
+    "inherited/q1006/network.py": "7a9083b015bc793116606c1badec3368825d83c0a9a1a6fac4f96d16d0f01bb8",
+    "inherited/q1006/probe.py": "f186c388aaa37c59e660d844c2bc54b5dd012f605dd107784afdfb34c7472bc7",
+    "inherited/q1006/protocol.py": "54f65b7b41d7f5e0054f24ee9bf3e1d80e2a3545a0ef14b41ee276509cce8506",
+    "inherited/q1006/run.py": "549d8e13bf633d11931fd31b1eee53f250c66ae8446645b22f17bb72c8c3ef05",
+    "inherited/q1006/search.py": "1ddd8ad13d48972b801ae6457e7607af90212a2ac93572ba8336c534d3eb87d4",
+    "inherited/q1006/source.py": "19ecff469f8dde986704624e09344975b8f169bcbd6555abb8241bb3b48bf2d9",
+    "inherited/q1006/statistics.py": "2c618475560b9cc78b80e4a4cc224d39454d2f7c98659941997c6a8758db88a5",
+    "inherited/q1006/tests/test_experiment.py": "f5ba67b29c042ca98b0eb586451b01a1f0442bbe7d7293cbe4b2a147643627a9",
+    "inherited/q1006/tests/test_finalization.py": "e53ff4945c5dc9b18f2ce6a48405d5afb5d6d68d87fe776229afc7e4ca124254",
+    "q1007/__init__.py": "2ab6a77c0f1d155c11dbf666dd294ad894c86e7c19b010bbdb49ac6d11ec2856",
+    "q1007/analysis.py": "8b44297f30257d15880b3d526a17d17931e632feab56f7dbe70de0eaa20d7909",
+    "q1007/audit.py": "d4ff9e8e86eee31512b6d8b79762d127892c23556663a524a9bfab0362d7932a",
+    "q1007/cost.py": "a2ffd27404cb5cc12696257c4a3f080752744b45c8aa34c23e78b74fa00f6dae",
+    "q1007/evaluation.py": "3a73eb5358e52a7065393d87a6dfe914d572e6c498b5a6f2a7039a927c033e3d",
+    "q1007/finalize.py": "9371cba2ac82399a82011d672cf49ee409c1c5fc301f9a869c27f7267a8355cb",
+    "q1007/model.py": "0c7ca5080f3da83c8315e3a855a6e12c1167b7f0dd15c44a8471035a2ac1a2b6",
+    "q1007/network.py": "7a9083b015bc793116606c1badec3368825d83c0a9a1a6fac4f96d16d0f01bb8",
+    "q1007/protocol.py": "036c50c7de7305f76c83eb402cdc5fbc30337763cf59248049d4543ace38981a",
+    "q1007/resources.py": "c6fd7e5975efeba45b7a26a9347ec768ff212c5ee7351e856eb51e29b09bbaf2",
+    "q1007/run.py": "54f83e92b4a0680d8860d2f1e9db14f0c70dadd583916c001835832ee7858ce1",
+    "q1007/search.py": "0bd8224dfe6bba8f454de10680922b36c5bf2cf6d899db20c00ef45b2e37b5b7",
+    "q1007/source.py": "b0deb9df9bd1f0ee9252e7b1f6e7b4cd42b820b7f5adda6dfadb32b8f3c711d6",
+    "q1007/tests/test_experiment.py": "bd40770aee96bd55c93ad6b7805eb562ee1e4b305e1516d5f1e3c4abc5921c48"
+  },
+  "source_digest": "64b2e8bd4f8cb91539d87f23bb8a3c99af4b3ba779b5fe0057891951fed69944",
+  "plan_digest": "2108ba0c40782b9def0def07233791e13cbd40e06827de355ac7706ed7e8cca8",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "platform": "win32"
+  },
+  "commands": [
+    {
+      "cwd": "studies/interaction",
+      "command": [
+        "C:\\Users\\thoma\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "evosim_q1007_v01/tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 20,
+      "seconds": 3.0117135999998936
+    },
+    {
+      "cwd": "studies/interaction",
+      "command": [
+        "C:\\Users\\thoma\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "evosim_q1006_v02/tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 20,
+      "seconds": 7.532322699999895
+    },
+    {
+      "cwd": ".",
+      "command": [
+        "C:\\Users\\thoma\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "tools/check_q1005_portable.py"
+      ],
+      "returncode": 0,
+      "tests": 49,
+      "seconds": 9.336854899999707
+    },
+    {
+      "cwd": ".",
+      "command": [
+        "C:\\Users\\thoma\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "tools/check_research_layout.py",
+        "--tests"
+      ],
+      "returncode": 0,
+      "tests": 0,
+      "seconds": 10.16504199999963
+    }
+  ],
+  "tests": 89,
+  "new_tests": 20,
+  "policy_fixture_calls": "검사 전용; 공식 성능 집단과 분리. 전체 합계는 미집계",
+  "independent_review": false
+}
