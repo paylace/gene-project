@@ -1,0 +1,11 @@
+{
+  "release_url": "https://github.com/paylace/gene-project/releases/tag/q1-007-v01-pilot-2026-10-17",
+  "release_id": 415629163,
+  "tag": "q1-007-v01-pilot-2026-10-17",
+  "target_commit": "19350cbd27c1da1ec77a709d0f84a39029380574",
+  "asset_url": "https://github.com/paylace/gene-project/releases/download/q1-007-v01-pilot-2026-10-17/q1007_v01_pilot_2026-10-17.zip",
+  "asset_id": 649769591,
+  "bytes": 3496766,
+  "github_digest": "sha256:9364d3f9fbcda6c1c4ffbde011787b8288a42bbf562b2eb916ca7b171c10d5c6",
+  "local_sha256": "9364d3f9fbcda6c1c4ffbde011787b8288a42bbf562b2eb916ca7b171c10d5c6"
+}

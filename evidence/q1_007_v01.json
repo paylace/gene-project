@@ -9,5 +9,7 @@
   "manifest_sha256": "5f798634218a07145647d52824013d36a7696bc217b346b1bceedebc7bf542a0",
   "source_digest": "64b2e8bd4f8cb91539d87f23bb8a3c99af4b3ba779b5fe0057891951fed69944",
   "zip_crc_and_member_hashes_verified": true,
-  "release_url": null
+  "release_url": "https://github.com/paylace/gene-project/releases/tag/q1-007-v01-pilot-2026-10-17",
+  "asset_url": "https://github.com/paylace/gene-project/releases/download/q1-007-v01-pilot-2026-10-17/q1007_v01_pilot_2026-10-17.zip",
+  "github_digest": "sha256:9364d3f9fbcda6c1c4ffbde011787b8288a42bbf562b2eb916ca7b171c10d5c6"
 }

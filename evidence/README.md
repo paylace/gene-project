@@ -64,3 +64,16 @@ python -B -X utf8 tools/restore_q1006.py 다운로드경로/q1006_v02_raw_2026-1
 ```
 
 검증 후 없는 파일만 복원하며 기존 내용이 다르면 중단한다. 게시 후 만든 배포 기록·최종 CI 기록은 ZIP 바깥의 Git 기록으로 관리한다. 자동 검사를 독립 검토로 표현하지 않는다.
+
+## Q1-007 v0.1 예비·비용 검증 원자료
+
+[Q1-007 준비 Release](https://github.com/paylace/gene-project/releases/tag/q1-007-v01-pilot-2026-10-17)에 `q1007_v01_pilot_2026-10-17.zip` 3,496,766바이트·326파일을 보관한다. [목록](q1_007_v01.json)과 [게시 기록](../docs/management/q1_007_release.json)의 ZIP SHA-256이 GitHub 첨부 해시와 일치했다. 전체 파일 해시·CRC·기존 로컬 내용 대조도 통과했다.
+
+동결 소스49파일·훈련 전용 예비6작업·추가 비용 표본·감사·당시 계획과 게이트를 포함한다. **비용 기준 미충족으로 본·확인은 실행하지 않았으며 성능 비교 원자료가 없다.** [준비 보고서](../docs/reports/Q1-007_탐색예산_비교.md)를 참고한다. ZIP 크기를 본 실행의 비압축 JSON 추정량과 혼동하지 않는다.
+
+```powershell
+python -B -X utf8 tools/restore_q1007.py 다운로드경로/q1007_v01_pilot_2026-10-17.zip
+python -B -X utf8 tools/restore_q1007.py 다운로드경로/q1007_v01_pilot_2026-10-17.zip --restore-missing
+```
+
+첫 명령은 검사만 수행하고 두 번째는 검사 후 없는 파일만 복원한다. 다른 기존 파일을 덮어쓰지 않는다. 게시·CI 기록과 후속 준비 계획은 이 ZIP 바깥에서 Git으로 관리한다.
