@@ -1,0 +1,151 @@
+{
+  "checked_utc": "2026-10-17T05:18:45.299508+00:00",
+  "passed": true,
+  "source_digest": "d8d2d533a4f8ad4d1eec1c8a394b5150d29e64e1cc58dc1260533c6b40511320",
+  "full_gate": true,
+  "sources": {
+    "dependency/__init__.py": "70f0fae52b28c3bb5d6dc9ab07a4e45c6bd42a9a70ef550d06889688fcf0e30b",
+    "dependency/analysis.py": "ba26a58c86500597f7841b945969e282553d231afa97abe2627d9ebe2791ccb5",
+    "dependency/audit.py": "197db15d38094e1d35e2a2cf940bc8370ac92059c0974cb222e9f4999d6d5513",
+    "dependency/datasets.py": "d909a591818623259a72225d995e5c52aaee24ae9ba2aa3467b26dd8c32db508",
+    "dependency/environment.py": "626cc76b11a4b9f4d8e4f42a2792e5c2e93d30c5271a36d5613869c50f583d64",
+    "dependency/evaluation.py": "2cad38c7fb9a46a5ca43a9d2b31cfc5bf2d6c426e5811fe1c5fcad0944302ef3",
+    "dependency/finalize.py": "321a16bc54ae3187eefe7f2b86ad03ea83b7531a609245203d2b6ace50b3b4a9",
+    "dependency/genetics.py": "47a5b18479fb7519f310001e2899e3b6b76a8fca03a38c58255daa9741a6191f",
+    "dependency/network.py": "ce95b9f9b6748d72a643ecce4b314f2db58cba87638dafb18c493441bd9f94f6",
+    "dependency/policies.py": "9008766d54d47e297ac02b74ab24977b2b65bdcfb6b191956a251dbdcba1d00f",
+    "dependency/policy.py": "12a39793ab05445ca0cbffafca8fd4a717687cec01db7bc620a67d0354dd0621",
+    "dependency/protocol.py": "4e1f763832d0be99e16cd672037c485eb2dc9b11fbf2b59200b96dae1d2e1534",
+    "dependency/rollout.py": "e4f2ae5bcfaac288351fad13632fa8f4a04c03fbd24521e5b65840f5a96bd7c6",
+    "dependency/run.py": "0a225c2fdf798d323ffde4c10a3fbc0655829fb40851f8131bcdbc24f15c8ac1",
+    "dependency/search.py": "0807faa20f9ad98d1f3a5a4e9bf6e09356942d9669a2ba007e391bff5b1f5cc5",
+    "dependency/settings.py": "6951ef8f80cc3f17b06ba208b603a934a63f80a860ac753d3f70043f92e9b226",
+    "dependency/storage.py": "6ff6b3782b3bb792add6b8e4a68b9e3f6aa4b66db545437d514daed9c10c618a",
+    "dependency/tests/test_analysis_audit.py": "010eb9fc6c805b3c430b5452046db691efea94726cf8725ddc26d5369eada4ac",
+    "dependency/tests/test_core.py": "924da7997184093617c829458ea762a85f814605d4cd74de6c7ad6cd2d8c7e40",
+    "dependency/tests/test_evaluation_search.py": "fdbe1befb1444decfa1c36aef6ff8ce1be99dbc573339b760fabc642d2b952ea",
+    "q1006/__init__.py": "2ab6a77c0f1d155c11dbf666dd294ad894c86e7c19b010bbdb49ac6d11ec2856",
+    "q1006/analysis.py": "328a4b0f620d10e3f3cc256429e07bbdcea496e4af590c9b11a5c11f4cd185da",
+    "q1006/audit.py": "cea0c0989c2c512af23c7a16cfa40227ad29cfb6aeecf65e3ba111cdc2e6fca2",
+    "q1006/evaluation.py": "3a73eb5358e52a7065393d87a6dfe914d572e6c498b5a6f2a7039a927c033e3d",
+    "q1006/finalize.py": "09a5b275ffa8c211a32fc7c414f1360dadcaac9e98a327e79ef1862ac65d458b",
+    "q1006/model.py": "0c7ca5080f3da83c8315e3a855a6e12c1167b7f0dd15c44a8471035a2ac1a2b6",
+    "q1006/network.py": "7a9083b015bc793116606c1badec3368825d83c0a9a1a6fac4f96d16d0f01bb8",
+    "q1006/probe.py": "f186c388aaa37c59e660d844c2bc54b5dd012f605dd107784afdfb34c7472bc7",
+    "q1006/protocol.py": "54f65b7b41d7f5e0054f24ee9bf3e1d80e2a3545a0ef14b41ee276509cce8506",
+    "q1006/run.py": "549d8e13bf633d11931fd31b1eee53f250c66ae8446645b22f17bb72c8c3ef05",
+    "q1006/search.py": "1ddd8ad13d48972b801ae6457e7607af90212a2ac93572ba8336c534d3eb87d4",
+    "q1006/source.py": "19ecff469f8dde986704624e09344975b8f169bcbd6555abb8241bb3b48bf2d9",
+    "q1006/statistics.py": "2c618475560b9cc78b80e4a4cc224d39454d2f7c98659941997c6a8758db88a5",
+    "q1006/tests/test_experiment.py": "f5ba67b29c042ca98b0eb586451b01a1f0442bbe7d7293cbe4b2a147643627a9",
+    "q1006/tests/test_finalization.py": "e53ff4945c5dc9b18f2ce6a48405d5afb5d6d68d87fe776229afc7e4ca124254"
+  },
+  "plan_digest": "3aa4483bb85547cc6b9713f93cd8865d9a379137b5044fc9c3e94b1371f67345",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "platform": "win32"
+  },
+  "commands": [
+    {
+      "cwd": "studies/interaction",
+      "command": [
+        "C:\\Users\\thoma\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "evosim_q1006_v02/tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 20,
+      "seconds": 7.294169900000043
+    },
+    {
+      "cwd": ".",
+      "command": [
+        "C:\\Users\\thoma\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "tools/check_q1005_portable.py"
+      ],
+      "returncode": 0,
+      "tests": 49,
+      "seconds": 9.108614999999872
+    },
+    {
+      "cwd": ".",
+      "command": [
+        "C:\\Users\\thoma\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "tools/check_q1_core.py",
+        "--output",
+        "dist/q1006_v02_gate/dependency.json"
+      ],
+      "returncode": 0,
+      "tests": 52,
+      "seconds": 9.256850499999928
+    },
+    {
+      "cwd": ".",
+      "command": [
+        "C:\\Users\\thoma\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "tools/check_research_layout.py",
+        "--tests"
+      ],
+      "returncode": 0,
+      "tests": 35,
+      "seconds": 10.02439470000013
+    },
+    {
+      "cwd": ".",
+      "command": [
+        "C:\\Users\\thoma\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools/tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 12,
+      "seconds": 0.7559094999999161
+    },
+    {
+      "cwd": "studies/interaction",
+      "command": [
+        "C:\\Users\\thoma\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "evosim_q1009_v01/tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 25
+    }
+  ],
+  "tests": 193,
+  "new_tests": 20,
+  "previous_tests": 173,
+  "gate_tool_sha256": "62e156dc0d8cc5c4714b06b2cf8c138b61d266d6f9527da54375170b856c0ce1",
+  "independent_review": false
+}

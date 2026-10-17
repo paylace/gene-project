@@ -1,0 +1,10 @@
+{
+  "source_digest": "34988dbfc3db583d7ba6fa273675bd2aa0e19e0e5f30851e84879d5919de136f",
+  "source_files": 35,
+  "archive": "dist/q1006_source_34988dbfc3db583d7ba6fa273675bd2aa0e19e0e5f30851e84879d5919de136f.zip",
+  "archive_sha256": "0aded48553f3115a518fed3dbf69ececf439ac252c9eafc00debeeda7f1e76bf",
+  "plan_digest": "e9aa153074bc531509aec21589b0e82ee956181dab75e6bba2ceb2eca744a0d5",
+  "tests": 192,
+  "new_tests": 19,
+  "independent_review": false
+}

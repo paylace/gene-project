@@ -18,3 +18,5 @@ jobs:
       - run: python -B -X utf8 tools/check_q1005_portable.py
       - run: python -B -X utf8 -m unittest discover -s evosim_q1009_v01/tests -v
         working-directory: studies/interaction
+      - run: python -B -X utf8 -m unittest discover -s evosim_q1006_v02/tests -v
+        working-directory: studies/interaction

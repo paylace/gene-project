@@ -1,0 +1,74 @@
+{
+  "seed": 86006,
+  "sample_size_chosen_before_real_search": 40,
+  "cases": [
+    {
+      "n": 20,
+      "F0_success_probability_assumed": 0.05,
+      "F1_success_probability_assumed": 0.05,
+      "replicates": 20000,
+      "registered_gate_probability": 0.0009,
+      "nonzero_mean": 1.90065
+    },
+    {
+      "n": 20,
+      "F0_success_probability_assumed": 0.15,
+      "F1_success_probability_assumed": 0.05,
+      "replicates": 20000,
+      "registered_gate_probability": 0.0753,
+      "nonzero_mean": 3.67955
+    },
+    {
+      "n": 20,
+      "F0_success_probability_assumed": 0.3,
+      "F1_success_probability_assumed": 0.1,
+      "replicates": 20000,
+      "registered_gate_probability": 0.29055,
+      "nonzero_mean": 6.81435
+    },
+    {
+      "n": 20,
+      "F0_success_probability_assumed": 0.5,
+      "F1_success_probability_assumed": 0.1,
+      "replicates": 20000,
+      "registered_gate_probability": 0.7953,
+      "nonzero_mean": 9.9831
+    },
+    {
+      "n": 40,
+      "F0_success_probability_assumed": 0.05,
+      "F1_success_probability_assumed": 0.05,
+      "replicates": 20000,
+      "registered_gate_probability": 0.00875,
+      "nonzero_mean": 3.8012
+    },
+    {
+      "n": 40,
+      "F0_success_probability_assumed": 0.15,
+      "F1_success_probability_assumed": 0.05,
+      "replicates": 20000,
+      "registered_gate_probability": 0.2721,
+      "nonzero_mean": 7.41615
+    },
+    {
+      "n": 40,
+      "F0_success_probability_assumed": 0.3,
+      "F1_success_probability_assumed": 0.1,
+      "replicates": 20000,
+      "registered_gate_probability": 0.64035,
+      "nonzero_mean": 13.57665
+    },
+    {
+      "n": 40,
+      "F0_success_probability_assumed": 0.5,
+      "F1_success_probability_assumed": 0.1,
+      "replicates": 20000,
+      "registered_gate_probability": 0.98795,
+      "nonzero_mean": 19.98675
+    }
+  ],
+  "assumptions": "independent Bernoulli all-or-none policy success within pairs; not fitted to Q1-006 data",
+  "interpretation": "conditional sign test and mean threshold target different quantities; weak effects can remain undetected",
+  "policy_episode_calls": 0,
+  "scientific_independent_review": false
+}
