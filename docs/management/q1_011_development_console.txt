@@ -1,0 +1,128 @@
+studies\interaction\optimization_q1011_v01\development_01\console.log
+test_boundary_weights (test_runtime.RuntimeTests.test_boundary_weights) ... ok
+test_candidate_independence (test_runtime.RuntimeTests.test_candidate_independence) ... ok
+test_codec_preserves_all_fields_and_errors (test_runtime.RuntimeTests.test_codec_preserves_all_fields_and_errors) ... ok
+test_codec_tamper_and_wrong_environment (test_runtime.RuntimeTests.test_codec_tamper_and_wrong_environment) ... ok
+test_exact_ties_and_near_ties (test_runtime.RuntimeTests.test_exact_ties_and_near_ties) ... ok
+test_failed_atomic_replace_keeps_original (test_runtime.RuntimeTests.test_failed_atomic_replace_keeps_original) ... ERROR
+test_fixture_rejects_changed_round (test_runtime.RuntimeTests.test_fixture_rejects_changed_round) ... ERROR
+test_fixture_resume_and_reference_equal (test_runtime.RuntimeTests.test_fixture_resume_and_reference_equal) ... ERROR
+test_forward_exact (test_runtime.RuntimeTests.test_forward_exact) ... ok
+test_invalid_original_trajectory_preserved_literal (test_runtime.RuntimeTests.test_invalid_original_trajectory_preserved_literal) ... ok
+test_other_topology_fallback (test_runtime.RuntimeTests.test_other_topology_fallback) ... ok
+test_random_training_records_and_audit (test_runtime.RuntimeTests.test_random_training_records_and_audit) ... ok
+test_store_plain_json_and_codec_and_immutable (test_runtime.RuntimeTests.test_store_plain_json_and_codec_and_immutable) ... ERROR
+test_validation_and_frozen (test_runtime.RuntimeTests.test_validation_and_frozen) ... ok
+test_wrong_training_mode_rejected (test_runtime.RuntimeTests.test_wrong_training_mode_rejected) ... ok
+
+======================================================================
+ERROR: test_failed_atomic_replace_keeps_original (test_runtime.RuntimeTests.test_failed_atomic_replace_keeps_original)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\thoma\Downloads\새 폴더\studies\interaction\evosim_runtime_v01\tests\test_runtime.py", line 161, in test_failed_atomic_replace_keeps_original
+    store.write(path, {'before': 1})
+  File "C:\Users\thoma\Downloads\새 폴더\studies\interaction\evosim_runtime_v01\storage.py", line 175, in write
+    os.link(name, path)
+PermissionError: [WinError 5] 액세스가 거부되었습니다: 'C:\\Users\\thoma\\Downloads\\새 폴더\\tools\\.verification_tmp\\tmpqw7xbc7j\\atomic.json.gz.0mgjw4wv.tmp' -> 'C:\\Users\\thoma\\Downloads\\새 폴더\\tools\\.verification_tmp\\tmpqw7xbc7j\\atomic.json.gz'
+
+======================================================================
+ERROR: test_fixture_rejects_changed_round (test_runtime.RuntimeTests.test_fixture_rejects_changed_round)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\thoma\Downloads\새 폴더\studies\interaction\evosim_runtime_v01\tests\test_runtime.py", line 178, in test_fixture_rejects_changed_round
+    run_fixture(root, rounds=1)
+  File "C:\Users\thoma\Downloads\새 폴더\studies\interaction\evosim_q1007_v02\fixture.py", line 24, in run_fixture
+    store.write(root / 'protocol.json.gz', identity)
+  File "C:\Users\thoma\Downloads\새 폴더\studies\interaction\evosim_runtime_v01\storage.py", line 175, in write
+    os.link(name, path)
+PermissionError: [WinError 5] 액세스가 거부되었습니다: 'C:\\Users\\thoma\\Downloads\\새 폴더\\tools\\.verification_tmp\\tmpqw7xbc7j\\tampered\\protocol.json.gz.tpuk69ho.tmp' -> 'C:\\Users\\thoma\\Downloads\\새 폴더\\tools\\.verification_tmp\\tmpqw7xbc7j\\tampered\\protocol.json.gz'
+
+======================================================================
+ERROR: test_fixture_resume_and_reference_equal (test_runtime.RuntimeTests.test_fixture_resume_and_reference_equal)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\thoma\Downloads\새 폴더\studies\interaction\evosim_runtime_v01\tests\test_runtime.py", line 169, in test_fixture_resume_and_reference_equal
+    full = run_fixture(self.root / 'full')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thoma\Downloads\새 폴더\studies\interaction\evosim_q1007_v02\fixture.py", line 24, in run_fixture
+    store.write(root / 'protocol.json.gz', identity)
+  File "C:\Users\thoma\Downloads\새 폴더\studies\interaction\evosim_runtime_v01\storage.py", line 175, in write
+    os.link(name, path)
+PermissionError: [WinError 5] 액세스가 거부되었습니다: 'C:\\Users\\thoma\\Downloads\\새 폴더\\tools\\.verification_tmp\\tmpqw7xbc7j\\full\\protocol.json.gz.q16cadsd.tmp' -> 'C:\\Users\\thoma\\Downloads\\새 폴더\\tools\\.verification_tmp\\tmpqw7xbc7j\\full\\protocol.json.gz'
+
+======================================================================
+ERROR: test_store_plain_json_and_codec_and_immutable (test_runtime.RuntimeTests.test_store_plain_json_and_codec_and_immutable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\thoma\Downloads\새 폴더\studies\interaction\evosim_runtime_v01\tests\test_runtime.py", line 152, in test_store_plain_json_and_codec_and_immutable
+    store.write(path, value)
+  File "C:\Users\thoma\Downloads\새 폴더\studies\interaction\evosim_runtime_v01\storage.py", line 175, in write
+    os.link(name, path)
+PermissionError: [WinError 5] 액세스가 거부되었습니다: 'C:\\Users\\thoma\\Downloads\\새 폴더\\tools\\.verification_tmp\\tmpqw7xbc7j\\plain_0.json.gz.wp8whxln.tmp' -> 'C:\\Users\\thoma\\Downloads\\새 폴더\\tools\\.verification_tmp\\tmpqw7xbc7j\\plain_0.json.gz'
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.279s
+
+FAILED (errors=4)
+
+
+studies\interaction\optimization_q1011_v01\development_02\console.log
+test_boundary_weights (test_runtime.RuntimeTests.test_boundary_weights) ... ok
+test_candidate_independence (test_runtime.RuntimeTests.test_candidate_independence) ... ok
+test_codec_preserves_all_fields_and_errors (test_runtime.RuntimeTests.test_codec_preserves_all_fields_and_errors) ... ok
+test_codec_tamper_and_wrong_environment (test_runtime.RuntimeTests.test_codec_tamper_and_wrong_environment) ... ok
+test_exact_ties_and_near_ties (test_runtime.RuntimeTests.test_exact_ties_and_near_ties) ... ok
+test_failed_atomic_replace_keeps_original (test_runtime.RuntimeTests.test_failed_atomic_replace_keeps_original) ... ok
+test_fixture_rejects_changed_round (test_runtime.RuntimeTests.test_fixture_rejects_changed_round) ... ok
+test_fixture_resume_and_reference_equal (test_runtime.RuntimeTests.test_fixture_resume_and_reference_equal) ... ok
+test_forward_exact (test_runtime.RuntimeTests.test_forward_exact) ... ok
+test_invalid_original_trajectory_preserved_literal (test_runtime.RuntimeTests.test_invalid_original_trajectory_preserved_literal) ... ok
+test_other_topology_fallback (test_runtime.RuntimeTests.test_other_topology_fallback) ... ok
+test_random_training_records_and_audit (test_runtime.RuntimeTests.test_random_training_records_and_audit) ... ok
+test_store_plain_json_and_codec_and_immutable (test_runtime.RuntimeTests.test_store_plain_json_and_codec_and_immutable) ... ok
+test_validation_and_frozen (test_runtime.RuntimeTests.test_validation_and_frozen) ... ok
+test_wrong_training_mode_rejected (test_runtime.RuntimeTests.test_wrong_training_mode_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 1.790s
+
+OK
+
+
+studies\interaction\optimization_q1011_v01\development_03\console.log
+test_boundary_weights (test_runtime.RuntimeTests.test_boundary_weights) ... ok
+test_candidate_independence (test_runtime.RuntimeTests.test_candidate_independence) ... ok
+test_codec_preserves_all_fields_and_errors (test_runtime.RuntimeTests.test_codec_preserves_all_fields_and_errors) ... ok
+test_codec_tamper_and_wrong_environment (test_runtime.RuntimeTests.test_codec_tamper_and_wrong_environment) ... ok
+test_early_success_goal_changes_and_no_unneeded_rng (test_runtime.RuntimeTests.test_early_success_goal_changes_and_no_unneeded_rng) ... ok
+test_exact_ties_and_near_ties (test_runtime.RuntimeTests.test_exact_ties_and_near_ties) ... ok
+test_failed_atomic_replace_keeps_original (test_runtime.RuntimeTests.test_failed_atomic_replace_keeps_original) ... ok
+test_fixture_rejects_changed_round (test_runtime.RuntimeTests.test_fixture_rejects_changed_round) ... ok
+test_fixture_resume_and_reference_equal (test_runtime.RuntimeTests.test_fixture_resume_and_reference_equal) ... ok
+test_forward_exact (test_runtime.RuntimeTests.test_forward_exact) ... ok
+test_heldout_access_rejected (test_runtime.RuntimeTests.test_heldout_access_rejected) ... ok
+test_invalid_original_trajectory_preserved_literal (test_runtime.RuntimeTests.test_invalid_original_trajectory_preserved_literal) ... ok
+test_other_topology_fallback (test_runtime.RuntimeTests.test_other_topology_fallback) ... ok
+test_random_training_records_and_audit (test_runtime.RuntimeTests.test_random_training_records_and_audit) ... ok
+test_store_plain_json_and_codec_and_immutable (test_runtime.RuntimeTests.test_store_plain_json_and_codec_and_immutable) ... ok
+test_validation_and_frozen (test_runtime.RuntimeTests.test_validation_and_frozen) ... ok
+test_wrong_training_mode_rejected (test_runtime.RuntimeTests.test_wrong_training_mode_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 2.643s
+
+OK
+
+
+studies\interaction\optimization_q1011_v02\tests.log
+test_exact_json_type_and_integer_boundaries (test_columns.ColumnTests.test_exact_json_type_and_integer_boundaries) ... ok
+test_malformed_binary_columns_rejected (test_columns.ColumnTests.test_malformed_binary_columns_rejected) ... ok
+test_missing_or_non_environment_records_preserved (test_columns.ColumnTests.test_missing_or_non_environment_records_preserved) ... ok
+test_original_errors_and_unknown_fields_preserved (test_columns.ColumnTests.test_original_errors_and_unknown_fields_preserved) ... ok
+test_store_roundtrip_uses_shared_atomic_layer (test_columns.ColumnTests.test_store_roundtrip_uses_shared_atomic_layer) ... ok
+test_tamper_and_resigned_original_change_rejected (test_columns.ColumnTests.test_tamper_and_resigned_original_change_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.050s
+
+OK

@@ -1,0 +1,8 @@
+{
+  "commit": "19350cbd27c1da1ec77a709d0f84a39029380574",
+  "workflow_run": 39010342696,
+  "conclusion": "success",
+  "url": "https://github.com/paylace/gene-project/actions/runs/39010342696",
+  "scope": "Linux CI includes new20 unit tests and existing workflow checks; not independent scientific review",
+  "independent_review": false
+}

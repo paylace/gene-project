@@ -1,0 +1,33 @@
+{
+  "experiment_id": "Q1-007",
+  "status": "실행 준비 완료·비용 게이트 미통과로 본 미실행",
+  "source_digest": "64b2e8bd4f8cb91539d87f23bb8a3c99af4b3ba779b5fe0057891951fed69944",
+  "source_files": 49,
+  "plan_digest": "2108ba0c40782b9def0def07233791e13cbd40e06827de355ac7706ed7e8cca8",
+  "implementation_gate_tests_counted": 89,
+  "additional_legacy_tests": 35,
+  "new_unit_tests": 20,
+  "official_pilot_calls": 76800,
+  "cost_fixture_calls": 45360,
+  "official_preparation_calls": 122160,
+  "new_unit_fixture_calls_two_completed_suites": 6696,
+  "inherited_unit_fixture_calls": "합계 미집계; 공식 성능 집단과 분리",
+  "heldout_calls_in_official_pilot_and_cost": 0,
+  "main_policy_calls": 0,
+  "main_directory_exists": false,
+  "main_refusal_verified": true,
+  "cost_gate_passed": false,
+  "cost_upper_hours": 5.436157611110654,
+  "cost_decoded_gib": 44.77184219285846,
+  "free_gib": 36.09547424316406,
+  "max_observed_worker_peak_memory_bytes": 40357888,
+  "development_failures": [
+    {
+      "stage": "first unit fixture setup",
+      "reason": "Windows sandbox temporary directory permission denied",
+      "completed_policy_calls": 0,
+      "resolution": "workspace temporary directory with resolved-path check"
+    }
+  ],
+  "independent_review": false
+}

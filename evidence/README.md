@@ -2,6 +2,19 @@
 
 코드·문서·프로토콜·집계 요약은 Git에 포함한다. 실행별 기록·체크포인트·과거 검토본은 같은 저장소의 [기존 Release](https://github.com/paylace/gene-project/releases/tag/evidence-2026-10-15) 첨부 파일로 분리한다. 기존 원본 경로와 SHA-256은 catalog.json에 기록한다.
 
+## Q1-011 최적화 자료
+
+[보관 목록](q1_011_v01.json)에 코드·입력·개발 실패 소스 스냅샷·전체 비교 사본2,367파일의37,852,665바이트 ZIP과 SHA-256을 기록했다. 측정용 여러 사본의 보관 크기이며 한 실험의 최소 로그 크기가 아니다. Git에는 실행 계획·개별 측정 메타데이터·요약·코드·보고서를 두고 실제 사본은 별도 보관본으로 배포한다.
+
+[Q1-011 Release](https://github.com/paylace/gene-project/releases/tag/q1-011-optimization-2026-10-17)에 게시했고 GitHub 첨부 해시가 로컬과 일치했다. [게시 기록](../docs/management/q1_011_release.json)을 확인한다.
+
+저장소 루트에서 범용 도구로 검사한다. `verify`는 읽기만 수행한다. `restore-missing`은 모든 내용과 기존 경로를 먼저 검사하고 없는 파일만 복원하며, 다른 기존 파일을 덮어쓰지 않는다.
+
+```powershell
+python tools/evidence_bundle.py verify --archive 다운로드경로/q1011_optimization_2026-10-17.zip --catalog evidence/q1_011_v01.json
+python tools/evidence_bundle.py restore-missing --archive 다운로드경로/q1011_optimization_2026-10-17.zip --catalog evidence/q1_011_v01.json
+```
+
 저장소 접근 권한이 있는 계정으로 Release에서 ZIP을 내려받은 뒤 저장소 루트에서 실행한다.
 
 ```powershell
@@ -64,3 +77,16 @@ python -B -X utf8 tools/restore_q1006.py 다운로드경로/q1006_v02_raw_2026-1
 ```
 
 검증 후 없는 파일만 복원하며 기존 내용이 다르면 중단한다. 게시 후 만든 배포 기록·최종 CI 기록은 ZIP 바깥의 Git 기록으로 관리한다. 자동 검사를 독립 검토로 표현하지 않는다.
+
+## Q1-007 v0.1 예비·비용 검증 원자료
+
+[Q1-007 준비 Release](https://github.com/paylace/gene-project/releases/tag/q1-007-v01-pilot-2026-10-17)에 `q1007_v01_pilot_2026-10-17.zip` 3,496,766바이트·326파일을 보관한다. [목록](q1_007_v01.json)과 [게시 기록](../docs/management/q1_007_release.json)의 ZIP SHA-256이 GitHub 첨부 해시와 일치했다. 전체 파일 해시·CRC·기존 로컬 내용 대조도 통과했다.
+
+동결 소스49파일·훈련 전용 예비6작업·추가 비용 표본·감사·당시 계획과 게이트를 포함한다. **비용 기준 미충족으로 본·확인은 실행하지 않았으며 성능 비교 원자료가 없다.** [준비 보고서](../docs/reports/Q1-007_탐색예산_비교.md)를 참고한다. ZIP 크기를 본 실행의 비압축 JSON 추정량과 혼동하지 않는다.
+
+```powershell
+python -B -X utf8 tools/restore_q1007.py 다운로드경로/q1007_v01_pilot_2026-10-17.zip
+python -B -X utf8 tools/restore_q1007.py 다운로드경로/q1007_v01_pilot_2026-10-17.zip --restore-missing
+```
+
+첫 명령은 검사만 수행하고 두 번째는 검사 후 없는 파일만 복원한다. 다른 기존 파일을 덮어쓰지 않는다. 게시·CI 기록과 후속 준비 계획은 이 ZIP 바깥에서 Git으로 관리한다.

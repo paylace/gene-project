@@ -1,0 +1,11 @@
+{
+  "release_url": "https://github.com/paylace/gene-project/releases/tag/q1-011-optimization-2026-10-17",
+  "release_id": 415764430,
+  "tag": "q1-011-optimization-2026-10-17",
+  "target_commit": "ebc3dc18b98cb99ee4f47875e955ee6605b65c1c",
+  "asset_url": "https://github.com/paylace/gene-project/releases/download/q1-011-optimization-2026-10-17/q1011_optimization_2026-10-17.zip",
+  "asset_id": 650295020,
+  "bytes": 37852665,
+  "github_digest": "sha256:7c5b07acc2aa107a585d8b49dbe097686254ffe0d0fbc8f3ec31d93b22ccace9",
+  "local_sha256": "7c5b07acc2aa107a585d8b49dbe097686254ffe0d0fbc8f3ec31d93b22ccace9"
+}

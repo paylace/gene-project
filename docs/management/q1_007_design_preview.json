@@ -1,0 +1,235 @@
+{
+  "experiment_id": "Q1-007",
+  "status": "실행 전 설계 계산; 본·예비 미실행",
+  "plan_sha256": "78f973b7d3a309d17ad39baf96401805e76e918cce251e15c5087f95827c7d8e",
+  "policy_episode_calls": 0,
+  "network_forward_calls": 0,
+  "evolution_endpoints": {
+    "B": {
+      "population": 20,
+      "rounds": 100,
+      "training_genome_slots": 2000,
+      "training_episode_slots": 48000,
+      "validation_candidate_slots": 200,
+      "validation_episode_slots": 151200,
+      "search_episode_slots": 199200
+    },
+    "P": {
+      "population": 40,
+      "rounds": 100,
+      "training_genome_slots": 4000,
+      "training_episode_slots": 96000,
+      "validation_candidate_slots": 400,
+      "validation_episode_slots": 302400,
+      "search_episode_slots": 398400
+    },
+    "T": {
+      "population": 20,
+      "rounds": 200,
+      "training_genome_slots": 4000,
+      "training_episode_slots": 96000,
+      "validation_candidate_slots": 400,
+      "validation_episode_slots": 302400,
+      "search_episode_slots": 398400
+    },
+    "PT": {
+      "population": 40,
+      "rounds": 200,
+      "training_genome_slots": 8000,
+      "training_episode_slots": 192000,
+      "validation_candidate_slots": 800,
+      "validation_episode_slots": 604800,
+      "search_episode_slots": 796800
+    }
+  },
+  "random_endpoints": {
+    "R2000": {
+      "population": 20,
+      "rounds": 100,
+      "training_genome_slots": 2000,
+      "training_episode_slots": 48000,
+      "validation_candidate_slots": 200,
+      "validation_episode_slots": 151200,
+      "search_episode_slots": 199200
+    },
+    "R4000": {
+      "population": 20,
+      "rounds": 200,
+      "training_genome_slots": 4000,
+      "training_episode_slots": 96000,
+      "validation_candidate_slots": 400,
+      "validation_episode_slots": 302400,
+      "search_episode_slots": 398400
+    },
+    "R8000": {
+      "population": 20,
+      "rounds": 400,
+      "training_genome_slots": 8000,
+      "training_episode_slots": 192000,
+      "validation_candidate_slots": 800,
+      "validation_episode_slots": 604800,
+      "search_episode_slots": 796800
+    }
+  },
+  "main": {
+    "paired_seeds": 80,
+    "physical_search_runs": 240,
+    "logical_endpoint_results": 560,
+    "search_episode_slots_with_prefix_reuse": 159360000,
+    "search_episode_slots_without_prefix_reuse": 254976000,
+    "saved_search_episode_slots": 95616000,
+    "test_episode_slots_upper_bound": 846720
+  },
+  "confirmation_search_slots_max": 95616000,
+  "confirmation_test_slots_max": 483840,
+  "pilot_training_episode_slots": 76800,
+  "additional_cost_fixture_episode_slots_max": 48000,
+  "power_scope": "각 대비 p<=.025의 보수적 문턱과 관측 차이 10pp를 결합한 정확 열거 확률. 실제 Holm 전체 검출력 아님. 가정이며 실험 결과 아님.",
+  "power_scenarios": [
+    {
+      "paired_seeds": 40,
+      "p_control": 0.1,
+      "p_treatment": 0.1,
+      "p_both": 0.025,
+      "one_sided_gate_probability": 0.006342980313618082,
+      "two_sided_gate_probability": 0.004590558303404775
+    },
+    {
+      "paired_seeds": 40,
+      "p_control": 0.1,
+      "p_treatment": 0.2,
+      "p_both": 0.025,
+      "one_sided_gate_probability": 0.14998939002252584,
+      "two_sided_gate_probability": 0.09766798379993863
+    },
+    {
+      "paired_seeds": 40,
+      "p_control": 0.1,
+      "p_treatment": 0.25,
+      "p_both": 0.025,
+      "one_sided_gate_probability": 0.3073871480105805,
+      "two_sided_gate_probability": 0.22470574922538505
+    },
+    {
+      "paired_seeds": 40,
+      "p_control": 0.1,
+      "p_treatment": 0.25,
+      "p_both": 0.05,
+      "one_sided_gate_probability": 0.3636967701486487,
+      "two_sided_gate_probability": 0.26843328064836236
+    },
+    {
+      "paired_seeds": 40,
+      "p_control": 0.1,
+      "p_treatment": 0.25,
+      "p_both": 0.1,
+      "one_sided_gate_probability": 0.5674997218103747,
+      "two_sided_gate_probability": 0.39334349923609685
+    },
+    {
+      "paired_seeds": 40,
+      "p_control": 0.1,
+      "p_treatment": 0.35,
+      "p_both": 0.05,
+      "one_sided_gate_probability": 0.740565823720832,
+      "two_sided_gate_probability": 0.64825007918028
+    },
+    {
+      "paired_seeds": 80,
+      "p_control": 0.1,
+      "p_treatment": 0.1,
+      "p_both": 0.025,
+      "one_sided_gate_probability": 0.01005188623631718,
+      "two_sided_gate_probability": 0.011916368450158947
+    },
+    {
+      "paired_seeds": 80,
+      "p_control": 0.1,
+      "p_treatment": 0.2,
+      "p_both": 0.025,
+      "one_sided_gate_probability": 0.35344020686030514,
+      "two_sided_gate_probability": 0.25049000545857913
+    },
+    {
+      "paired_seeds": 80,
+      "p_control": 0.1,
+      "p_treatment": 0.25,
+      "p_both": 0.025,
+      "one_sided_gate_probability": 0.6341671214335657,
+      "two_sided_gate_probability": 0.5265628545579499
+    },
+    {
+      "paired_seeds": 80,
+      "p_control": 0.1,
+      "p_treatment": 0.25,
+      "p_both": 0.05,
+      "one_sided_gate_probability": 0.7364050934643381,
+      "two_sided_gate_probability": 0.6281614034055719
+    },
+    {
+      "paired_seeds": 80,
+      "p_control": 0.1,
+      "p_treatment": 0.25,
+      "p_both": 0.1,
+      "one_sided_gate_probability": 0.9272825071381892,
+      "two_sided_gate_probability": 0.9272825071381892
+    },
+    {
+      "paired_seeds": 80,
+      "p_control": 0.1,
+      "p_treatment": 0.35,
+      "p_both": 0.05,
+      "one_sided_gate_probability": 0.9758784086693769,
+      "two_sided_gate_probability": 0.9557859349704899
+    },
+    {
+      "paired_seeds": 120,
+      "p_control": 0.1,
+      "p_treatment": 0.1,
+      "p_both": 0.025,
+      "one_sided_gate_probability": 0.0034390493352590384,
+      "two_sided_gate_probability": 0.0064462207757263025
+    },
+    {
+      "paired_seeds": 120,
+      "p_control": 0.1,
+      "p_treatment": 0.2,
+      "p_both": 0.025,
+      "one_sided_gate_probability": 0.5053307843446314,
+      "two_sided_gate_probability": 0.4254291027095174
+    },
+    {
+      "paired_seeds": 120,
+      "p_control": 0.1,
+      "p_treatment": 0.25,
+      "p_both": 0.025,
+      "one_sided_gate_probability": 0.8315489134575378,
+      "two_sided_gate_probability": 0.7606302296901657
+    },
+    {
+      "paired_seeds": 120,
+      "p_control": 0.1,
+      "p_treatment": 0.25,
+      "p_both": 0.05,
+      "one_sided_gate_probability": 0.886915561876972,
+      "two_sided_gate_probability": 0.8511041129606605
+    },
+    {
+      "paired_seeds": 120,
+      "p_control": 0.1,
+      "p_treatment": 0.25,
+      "p_both": 0.1,
+      "one_sided_gate_probability": 0.9579750771754901,
+      "two_sided_gate_probability": 0.9579750771754901
+    },
+    {
+      "paired_seeds": 120,
+      "p_control": 0.1,
+      "p_treatment": 0.35,
+      "p_both": 0.05,
+      "one_sided_gate_probability": 0.9985632863932041,
+      "two_sided_gate_probability": 0.9966605653210837
+    }
+  ],
+  "independent_review": false
+}
