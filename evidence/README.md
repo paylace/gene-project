@@ -51,3 +51,16 @@ python -B -X utf8 tools/restore_q1009.py 다운로드경로/q1009_v01_raw_2026-1
 ```
 
 검증 후 없는 파일만 복원하며 기존 내용이 다르면 중단한다. 자동 검사는 독립 검토와 구분한다.
+
+## Q1-006 v0.2 원자료
+
+[Q1-006 Release](https://github.com/paylace/gene-project/releases/tag/q1-006-v02-2026-10-17)에 `q1006_v02_raw_2026-10-17.zip` 493,054,016바이트·26,203파일을 보관한다. [목록](q1_006_v02.json), [파일별 검증](../docs/management/q1_006_archive_verification.json), [게시 기록](../docs/management/q1_006_release.json)에 전체 ZIP·MANIFEST·GitHub 첨부 해시를 기록했다. 로컬 전 파일과 GitHub 첨부 SHA-256이 일치했다. 기존 원자료 Release는 유지한다.
+
+본40짝 시드·120작업의 전체 회차/attempt/체크포인트·후보·테스트·초기 상태 반응·감사·집계, v0.1 실패 예비와 v0.2 예비·별도 비용 표본·두 동결 소스 보관본·사후 로그 진단을 포함한다. 주 진행 기준 미충족으로 확인 실험 원자료는 없다. 큰 ZIP 없이도 [공식 결과](../docs/reports/Q1-006_고정구조와구조탐색_비교.md)와 Git의 시드 CSV·본 요약을 읽을 수 있다.
+
+```powershell
+python -B -X utf8 tools/restore_q1006.py 다운로드경로/q1006_v02_raw_2026-10-17.zip --verify-only
+python -B -X utf8 tools/restore_q1006.py 다운로드경로/q1006_v02_raw_2026-10-17.zip
+```
+
+검증 후 없는 파일만 복원하며 기존 내용이 다르면 중단한다. 게시 후 만든 배포 기록·최종 CI 기록은 ZIP 바깥의 Git 기록으로 관리한다. 자동 검사를 독립 검토로 표현하지 않는다.
