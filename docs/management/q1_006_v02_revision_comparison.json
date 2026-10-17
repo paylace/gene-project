@@ -1,0 +1,72 @@
+{
+  "changed_files_after_normalizing_version_references": [
+    "protocol.py",
+    "run.py",
+    "tests/test_experiment.py"
+  ],
+  "scientific_plan_fields_equal": true,
+  "files": [
+    {
+      "file": "__init__.py",
+      "same_after_version_references": true
+    },
+    {
+      "file": "analysis.py",
+      "same_after_version_references": true
+    },
+    {
+      "file": "audit.py",
+      "same_after_version_references": true
+    },
+    {
+      "file": "evaluation.py",
+      "same_after_version_references": true
+    },
+    {
+      "file": "finalize.py",
+      "same_after_version_references": true
+    },
+    {
+      "file": "model.py",
+      "same_after_version_references": true
+    },
+    {
+      "file": "network.py",
+      "same_after_version_references": true
+    },
+    {
+      "file": "probe.py",
+      "same_after_version_references": true
+    },
+    {
+      "file": "protocol.py",
+      "same_after_version_references": false
+    },
+    {
+      "file": "run.py",
+      "same_after_version_references": false
+    },
+    {
+      "file": "search.py",
+      "same_after_version_references": true
+    },
+    {
+      "file": "source.py",
+      "same_after_version_references": true
+    },
+    {
+      "file": "statistics.py",
+      "same_after_version_references": true
+    },
+    {
+      "file": "tests/test_experiment.py",
+      "same_after_version_references": false
+    },
+    {
+      "file": "tests/test_finalization.py",
+      "same_after_version_references": true
+    }
+  ],
+  "policy_episode_calls": 0,
+  "independent_review": false
+}

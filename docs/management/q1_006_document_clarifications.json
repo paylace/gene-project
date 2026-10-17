@@ -1,0 +1,19 @@
+{
+  "date_kst": "2026-10-17",
+  "scope": "reporting terminology only; completed numerical plan and protocols preserved",
+  "ambiguous_word": "목록 used for EpisodeSpec in several prose plan statements",
+  "actual_unit": "episode = start position plus target list",
+  "target_lists": {
+    "train": 126,
+    "validation": 42,
+    "test": 84
+  },
+  "episodes": {
+    "train": 756,
+    "validation": 252,
+    "test": 504
+  },
+  "training_batch_episodes": 24,
+  "scientific_conditions_changed": false,
+  "policy_episode_calls": 0
+}

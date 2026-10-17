@@ -1,0 +1,12 @@
+{
+  "archive": "dist/q1006_v02_raw_2026-10-17.zip",
+  "archive_sha256": "599676cb958689e1185af47c2fda468eb520b699d1acd53df7df8ad78a7355b3",
+  "manifest_sha256": "4b42311bc160f557cb0f17698acb7b477f08eb2452a8685ec263f161cbbfd2c7",
+  "files_verified": 26203,
+  "local_existing_files_matched": 26203,
+  "missing": 0,
+  "restored": 0,
+  "zip_crc_passed": true,
+  "scope": "whole archive, manifest, every member SHA-256 and existing local contents; no policy re-evaluation",
+  "independent_review": false
+}

@@ -1,0 +1,15 @@
+{
+  "experiment_id": "Q1-006",
+  "archive": "dist/q1006_v02_raw_2026-10-17.zip",
+  "bytes": 493054016,
+  "sha256": "599676cb958689e1185af47c2fda468eb520b699d1acd53df7df8ad78a7355b3",
+  "files": 26203,
+  "uncompressed_bytes": 515763660,
+  "manifest_sha256": "4b42311bc160f557cb0f17698acb7b477f08eb2452a8685ec263f161cbbfd2c7",
+  "source_digest": "d8d2d533a4f8ad4d1eec1c8a394b5150d29e64e1cc58dc1260533c6b40511320",
+  "protocol_digest": "2399d219f2f44a5b32f695afef0ccb544d5202d89054eeefb5aec4afbe0e4919",
+  "confirmation_condition": null,
+  "publication": "local archive; release URL pending",
+  "catalog_recovered_from_existing_archive": false,
+  "integrity_check": "input SHA-256 manifest and all ZIP CRC passed"
+}

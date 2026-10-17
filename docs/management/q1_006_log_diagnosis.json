@@ -1,0 +1,23 @@
+{
+  "scope": "secondary log diagnosis; no new policy/environment evaluation; not a progress rule",
+  "policy_episode_calls": 0,
+  "independent_review": false,
+  "descriptions": {
+    "main/F0": {
+      "final_unique_genotype_mean": 6.35,
+      "final_module_mean": 4.0,
+      "final_ff_edge_mean": 28.0,
+      "round_fraction_reward_vs_completion_elites_differ": 0.04575
+    },
+    "main/F1": {
+      "final_unique_genotype_mean": 9.25,
+      "final_module_mean": 6.23875,
+      "final_ff_edge_mean": 33.42625,
+      "round_fraction_reward_vs_completion_elites_differ": 0.072
+    }
+  },
+  "limitations": "genotypic diversity is not behavioral diversity; selection disagreements and structure-size correlations do not establish causal bottlenecks",
+  "raw_data": "studies/interaction/results_q1006_v02/log_diagnosis.json.gz",
+  "raw_sha256": "0198caa2aa8b54e3b942033e6d741b115f3a742705ef86ff480fa0a9b10c764f",
+  "evolution_jobs": 80
+}
