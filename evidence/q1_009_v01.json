@@ -8,6 +8,9 @@
   "manifest_sha256": "c45e2430ecc06b8a4ca69045cfff1c9e0b4e3bc040403bfaa2add553590080d8",
   "source_digest": "754e63145e9b4712d64cee0c2f5831905bc416e4a4069ce30e7db34852faff49",
   "protocol_digest": "72061edbd2892e8c77dc549efe0ae7129baa56cabce641966b118e515e5ffead",
-  "publication": "local archive; publication pending",
-  "integrity_check": "all input SHA-256 records and ZIP CRC passed"
+  "publication": "published GitHub Release; asset SHA-256 matched",
+  "integrity_check": "all input SHA-256 records and ZIP CRC passed",
+  "release_url": "https://github.com/paylace/gene-project/releases/tag/q1-009-v01-2026-10-16",
+  "asset_url": "https://github.com/paylace/gene-project/releases/download/q1-009-v01-2026-10-16/q1009_v01_raw_2026-10-16.zip",
+  "published_record": "docs/management/q1_009_release.json"
 }

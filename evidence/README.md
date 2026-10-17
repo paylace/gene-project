@@ -38,3 +38,16 @@ python -B -X utf8 tools/restore_q1005.py 다운로드경로/q1005_v01_raw_2026-1
 ```
 
 검증 후 없는 파일만 복원하며 기존 내용이 다르면 중단한다. 큰 ZIP 없이도 [공식 보고서](../docs/reports/Q1-005_보상과번식_분리비교.md)와 Git의 본 요약을 읽을 수 있다. 실제 동결 런타임은 Python3.12.14·NumPy2.3.5·Windows다. Linux CI의 원본 혼합-purpose fixture 문제와 별도49검사는 보고서에 구분했다. 게시 후 대상 커밋·GitHub 자산 해시는 별도 게시 기록에 남긴다.
+
+## Q1-009 v0.1 원자료
+
+[Q1-009 Release](https://github.com/paylace/gene-project/releases/tag/q1-009-v01-2026-10-16)에 `q1009_v01_raw_2026-10-16.zip` 72,003,906바이트·2,055파일을 보관한다. [보관 목록](q1_009_v01.json)과 [게시 기록](../docs/management/q1_009_release.json)에 ZIP·MANIFEST 및 GitHub 첨부 SHA-256을 기록했다. 전체/파일별 해시·CRC 검사를 통과했고 GitHub 첨부 해시도 로컬과 일치한다. 실제 평가는2026-10-16, 게시 기록 정리는2026-10-17이다.
+
+초기500원형과 네 변환·전체 행동/보상·초기 반응 출력·감사·동결 소스·훈련 예비·비용 표본을 포함한다. 학습·진화·후보 선발은 없다. 큰 ZIP 없이도 [공식 보고서](../docs/reports/Q1-009_초기반응과고착_요인분리.md)와 Git의 집계·원형별 CSV를 읽을 수 있다. 별도 Q1-006 수작업 템플릿 검사는 이 ZIP에 합치지 않았다.
+
+```powershell
+python -B -X utf8 tools/restore_q1009.py 다운로드경로/q1009_v01_raw_2026-10-16.zip --verify-only
+python -B -X utf8 tools/restore_q1009.py 다운로드경로/q1009_v01_raw_2026-10-16.zip
+```
+
+검증 후 없는 파일만 복원하며 기존 내용이 다르면 중단한다. 자동 검사는 독립 검토와 구분한다.
